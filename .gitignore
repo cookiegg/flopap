@@ -1,3 +1,6 @@
+# Private Workspace
+_workspace/
+
 # Python
 __pycache__/
 *.py[cod]
