@@ -1,0 +1,10 @@
+{
+  "paper_id": "1088e7a3-de0f-4232-a021-1733ad30fac0",
+  "arxiv_id": "2512.12218v1",
+  "title_en": "Journey Before Destination: On the importance of Visual Faithfulness in Slow Thinking",
+  "title_zh": "旅程先于终点：论视觉忠实性在慢思考中的重要性",
+  "summary_en": "Reasoning-augmented vision language models (VLMs) generate explicit chains of thought that promise greater capability and transparency but also introduce new failure modes: models may reach correct answers via visually unfaithful intermediate steps, or reason faithfully yet fail on the final prediction. Standard evaluations that only measure final-answer accuracy cannot distinguish these behaviors. We introduce the visual faithfulness of reasoning chains as a distinct evaluation dimension, focusing on whether the perception steps of a reasoning chain are grounded in the image. We propose a training- and reference-free framework that decomposes chains into perception versus reasoning steps and uses off-the-shelf VLM judges for step-level faithfulness, additionally verifying this approach through a human meta-evaluation. Building on this metric, we present a lightweight self-reflection procedure that detects and locally regenerates unfaithful perception steps without any training. Across multiple reasoning-trained VLMs and perception-heavy benchmarks, our method reduces Unfaithful Perception Rate while preserving final-answer accuracy, improving the reliability of multimodal reasoning.",
+  "summary_zh": "推理增强型视觉语言模型通过生成显式的思维链，在提升能力与透明度的同时，也引入了新的失效模式：模型可能通过视觉上不忠实的中间步骤得出正确答案，或虽进行忠实推理却最终预测失败。仅以最终答案准确率为标准的评估方法无法区分这些行为。本文将推理链的视觉忠实性确立为独立评估维度，重点关注推理链中感知步骤是否基于图像内容。我们提出一种无需训练和参考框架的评估方法，将思维链分解为感知步骤与推理步骤，并利用现成的视觉语言模型作为评判者对步骤级忠实性进行评估，同时通过人工元评估验证该方法的有效性。基于此度量标准，我们设计了一种轻量级自反思机制，能够在不进行任何训练的情况下检测并局部重构不忠实的感知步骤。在多个经过推理训练的视觉语言模型及感知密集型基准测试中，该方法在保持最终答案准确率的同时显著降低了不忠实感知率，从而提升了多模态推理的可靠性。",
+  "timestamp": "2025-12-16T22:25:49.886277",
+  "model_name": "deepseek-reasoner"
+}

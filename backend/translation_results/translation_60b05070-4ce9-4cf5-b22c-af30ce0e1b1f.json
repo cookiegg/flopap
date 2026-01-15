@@ -1,0 +1,10 @@
+{
+  "paper_id": "60b05070-4ce9-4cf5-b22c-af30ce0e1b1f",
+  "arxiv_id": "2512.12260v1",
+  "title_en": "A Multi-Axial Mindset for Ontology Design Lessons from Wikidata's Polyhierarchical Structure",
+  "title_zh": "本体设计的多轴思维：来自维基数据多层级结构的启示",
+  "summary_en": "Traditional ontology design emphasizes disjoint and exhaustive top-level distinctions such as continuant vs. occurrent, abstract vs. concrete, or type vs. instance. These distinctions are used to structure unified hierarchies where every entity is classified under a single upper-level category. Wikidata, by contrast, does not enforce a singular foundational taxonomy. Instead, it accommodates multiple classification axes simultaneously under the shared root class entity. This paper analyzes the structural implications of Wikidata's polyhierarchical and multi-axial design. The Wikidata architecture enables a scalable and modular approach to ontology construction, especially suited to collaborative and evolving knowledge graphs.",
+  "summary_zh": "传统的本体设计强调互斥且完备的顶层区分，例如持续体与发生体、抽象与具体、或类型与实例。这些区分被用于构建统一的层级结构，其中每个实体都被归类于单一的上层类别。相比之下，维基数据并不强制采用单一的基础分类体系，而是在共享的根类“实体”之下同时容纳多个分类轴。本文分析了维基数据多层级、多轴设计对结构的影响。维基数据的架构实现了可扩展、模块化的本体构建方法，尤其适用于协作性与持续演进的知识图谱。",
+  "timestamp": "2025-12-16T22:22:50.852857",
+  "model_name": "deepseek-chat"
+}

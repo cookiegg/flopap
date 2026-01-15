@@ -1,0 +1,10 @@
+{
+  "paper_id": "99fcf26f-157e-46a9-8f17-8f1bc713adef",
+  "arxiv_id": "2512.12131v1",
+  "title_en": "BOOST: BOttleneck-Optimized Scalable Training Framework for Low-Rank Large Language Models",
+  "title_zh": "BOOST：面向低秩大语言模型的瓶颈优化可扩展训练框架",
+  "summary_en": "The scale of transformer model pre-training is constrained by the increasing computation and communication cost. Low-rank bottleneck architectures offer a promising solution to significantly reduce the training time and memory footprint with minimum impact on accuracy. Despite algorithmic efficiency, bottleneck architectures scale poorly under standard tensor parallelism. Simply applying 3D parallelism designed for full-rank methods leads to excessive communication and poor GPU utilization. To address this limitation, we propose BOOST, an efficient training framework tailored for large-scale low-rank bottleneck architectures. BOOST introduces a novel Bottleneck-aware Tensor Parallelism, and combines optimizations such as online-RMSNorm, linear layer grouping, and low-rank activation checkpointing to achieve end-to-end training speedup. Evaluations on different low-rank bottleneck architectures demonstrate that BOOST achieves 1.46-1.91$\\times$ speedup over full-rank model baselines and 1.87-2.27$\\times$ speedup over low-rank model with naively integrated 3D parallelism, with improved GPU utilization and reduced communication overhead.",
+  "summary_zh": "Transformer模型预训练的规模受限于日益增长的计算与通信开销。低秩瓶颈架构提供了一种有前景的解决方案，能够在最小化精度影响的前提下显著减少训练时间与内存占用。尽管算法效率较高，但瓶颈架构在标准张量并行下的可扩展性较差。直接应用为全秩方法设计的3D并行策略会导致通信开销过大且GPU利用率低下。为应对这一局限，本文提出BOOST，一种专为大规模低秩瓶颈架构设计的高效训练框架。BOOST引入了一种新颖的瓶颈感知张量并行策略，并结合在线RMSNorm、线性层分组及低秩激活检查点等优化技术，实现了端到端的训练加速。在不同低秩瓶颈架构上的实验表明，相较于全秩模型基线，BOOST实现了1.46-1.91倍的加速；相较于简单集成3D并行的低秩模型，实现了1.87-2.27倍的加速，同时提升了GPU利用率并降低了通信开销。",
+  "timestamp": "2025-12-16T22:25:56.200452",
+  "model_name": "deepseek-reasoner"
+}

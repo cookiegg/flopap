@@ -1,0 +1,10 @@
+{
+  "paper_id": "be5450eb-6f66-4ae2-b0bd-130a5d8803f0",
+  "arxiv_id": "2512.12442v1",
+  "title_en": "Efficient Level-Crossing Probability Calculation for Gaussian Process Modeled Data",
+  "title_zh": "高斯过程建模数据的高效水平穿越概率计算",
+  "summary_en": "Almost all scientific data have uncertainties originating from different sources. Gaussian process regression (GPR) models are a natural way to model data with Gaussian-distributed uncertainties. GPR also has the benefit of reducing I/O bandwidth and storage requirements for large scientific simulations. However, the reconstruction from the GPR models suffers from high computation complexity. To make the situation worse, classic approaches for visualizing the data uncertainties, like probabilistic marching cubes, are also computationally very expensive, especially for data of high resolutions. In this paper, we accelerate the level-crossing probability calculation efficiency on GPR models by subdividing the data spatially into a hierarchical data structure and only reconstructing values adaptively in the regions that have a non-zero probability. For each region, leveraging the known GPR kernel and the saved data observations, we propose a novel approach to efficiently calculate an upper bound for the level-crossing probability inside the region and use this upper bound to make the subdivision and reconstruction decisions. We demonstrate that our value occurrence probability estimation is accurate with a low computation cost by experiments that calculate the level-crossing probability fields on different datasets.",
+  "summary_zh": "几乎所有科学数据都存在源自不同来源的不确定性。高斯过程回归模型是处理具有高斯分布不确定性数据的自然建模方法。GPR还具有降低大型科学模拟的I/O带宽和存储需求的优势。然而，基于GPR模型的数据重建面临计算复杂度高的问题。更严峻的是，传统的数据不确定性可视化方法（如概率行进立方体法）计算成本也极高，尤其对于高分辨率数据。本文通过将数据在空间上细分为层次化数据结构，并仅在具有非零概率的区域自适应地重建数值，从而加速GPR模型的水平穿越概率计算效率。针对每个区域，我们利用已知的GPR核函数与已存储的数据观测值，提出一种创新方法高效计算该区域内水平穿越概率的上界，并基于此上界进行区域细分与重建决策。通过在不同数据集上计算水平穿越概率场的实验，我们证明所提出的数值出现概率估计方法在保证精度的同时具有较低的计算成本。",
+  "timestamp": "2025-12-16T22:25:32.798422",
+  "model_name": "deepseek-reasoner"
+}

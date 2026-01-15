@@ -1,0 +1,10 @@
+{
+  "paper_id": "97294eeb-6dae-47ef-95a8-edeb7b5f7a87",
+  "arxiv_id": "2512.12165v1",
+  "title_en": "Audio-Visual Camera Pose Estimationn with Passive Scene Sounds and In-the-Wild Video",
+  "title_zh": "基于被动场景声音与真实世界视频的视听相机姿态估计",
+  "summary_en": "Understanding camera motion is a fundamental problem in embodied perception and 3D scene understanding. While visual methods have advanced rapidly, they often struggle under visually degraded conditions such as motion blur or occlusions. In this work, we show that passive scene sounds provide complementary cues for relative camera pose estimation for in-the-wild videos. We introduce a simple but effective audio-visual framework that integrates direction-ofarrival (DOA) spectra and binauralized embeddings into a state-of-the-art vision-only pose estimation model. Our results on two large datasets show consistent gains over strong visual baselines, plus robustness when the visual information is corrupted. To our knowledge, this represents the first work to successfully leverage audio for relative camera pose estimation in real-world videos, and it establishes incidental, everyday audio as an unexpected but promising signal for a classic spatial challenge. Project: http://vision.cs.utexas.edu/projects/av_camera_pose.",
+  "summary_zh": "理解相机运动是具身感知与三维场景理解的基础问题。尽管视觉方法发展迅速，但在运动模糊或遮挡等视觉退化条件下往往表现不佳。本研究证明，被动场景声音能为真实世界视频中的相对相机姿态估计提供互补线索。我们提出了一种简洁而有效的视听框架，将到达方向谱与双耳听觉嵌入集成到当前最先进的纯视觉姿态估计模型中。在两个大型数据集上的实验结果表明，该方法相较于强视觉基线模型取得了稳定提升，并在视觉信息受损时表现出良好的鲁棒性。据我们所知，这是首个成功利用音频信号实现真实世界视频中相对相机姿态估计的研究，该工作将环境中偶然存在的日常声音确立为解决经典空间感知问题的一种意外而有效的信号源。项目地址：http://vision.cs.utexas.edu/projects/av_camera_pose。",
+  "timestamp": "2025-12-16T22:25:54.385721",
+  "model_name": "deepseek-reasoner"
+}

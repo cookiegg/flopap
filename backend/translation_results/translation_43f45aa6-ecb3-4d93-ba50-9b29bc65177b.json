@@ -1,0 +1,10 @@
+{
+  "paper_id": "43f45aa6-ecb3-4d93-ba50-9b29bc65177b",
+  "arxiv_id": "2512.12268v1",
+  "title_en": "MetaTPT: Meta Test-time Prompt Tuning for Vision-Language Models",
+  "title_zh": "MetaTPT：面向视觉语言模型的元测试时提示调优",
+  "summary_en": "Vision-language models (VLMs) such as CLIP exhibit strong zero-shot generalization but remain sensitive to domain shifts at test time. Test-time prompt tuning (TPT) mitigates this issue by adapting prompts with fixed augmentations, which may falter in more challenging settings. In this work, we propose Meta Test-Time Prompt Tuning (MetaTPT), a meta-learning framework that learns a self-supervised auxiliary task to guide test-time prompt tuning. The auxiliary task dynamically learns parameterized augmentations for each sample, enabling more expressive transformations that capture essential features in target domains. MetaTPT adopts a dual-loop optimization paradigm: an inner loop learns a self-supervised task that generates informative views, while the outer loop performs prompt tuning by enforcing consistency across these views. By coupling augmentation learning with prompt tuning, MetaTPT improves test-time adaptation under domain shifts. Extensive experiments demonstrate that MetaTPT achieves state-of-the-art performance on domain generalization and cross-dataset benchmarks.",
+  "summary_zh": "以CLIP为代表的视觉语言模型（VLMs）展现出强大的零样本泛化能力，但在测试时仍对领域偏移较为敏感。测试时提示调优（TPT）通过使用固定数据增强方式调整提示词来缓解这一问题，但在更具挑战性的场景中可能失效。本研究提出元测试时提示调优（MetaTPT），这是一种元学习框架，通过学习自监督辅助任务来指导测试时提示调优。该辅助任务动态地为每个样本学习参数化增强策略，从而生成更具表达力的数据变换，以捕捉目标域中的本质特征。MetaTPT采用双循环优化范式：内循环学习生成信息化视图的自监督任务，外循环通过强制这些视图间的一致性进行提示调优。通过将增强学习与提示调优相耦合，MetaTPT提升了领域偏移下的测试时适应能力。大量实验表明，MetaTPT在领域泛化和跨数据集基准测试中取得了最先进的性能。",
+  "timestamp": "2025-12-16T22:25:46.607051",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "3980b58d-6597-47c3-9ecf-04aac6d52314",
+  "arxiv_id": "2512.12428v1",
+  "title_en": "Learning Dynamics in Memristor-Based Equilibrium Propagation",
+  "title_zh": "基于忆阻器的平衡传播学习动力学研究",
+  "summary_en": "Memristor-based in-memory computing has emerged as a promising paradigm to overcome the constraints of the von Neumann bottleneck and the memory wall by enabling fully parallelisable and energy-efficient vector-matrix multiplications. We investigate the effect of nonlinear, memristor-driven weight updates on the convergence behaviour of neural networks trained with equilibrium propagation (EqProp). Six memristor models were characterised by their voltage-current hysteresis and integrated into the EBANA framework for evaluation on two benchmark classification tasks. EqProp can achieve robust convergence under nonlinear weight updates, provided that memristors exhibit a sufficiently wide resistance range of at least an order of magnitude.",
+  "summary_zh": "基于忆阻器的存内计算通过实现完全并行化且高能效的向量-矩阵乘法，已成为突破冯·诺依曼瓶颈与内存墙限制的前沿范式。本研究探讨了非线性忆阻器驱动权重更新对采用平衡传播算法训练的神经网络收敛行为的影响。通过电压-电流迟滞特性表征了六种忆阻器模型，并将其集成至EBANA框架中，在两个基准分类任务上进行评估。研究表明：当忆阻器具备至少一个数量级的足够宽阻值范围时，平衡传播算法能够在非线性权重更新条件下实现稳健收敛。",
+  "timestamp": "2025-12-16T22:25:33.276681",
+  "model_name": "deepseek-reasoner"
+}

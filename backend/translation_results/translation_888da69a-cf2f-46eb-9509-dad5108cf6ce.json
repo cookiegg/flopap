@@ -1,0 +1,10 @@
+{
+  "paper_id": "888da69a-cf2f-46eb-9509-dad5108cf6ce",
+  "arxiv_id": "2512.12295v1",
+  "title_en": "Near-Zero-Overhead Freshness for Recommendation Systems via Inference-Side Model Updates",
+  "title_zh": "基于推理侧模型更新的推荐系统近零开销新鲜度保障方案",
+  "summary_en": "Deep Learning Recommendation Models (DLRMs) underpin personalized services but face a critical freshness-accuracy tradeoff due to massive parameter synchronization overheads. Production DLRMs deploy decoupled training/inference clusters, where synchronizing petabyte-scale embedding tables (EMTs) causes multi-minute staleness, degrading recommendation quality and revenue. We observe that (1) inference nodes exhibit sustained CPU underutilization (peak <= 20%), and (2) EMT gradients possess intrinsic low-rank structure, enabling compact update representation. We present LiveUpdate, a system that eliminates inter-cluster synchronization by colocating Low-Rank Adaptation (LoRA) trainers within inference nodes. LiveUpdate addresses two core challenges: (1) dynamic rank adaptation via singular value monitoring to constrain memory overhead (<2% of EMTs), and (2) NUMA-aware resource scheduling with hardware-enforced QoS to eliminate update inference contention (P99 latency impact <20ms). Evaluations show LiveUpdate reduces update costs by 2x versus delta-update baselines while achieving higher accuracy within 1-hour windows. By transforming idle inference resources into freshness engines, LiveUpdate delivers online model updates while outperforming state-of-the-art delta-update methods by 0.04% to 0.24% in accuracy.",
+  "summary_zh": "深度学习推荐模型支撑着个性化服务，却因海量参数同步开销面临关键的新鲜度-准确性权衡问题。生产系统中的推荐模型采用解耦的训练/推理集群架构，同步PB级嵌入表会导致长达数分钟的数据滞后，从而降低推荐质量与商业收益。我们通过观察发现：（1）推理节点存在持续的CPU低利用率现象（峰值≤20%）；（2）嵌入表梯度具有内在低秩特性，可实现紧凑的更新表征。本文提出LiveUpdate系统，通过在推理节点内部署低秩自适应训练器，彻底消除跨集群同步需求。该系统攻克了两大核心挑战：（1）通过奇异值监测实现动态秩自适应，将内存开销控制在嵌入表容量的2%以内；（2）采用NUMA感知的资源调度与硬件强化的服务质量保障机制，消除更新操作对推理过程的干扰（P99延迟影响<20毫秒）。实验表明，LiveUpdate较增量更新基线方法降低50%更新成本，并在一小时时间窗口内实现更高预测精度。通过将闲置推理资源转化为模型新鲜度引擎，LiveUpdate在提供在线模型更新的同时，其预测精度较当前最先进的增量更新方法提升0.04%至0.24%。",
+  "timestamp": "2025-12-16T22:25:47.013982",
+  "model_name": "deepseek-reasoner"
+}

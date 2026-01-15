@@ -1,0 +1,10 @@
+{
+  "paper_id": "4afda069-13c4-43cd-b319-5df923e34dbd",
+  "arxiv_id": "2512.12272v1",
+  "title_en": "Accurate de novo sequencing of the modified proteome with OmniNovo",
+  "title_zh": "基于OmniNovo的修饰蛋白质组精准从头测序",
+  "summary_en": "Post-translational modifications (PTMs) serve as a dynamic chemical language regulating protein function, yet current proteomic methods remain blind to a vast portion of the modified proteome. Standard database search algorithms suffer from a combinatorial explosion of search spaces, limiting the identification of uncharacterized or complex modifications. Here we introduce OmniNovo, a unified deep learning framework for reference-free sequencing of unmodified and modified peptides directly from tandem mass spectra. Unlike existing tools restricted to specific modification types, OmniNovo learns universal fragmentation rules to decipher diverse PTMs within a single coherent model. By integrating a mass-constrained decoding algorithm with rigorous false discovery rate estimation, OmniNovo achieves state-of-the-art accuracy, identifying 51\\% more peptides than standard approaches at a 1\\% false discovery rate. Crucially, the model generalizes to biological sites unseen during training, illuminating the dark matter of the proteome and enabling unbiased comprehensive analysis of cellular regulation.",
+  "summary_zh": "翻译后修饰作为一种动态化学语言调控蛋白质功能，然而当前蛋白质组学方法对修饰蛋白质组的绝大部分区域仍无法有效检测。标准数据库搜索算法面临搜索空间组合爆炸问题，限制了未表征修饰或复杂修饰的鉴定。本研究提出OmniNovo——一个统一的深度学习框架，能够直接从串联质谱数据中对未修饰及修饰肽段进行无参比测序。与现有局限于特定修饰类型的工具不同，OmniNovo通过单一连贯模型学习通用碎裂规则，从而解析多样化的翻译后修饰。该框架通过整合质量约束解码算法与严格错误发现率估计，在1%错误发现率条件下比标准方法多鉴定51%的肽段，达到当前最优准确度。关键的是，该模型能够泛化至训练数据未涵盖的生物学位点，不仅揭示了蛋白质组的\"暗物质\"，更为细胞调控机制的无偏倚全面分析提供了技术支撑。",
+  "timestamp": "2025-12-16T22:25:46.489640",
+  "model_name": "deepseek-reasoner"
+}

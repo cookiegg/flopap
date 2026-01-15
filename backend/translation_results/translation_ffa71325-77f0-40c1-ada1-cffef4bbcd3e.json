@@ -1,0 +1,10 @@
+{
+  "paper_id": "ffa71325-77f0-40c1-ada1-cffef4bbcd3e",
+  "arxiv_id": "2512.12458v1",
+  "title_en": "Breaking the Curse of Dimensionality: On the Stability of Modern Vector Retrieval",
+  "title_zh": "突破维度灾难：论现代向量检索的稳定性",
+  "summary_en": "Modern vector databases enable efficient retrieval over high-dimensional neural embeddings, powering applications from web search to retrieval-augmented generation. However, classical theory predicts such tasks should suffer from the curse of dimensionality, where distances between points become nearly indistinguishable, thereby crippling efficient nearest-neighbor search. We revisit this paradox through the lens of stability, the property that small perturbations to a query do not radically alter its nearest neighbors. Building on foundational results, we extend stability theory to three key retrieval settings widely used in practice: (i) multi-vector search, where we prove that the popular Chamfer distance metric preserves single-vector stability, while average pooling aggregation may destroy it; (ii) filtered vector search, where we show that sufficiently large penalties for mismatched filters can induce stability even when the underlying search is unstable; and (iii) sparse vector search, where we formalize and prove novel sufficient stability conditions. Across synthetic and real datasets, our experimental results match our theoretical predictions, offering concrete guidance for model and system design to avoid the curse of dimensionality.",
+  "summary_zh": "现代向量数据库能够高效检索高维神经嵌入，为从网络搜索到检索增强生成等应用提供支持。然而，经典理论预测此类任务将受困于维度灾难——即数据点之间的距离变得几乎无法区分，从而严重阻碍高效最近邻搜索。本文从稳定性的视角重新审视这一悖论，稳定性是指查询的微小扰动不会显著改变其最近邻的性质。基于基础性研究成果，我们将稳定性理论扩展至三种广泛使用的关键检索场景：（i）多向量检索场景中，我们证明常用的Chamfer距离度量能够保持单向量稳定性，而平均池化聚合方法可能破坏该稳定性；（ii）过滤向量检索场景中，我们证明当底层检索本身不稳定时，对不匹配过滤器施加足够大的惩罚仍可诱导稳定性；（iii）稀疏向量检索场景中，我们形式化并证明了新颖的充分稳定性条件。在合成与真实数据集上的实验结果均与理论预测相符，为规避维度灾难的模型与系统设计提供了具体指导。",
+  "timestamp": "2025-12-16T22:25:31.532460",
+  "model_name": "deepseek-reasoner"
+}

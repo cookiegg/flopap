@@ -1,0 +1,10 @@
+{
+  "paper_id": "fb7607eb-8fb1-4ea1-8f12-6e45dbe7a96b",
+  "arxiv_id": "2512.12433v1",
+  "title_en": "A Software Package for Generating Robust and Accurate Potentials using the Moment Tensor Potential Framework",
+  "title_zh": "基于矩张量势框架生成稳健精确势函数的软件包",
+  "summary_en": "We present the Plan for Robust and Accurate Potentials (PRAPs), a software package for training and using moment tensor potentials (MTPs) in concert with the Machine Learned Interatomic Potentials (MLIP) software package. PRAPs provides an automated workflow to train MTPs using active learning procedures, and a variety of utilities to ease and improve workflows when utilizing the MLIP software. PRAPs was originally developed in the context of crystal structure prediction, in which one calculates convex hulls and predicts low energy metastable and thermodynamically stable structures, but the potentials PRAPs develops are not limited to such applications. PRAPs produces two potentials, one capable of rough estimates of the energies, forces and stresses of almost any chemical structure in the specified compositional space -- the Robust Potential -- and a second potential intended to provide more accurate descriptions of ground state and metastable structures -- the Accurate Potential. We also present a Python library, mliputils, designed to assist users in working with the chemical structural files used by the MLIP package.",
+  "summary_zh": "本文介绍稳健精确势函数生成方案（PRAPs），这是一个与机器学习原子间势（MLIP）软件包协同工作、用于训练和使用矩张量势（MTPs）的软件工具。PRAPs提供自动化工作流程，通过主动学习程序训练MTPs，并配备多种实用工具以简化和优化MLIP软件的使用流程。该软件最初是为晶体结构预测而开发，用于计算凸包并预测低能量亚稳态及热力学稳定结构，但其生成的势函数并不局限于此类应用。PRAPs可生成两种势函数：其一是能够对指定成分空间中几乎所有化学结构进行能量、力和应力的粗略估算的“稳健势函数”；其二是旨在对基态和亚稳态结构提供更精确描述的“精确势函数”。我们还开发了Python工具库mliputils，旨在帮助用户处理MLIP软件包所使用的化学结构文件。",
+  "timestamp": "2025-12-16T22:23:55.344383",
+  "model_name": "deepseek-reasoner"
+}

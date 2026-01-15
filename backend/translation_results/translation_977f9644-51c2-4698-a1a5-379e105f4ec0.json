@@ -1,0 +1,10 @@
+{
+  "paper_id": "977f9644-51c2-4698-a1a5-379e105f4ec0",
+  "arxiv_id": "2512.12285v1",
+  "title_en": "Fractional Differential Equation Physics-Informed Neural Network and Its Application in Battery State Estimation",
+  "title_zh": "分数阶微分方程物理信息神经网络及其在电池状态估计中的应用",
+  "summary_en": "Accurate estimation of the State of Charge (SOC) is critical for ensuring the safety, reliability, and performance optimization of lithium-ion battery systems. Conventional data-driven neural network models often struggle to fully characterize the inherent complex nonlinearities and memory-dependent dynamics of electrochemical processes, significantly limiting their predictive accuracy and physical interpretability under dynamic operating conditions. To address this challenge, this study proposes a novel neural architecture termed the Fractional Differential Equation Physics-Informed Neural Network (FDIFF-PINN), which integrates fractional calculus with deep learning. The main contributions of this paper include: (1) Based on a fractional-order equivalent circuit model, a discretized fractional-order partial differential equation is constructed. (2) Comparative experiments were conducted using a dynamic charge/discharge dataset of Panasonic 18650PF batteries under multi-temperature conditions (from -10$^{\\circ}$C to 20$^{\\circ}$C).",
+  "summary_zh": "荷电状态（SOC）的精确估计对于确保锂离子电池系统的安全性、可靠性和性能优化至关重要。传统数据驱动的神经网络模型往往难以完整表征电化学过程固有的复杂非线性及具有记忆依赖特性的动态行为，这显著限制了其在动态工况下的预测精度与物理解释性。为应对这一挑战，本研究提出一种称为分数阶微分方程物理信息神经网络（FDIFF-PINN）的新型神经架构，该架构将分数阶微积分与深度学习相结合。本文的主要贡献包括：（1）基于分数阶等效电路模型，构建了离散化的分数阶偏微分方程；（2）利用松下18650PF电池在多温度条件（-10$^{\\circ}$C至20$^{\\circ}$C）下的动态充放电数据集进行了对比实验。",
+  "timestamp": "2025-12-16T22:25:43.640359",
+  "model_name": "deepseek-reasoner"
+}

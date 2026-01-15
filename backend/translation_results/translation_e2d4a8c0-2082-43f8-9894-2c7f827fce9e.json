@@ -1,0 +1,10 @@
+{
+  "paper_id": "e2d4a8c0-2082-43f8-9894-2c7f827fce9e",
+  "arxiv_id": "2512.12341v1",
+  "title_en": "Uncertainty Quantification for Machine Learning: One Size Does Not Fit All",
+  "title_zh": "机器学习的不确定性量化：一种方法难以适用所有场景",
+  "summary_en": "Proper quantification of predictive uncertainty is essential for the use of machine learning in safety-critical applications. Various uncertainty measures have been proposed for this purpose, typically claiming superiority over other measures. In this paper, we argue that there is no single best measure. Instead, uncertainty quantification should be tailored to the specific application. To this end, we use a flexible family of uncertainty measures that distinguishes between total, aleatoric, and epistemic uncertainty of second-order distributions. These measures can be instantiated with specific loss functions, so-called proper scoring rules, to control their characteristics, and we show that different characteristics are useful for different tasks. In particular, we show that, for the task of selective prediction, the scoring rule should ideally match the task loss. On the other hand, for out-of-distribution detection, our results confirm that mutual information, a widely used measure of epistemic uncertainty, performs best. Furthermore, in an active learning setting, epistemic uncertainty based on zero-one loss is shown to consistently outperform other uncertainty measures.",
+  "summary_zh": "在安全关键型应用中运用机器学习时，对预测不确定性进行恰当量化至关重要。为此，学界提出了多种不确定性度量方法，通常各自宣称优于其他方法。本文认为并不存在单一的最佳度量标准，不确定性量化应根据具体应用场景进行定制。为此，我们采用了一个灵活的不确定性度量体系，该体系能区分二阶分布中的总体不确定性、偶然不确定性和认知不确定性。这些度量可通过特定损失函数（即所谓严格评分规则）实例化，以控制其特性。我们证明，不同特性适用于不同任务：在选择性预测任务中，评分规则理想情况下应与任务损失函数相匹配；而在分布外检测任务中，我们的实验结果证实了广泛使用的认知不确定性度量指标——互信息具有最佳性能。此外，在主动学习场景中，基于零一损失的认知不确定性度量 consistently 优于其他不确定性度量方法。",
+  "timestamp": "2025-12-16T22:25:36.762590",
+  "model_name": "deepseek-reasoner"
+}

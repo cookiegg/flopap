@@ -1,0 +1,10 @@
+{
+  "paper_id": "5a18e7a7-10f9-4b33-9d93-44dc6773881c",
+  "arxiv_id": "2512.12225v1",
+  "title_en": "A Geometric Theory of Cognition",
+  "title_zh": "认知的几何理论",
+  "summary_en": "Human cognition spans perception, memory, intuitive judgment, deliberative reasoning, action selection, and social inference, yet these capacities are often explained through distinct computational theories. Here we present a unified mathematical framework in which diverse cognitive processes emerge from a single geometric principle. We represent the cognitive state as a point on a differentiable manifold endowed with a learned Riemannian metric that encodes representational constraints, computational costs, and structural relations among cognitive variables. A scalar cognitive potential combines predictive accuracy, structural parsimony, task utility, and normative or logical requirements. Cognition unfolds as the Riemannian gradient flow of this potential, providing a universal dynamical law from which a broad range of psychological phenomena arise. Classical dual-process effects--rapid intuitive responses and slower deliberative reasoning--emerge naturally from metric-induced anisotropies that generate intrinsic time-scale separations and geometric phase transitions, without invoking modular or hybrid architectures. We derive analytical conditions for these regimes and demonstrate their behavioural signatures through simulations of canonical cognitive tasks. Together, these results establish a geometric foundation for cognition and suggest guiding principles for the development of more general and human-like artificial intelligence systems.",
+  "summary_zh": "人类认知涵盖感知、记忆、直觉判断、审慎推理、行动选择与社会推断，但这些能力常由不同的计算理论分别解释。本文提出一个统一的数学框架，其中多样的认知过程皆源于单一的几何原理。我们将认知状态表示为可微分流形上的一点，该流形配备了习得的黎曼度量，用以编码表征约束、计算成本及认知变量间的结构关系。一个标量认知势函数综合了预测准确性、结构简洁性、任务效用以及规范性或逻辑性要求。认知过程即为此势函数的黎曼梯度流，这一普适动力学定律可衍生出广泛的心理现象。经典的双加工效应——快速的直觉反应与缓慢的审慎推理——自然涌现于度量诱导的各向异性，该特性产生了内在的时间尺度分离与几何相变，而无须诉诸模块化或混合架构。我们推导了这些机制的分析条件，并通过经典认知任务的仿真模拟展示了其行为特征。这些成果共同奠定了认知的几何基础，并为开发更通用、更类人的人工智能系统提供了指导原则。",
+  "timestamp": "2025-12-16T22:25:50.206650",
+  "model_name": "deepseek-reasoner"
+}

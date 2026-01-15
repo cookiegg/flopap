@@ -1,0 +1,10 @@
+{
+  "paper_id": "9cb3bc07-b176-48a7-b325-fc4e8db720fb",
+  "arxiv_id": "2512.12301v1",
+  "title_en": "TwinFormer: A Dual-Level Transformer for Long-Sequence Time-Series Forecasting",
+  "title_zh": "TwinFormer：一种用于长序列时间序列预测的双层级Transformer模型",
+  "summary_en": "TwinFormer is a hierarchical Transformer for long-sequence time-series forecasting. It divides the input into non-overlapping temporal patches and processes them in two stages: (1) a Local Informer with top-$k$ Sparse Attention models intra-patch dynamics, followed by mean pooling; (2) a Global Informer captures long-range inter-patch dependencies using the same top-$k$ attention. A lightweight GRU aggregates the globally contextualized patch tokens for direct multi-horizon prediction. The resulting architecture achieves linear $O(kLd)$ time and memory complexity. On eight real-world benchmarking datasets from six different domains, including weather, stock price, temperature, power consumption, electricity, and disease, and forecasting horizons $96-720$, TwinFormer secures $27$ positions in the top two out of $34$. Out of the $27$, it achieves the best performance on MAE and RMSE at $17$ places and $10$ at the second-best place on MAE and RMSE. This consistently outperforms PatchTST, iTransformer, FEDformer, Informer, and vanilla Transformers. Ablations confirm the superiority of top-$k$ Sparse Attention over ProbSparse and the effectiveness of GRU-based aggregation. Code is available at this repository: https://github.com/Mahimakumavat1205/TwinFormer.",
+  "summary_zh": "TwinFormer是一种用于长序列时间序列预测的分层Transformer模型。它将输入划分为非重叠的时间片段，并通过两个阶段进行处理：（1）局部信息提取器采用Top-$k$稀疏注意力机制建模片段内动态特征，随后进行均值池化；（2）全局信息提取器使用相同的Top-$k$注意力机制捕捉片段间的长程依赖关系。一个轻量级GRU模块聚合经过全局上下文建模的片段表征，以直接进行多步预测。该架构实现了线性的$O(kLd)$时间与内存复杂度。在涵盖气象、股价、温度、功耗、电力及疾病等六个不同领域的八个真实世界基准数据集上，针对96-720步的预测范围，TwinFormer在34项评估中27次位列前两名。其中，在17项评估中取得了MAE与RMSE指标的最佳性能，在10项评估中MAE与RMSE指标位列第二。该模型持续优于PatchTST、iTransformer、FEDformer、Informer及原始Transformer模型。消融实验证实了Top-$k$稀疏注意力机制相对于ProbSparse的优越性，以及基于GRU的聚合机制的有效性。代码已开源于此仓库：https://github.com/Mahimakumavat1205/TwinFormer。",
+  "timestamp": "2025-12-16T22:25:44.261955",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "2e25ed17-18bb-463d-a3b9-a66585b5907b",
+  "arxiv_id": "2512.12207v1",
+  "title_en": "Not All Transparency Is Equal: Source Presentation Effects on Attention, Interaction, and Persuasion in Conversational Search",
+  "title_zh": "并非所有透明度都等同：会话式搜索中来源呈现方式对注意力、交互与说服效果的影响",
+  "summary_en": "Conversational search systems increasingly provide source citations, yet how citation or source presentation formats influence user engagement remains unclear. We conducted a crowdsourcing user experiment with 394 participants comparing four source presentation designs that varied citation visibility and accessibility: collapsible lists, hover cards, footer lists, and aligned sidebars.High-visibility interfaces generated substantially more hovering on sources, though clicking remained infrequent across all conditions. While interface design showed limited effects on user experience and perception measures, it significantly influenced knowledge, interest, and agreement changes. High-visibility interfaces initially reduced knowledge gain and interest, but these positive effects emerged with increasing source usage. The sidebar condition uniquely increased agreement change. Our findings demonstrate that source presentation alone may not enhance engagement and can even reduce it when insufficient sources are provided.",
+  "summary_zh": "会话式搜索系统日益普遍地提供来源引用信息，然而引用或来源呈现形式如何影响用户参与度仍不明确。我们通过394名参与者开展众包用户实验，比较了四种在引用可见性与可访问性上存在差异的来源呈现设计：可折叠列表、悬停卡片、页脚列表与对齐侧边栏。高可见性界面显著增加了用户对来源的悬停操作，但所有实验条件下点击行为仍较为有限。虽然界面设计对用户体验和感知指标的影响较小，但其显著影响了知识获取、兴趣度与观点认同度的变化。高可见性界面最初会降低知识获取与兴趣度，但随着来源使用频率的增加，这些积极效应逐渐显现。侧边栏条件独特地提升了观点认同度的改变。我们的研究结果表明，仅靠来源呈现设计未必能提升用户参与度，在来源信息提供不足时甚至可能降低参与度。",
+  "timestamp": "2025-12-16T22:25:26.116175",
+  "model_name": "deepseek-reasoner"
+}

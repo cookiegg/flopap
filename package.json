@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@alicloud/dypnsapi20170525": "^2.0.0",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "wrangler": "^4.54.0"
+  }
+}

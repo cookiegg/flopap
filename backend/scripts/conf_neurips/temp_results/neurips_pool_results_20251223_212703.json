@@ -1,0 +1,41 @@
+{
+  "timestamp": "2025-12-23T21:27:03.409969",
+  "summary": {
+    "total": 5,
+    "success": 0,
+    "failed": 0,
+    "skipped": 5
+  },
+  "details": [
+    {
+      "user_id": "aa1d030e-a686-40af-834c-aad4c1f5165a",
+      "success": true,
+      "message": "Already exists, skipped",
+      "paper_count": 0
+    },
+    {
+      "user_id": "default",
+      "success": true,
+      "message": "Already exists, skipped",
+      "paper_count": 0
+    },
+    {
+      "user_id": "4a440248-f333-4f99-9967-f9b4e4185d15",
+      "success": true,
+      "message": "Already exists, skipped",
+      "paper_count": 0
+    },
+    {
+      "user_id": "bcdc82ff-23d9-4b85-bb5b-603ede0c2ce5",
+      "success": true,
+      "message": "Already exists, skipped",
+      "paper_count": 0
+    },
+    {
+      "user_id": "640d1e1a-63bc-44b6-b804-198a3d0051c1",
+      "success": true,
+      "message": "Already exists, skipped",
+      "paper_count": 0
+    }
+  ]
+}

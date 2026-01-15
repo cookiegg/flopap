@@ -1,0 +1,10 @@
+{
+  "paper_id": "b15c8a69-008e-42f9-9570-0489a3d1e0e3",
+  "arxiv_id": "2512.12372v1",
+  "title_en": "STAGE: Storyboard-Anchored Generation for Cinematic Multi-shot Narrative",
+  "title_zh": "STAGE：基于故事板的电影化多镜头叙事生成",
+  "summary_en": "While recent advancements in generative models have achieved remarkable visual fidelity in video synthesis, creating coherent multi-shot narratives remains a significant challenge. To address this, keyframe-based approaches have emerged as a promising alternative to computationally intensive end-to-end methods, offering the advantages of fine-grained control and greater efficiency. However, these methods often fail to maintain cross-shot consistency and capture cinematic language. In this paper, we introduce STAGE, a SToryboard-Anchored GEneration workflow to reformulate the keyframe-based multi-shot video generation task. Instead of using sparse keyframes, we propose STEP2 to predict a structural storyboard composed of start-end frame pairs for each shot. We introduce the multi-shot memory pack to ensure long-range entity consistency, the dual-encoding strategy for intra-shot coherence, and the two-stage training scheme to learn cinematic inter-shot transition. We also contribute the large-scale ConStoryBoard dataset, including high-quality movie clips with fine-grained annotations for story progression, cinematic attributes, and human preferences. Extensive experiments demonstrate that STAGE achieves superior performance in structured narrative control and cross-shot coherence.",
+  "summary_zh": "尽管生成模型的最新进展在视频合成方面已实现显著的视觉保真度，但创建连贯的多镜头叙事仍是一项重大挑战。为此，基于关键帧的方法作为一种有前景的替代方案应运而生，它避免了计算密集的端到端方法，同时提供了细粒度控制和更高效率的优势。然而，这些方法往往难以保持跨镜头一致性并捕捉电影化语言。本文提出STAGE，一种基于故事板的生成工作流，以重构基于关键帧的多镜头视频生成任务。我们提出STEP2方法，不再使用稀疏关键帧，而是预测由每个镜头的起止帧对组成的结构化故事板。我们引入了多镜头记忆包以确保长程实体一致性，采用双重编码策略保障镜头内连贯性，并设计两阶段训练方案以学习电影化的镜头间转场。此外，我们构建了大规模ConStoryBoard数据集，包含具有细粒度标注的高质量电影片段，涵盖故事推进、电影化属性和人类偏好信息。大量实验表明，STAGE在结构化叙事控制和跨镜头连贯性方面均展现出卓越性能。",
+  "timestamp": "2025-12-16T22:25:38.060871",
+  "model_name": "deepseek-reasoner"
+}

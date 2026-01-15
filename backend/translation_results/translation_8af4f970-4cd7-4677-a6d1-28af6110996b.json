@@ -1,0 +1,10 @@
+{
+  "paper_id": "8af4f970-4cd7-4677-a6d1-28af6110996b",
+  "arxiv_id": "2512.12236v1",
+  "title_en": "Resolution-Independent Neural Operators for Multi-Rate Sparse-View CT",
+  "title_zh": "分辨率无关的神经算子用于多采样率稀疏视角CT重建",
+  "summary_en": "Sparse-view Computed Tomography (CT) reconstructs images from a limited number of X-ray projections to reduce radiation and scanning time, which makes reconstruction an ill-posed inverse problem. Deep learning methods achieve high-fidelity reconstructions but often overfit to a fixed acquisition setup, failing to generalize across sampling rates and image resolutions. For example, convolutional neural networks (CNNs) use the same learned kernels across resolutions, leading to artifacts when data resolution changes.\n  We propose Computed Tomography neural Operator (CTO), a unified CT reconstruction framework that extends to continuous function space, enabling generalization (without retraining) across sampling rates and image resolutions. CTO operates jointly in the sinogram and image domains through rotation-equivariant Discrete-Continuous convolutions parametrized in the function space, making it inherently resolution- and sampling-agnostic. Empirically, CTO enables consistent multi-sampling-rate and cross-resolution performance, with on average >4dB PSNR gain over CNNs. Compared to state-of-the-art diffusion methods, CTO is 500$\\times$ faster in inference time with on average 3dB gain. Empirical results also validate our design choices behind CTO's sinogram-space operator learning and rotation-equivariant convolution. Overall, CTO outperforms state-of-the-art baselines across sampling rates and resolutions, offering a scalable and generalizable solution that makes automated CT reconstruction more practical for deployment.",
+  "summary_zh": "稀疏视角计算机断层扫描（CT）通过有限数量的X射线投影重建图像，以降低辐射剂量并缩短扫描时间，这使得重建成为一个不适定的逆问题。深度学习方法能够实现高保真度重建，但通常过度拟合特定的采集设置，难以泛化至不同采样率与图像分辨率。例如，卷积神经网络（CNN）在不同分辨率下使用相同的学习核，当数据分辨率改变时会产生伪影。",
+  "timestamp": "2025-12-16T22:25:47.538364",
+  "model_name": "deepseek-reasoner"
+}

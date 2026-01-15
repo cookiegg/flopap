@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #1e293b; color: #e2e8f0; }
+        button { padding: 10px 20px; margin: 10px; font-size: 16px; cursor: pointer; }
+        pre { background: #0f172a; padding: 15px; border-radius: 5px; overflow: auto; }
+        .success { color: #10b981; }
+        .error { color: #ef4444; }
+    </style>
+</head>
+<body>
+    <h1>TikPaper API 测试</h1>
+    
+    <div>
+        <button onclick="testAPI('arxiv')">测试 arXiv API</button>
+        <button onclick="testAPI('neurips2025')">测试 NeurIPS API</button>
+    </div>
+    
+    <div id="result"></div>
+    
+    <script>
+        const API_BASE = 'http://192.168.45.26:8000/api';
+        
+        async function testAPI(source) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = '<p>请求中...</p>';
+            
+            try {
+                const url = `${API_BASE}/feed?source=${source}&limit=2`;
+                resultDiv.innerHTML += `<p>URL: ${url}</p>`;
+                
+                const response = await fetch(url);
+                const data = await response.json();
+                
+                resultDiv.innerHTML += `<p class="success">✅ 成功！收到 ${data.items?.length || 0} 篇论文</p>`;
+                resultDiv.innerHTML += `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+            } catch (error) {
+                resultDiv.innerHTML += `<p class="error">❌ 错误: ${error.message}</p>`;
+                console.error(error);
+            }
+        }
+    </script>
+</body>
+</html>

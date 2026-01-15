@@ -1,0 +1,10 @@
+{
+  "paper_id": "29539261-b6ab-4232-9441-ca991a708a70",
+  "arxiv_id": "2512.12486v1",
+  "title_en": "Simultaneous AlphaZero: Extending Tree Search to Markov Games",
+  "title_zh": "同步AlphaZero：将树搜索扩展至马尔可夫博弈",
+  "summary_en": "Simultaneous AlphaZero extends the AlphaZero framework to multistep, two-player zero-sum deterministic Markov games with simultaneous actions. At each decision point, joint action selection is resolved via matrix games whose payoffs incorporate both immediate rewards and future value estimates. To handle uncertainty arising from bandit feedback during Monte Carlo Tree Search (MCTS), Simultaneous AlphaZero incorporates a regret-optimal solver for matrix games with bandit feedback. Simultaneous AlphaZero demonstrates robust strategies in a continuous-state discrete-action pursuit-evasion game and satellite custody maintenance scenarios, even when evaluated against maximally exploitative opponents.",
+  "summary_zh": "同步AlphaZero将AlphaZero框架扩展至具有同步动作的多步、双人零和确定性马尔可夫博弈。在每个决策点，通过矩阵博弈解决联合动作选择问题，其收益函数同时包含即时奖励与未来价值估计。为处理蒙特卡洛树搜索过程中因赌博机反馈产生的不确定性，同步AlphaZero引入了针对带赌博机反馈的矩阵博弈的遗憾最优求解器。在连续状态离散动作的追逃博弈及卫星在轨维护场景中，同步AlphaZero展现出稳健的策略性能，即使在与具有最大剥削能力的对手对抗时亦然。",
+  "timestamp": "2025-12-16T22:25:23.198835",
+  "model_name": "deepseek-reasoner"
+}

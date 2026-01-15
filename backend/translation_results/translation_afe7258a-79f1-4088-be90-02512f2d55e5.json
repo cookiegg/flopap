@@ -1,0 +1,10 @@
+{
+  "paper_id": "afe7258a-79f1-4088-be90-02512f2d55e5",
+  "arxiv_id": "2512.12238v1",
+  "title_en": "Semantic Distance Measurement based on Multi-Kernel Gaussian Processes",
+  "title_zh": "基于多核高斯过程的语义距离度量",
+  "summary_en": "Semantic distance measurement is a fundamental problem in computational linguistics, providing a quantitative characterization of similarity or relatedness between text segments, and underpinning tasks such as text retrieval and text classification. From a mathematical perspective, a semantic distance can be viewed as a metric defined on a space of texts or on a representation space derived from them. However, most classical semantic distance methods are essentially fixed, making them difficult to adapt to specific data distributions and task requirements. In this paper, a semantic distance measure based on multi-kernel Gaussian processes (MK-GP) was proposed. The latent semantic function associated with texts was modeled as a Gaussian process, with its covariance function given by a combined kernel combining Matérn and polynomial components. The kernel parameters were learned automatically from data under supervision, rather than being hand-crafted. This semantic distance was instantiated and evaluated in the context of fine-grained sentiment classification with large language models under an in-context learning (ICL) setup. The experimental results demonstrated the effectiveness of the proposed measure.",
+  "summary_zh": "语义距离度量是计算语言学中的一个基础性问题，它为文本片段之间的相似性或关联性提供定量刻画，并支撑着文本检索、文本分类等任务。从数学视角看，语义距离可视为定义在文本空间或其衍生表示空间上的一种度量。然而，大多数经典的语义距离方法本质上是固定的，难以适应特定数据分布与任务需求。本文提出了一种基于多核高斯过程（MK-GP）的语义距离度量方法。该方法将与文本相关的潜在语义函数建模为高斯过程，其协方差函数由结合了Matérn核与多项式核的复合核函数给出。核函数参数在监督条件下从数据中自动学习，而非人工设计。该语义距离度量方法在上下文学习（ICL）设置下的大语言模型细粒度情感分类任务中进行了实例化与评估。实验结果验证了所提出方法的有效性。",
+  "timestamp": "2025-12-16T22:25:48.970332",
+  "model_name": "deepseek-reasoner"
+}

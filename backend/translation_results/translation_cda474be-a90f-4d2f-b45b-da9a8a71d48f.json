@@ -1,0 +1,10 @@
+{
+  "paper_id": "cda474be-a90f-4d2f-b45b-da9a8a71d48f",
+  "arxiv_id": "2512.12409v1",
+  "title_en": "Reputation-Based Leader Election under Partial Synchrony: Towards a Protocol-Independent Abstraction with Enhanced Guarantees",
+  "title_zh": "部分同步下的基于信誉的领导者选举：迈向具有增强保证的协议无关抽象",
+  "summary_en": "Leader election serves a well-defined role in leader-based Byzantine Fault Tolerant (BFT) protocols. Existing reputation-based leader election frameworks for partially synchronous BFTs suffer from either protocol-specific proofs, narrow applicability, or unbounded recovery after network stabilization, leaving an open problem. This paper presents a novel protocol-independent abstraction formalizing generic correctness properties and effectiveness guarantees for leader election under partial synchrony, enabling protocol-independent analysis and design. Building on this, we design the Sliding Window Leader Election (SWLE) mechanism. SWLE dynamically adjusts leader nominations via consensus-behavior-based reputation scores, enforcing Byzantine-cost amplification. We demonstrate SWLE introduces minimal extra overhead to the base protocol and prove it satisfies all abstraction properties and provides superior effectiveness. We show, with a 16-server deployment across 4 different regions in northern China, SWLE achieves up to 4.2x higher throughput, 75% lower latency and 27% Byzantine leader frequency compared to the state-of-the-art solution under common Byzantine faults, while maintaining efficiency in fault-free scenarios.",
+  "summary_zh": "在基于领导者的拜占庭容错（BFT）协议中，领导者选举承担着明确的功能。现有的部分同步BFT协议中基于信誉的领导者选举框架存在以下问题：要么依赖于特定协议的证明、适用范围狭窄，要么在网络稳定后恢复时间无界，这仍是一个开放性问题。本文提出了一种新颖的协议无关抽象，形式化了部分同步下领导者选举的通用正确性属性和有效性保证，从而支持协议无关的分析与设计。在此基础上，我们设计了滑动窗口领导者选举（SWLE）机制。SWLE通过基于共识行为的信誉评分动态调整领导者提名，并实施拜占庭成本放大。我们证明SWLE为基础协议引入了极少的额外开销，并论证其满足所有抽象属性且提供更优的有效性。通过在华北4个不同区域的16台服务器部署实验表明，在常见的拜占庭故障下，与最先进的解决方案相比，SWLE实现了高达4.2倍的吞吐量提升、75%的延迟降低以及27%的拜占庭领导者出现频率，同时在无故障场景下仍保持高效。",
+  "timestamp": "2025-12-16T22:25:37.529849",
+  "model_name": "deepseek-reasoner"
+}

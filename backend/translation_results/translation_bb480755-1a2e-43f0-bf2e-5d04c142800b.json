@@ -1,0 +1,10 @@
+{
+  "paper_id": "bb480755-1a2e-43f0-bf2e-5d04c142800b",
+  "arxiv_id": "2512.12445v1",
+  "title_en": "Knowledge-Guided Masked Autoencoder with Linear Spectral Mixing and Spectral-Angle-Aware Reconstruction",
+  "title_zh": "基于线性光谱混合与光谱角感知重建的知识引导掩码自编码器",
+  "summary_en": "Integrating domain knowledge into deep learning has emerged as a promising direction for improving model interpretability, generalization, and data efficiency. In this work, we present a novel knowledge-guided ViT-based Masked Autoencoder that embeds scientific domain knowledge within the self-supervised reconstruction process. Instead of relying solely on data-driven optimization, our proposed approach incorporates the Linear Spectral Mixing Model (LSMM) as a physical constraint and physically-based Spectral Angle Mapper (SAM), ensuring that learned representations adhere to known structural relationships between observed signals and their latent components. The framework jointly optimizes LSMM and SAM loss with a conventional Huber loss objective, promoting both numerical accuracy and geometric consistency in the feature space. This knowledge-guided design enhances reconstruction fidelity, stabilizes training under limited supervision, and yields interpretable latent representations grounded in physical principles. The experimental findings indicate that the proposed model substantially enhances reconstruction quality and improves downstream task performance, highlighting the promise of embedding physics-informed inductive biases within transformer-based self-supervised learning.",
+  "summary_zh": "将领域知识融入深度学习已成为提升模型可解释性、泛化能力和数据效率的重要方向。本研究提出一种新颖的知识引导视觉Transformer掩码自编码器，将科学领域知识嵌入自监督重建过程。该方法不仅依赖数据驱动优化，更引入线性光谱混合模型作为物理约束，并结合基于物理原理的光谱角制图器，确保学习到的表征符合观测信号与其潜在成分之间已知的结构关系。该框架将线性光谱混合模型损失和光谱角制图器损失与传统的Huber损失目标联合优化，在特征空间中同时促进数值精度与几何一致性。这种知识引导的设计增强了重建保真度，在有限监督下稳定了训练过程，并生成基于物理原理的可解释潜在表征。实验结果表明，所提模型显著提升了重建质量与下游任务性能，彰显了在基于Transformer的自监督学习中嵌入物理归纳偏置的潜力。",
+  "timestamp": "2025-12-16T22:25:31.098035",
+  "model_name": "deepseek-reasoner"
+}

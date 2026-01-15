@@ -1,0 +1,10 @@
+{
+  "paper_id": "7c8e358f-9e7d-4875-bb92-1189f49b2703",
+  "arxiv_id": "2512.12497v1",
+  "title_en": "Policy Optimization for Dynamic Heart Transplant Allocation",
+  "title_zh": "动态心脏移植分配策略优化",
+  "summary_en": "Heart transplantation is a viable path for patients suffering from advanced heart failure, but this lifesaving option is severely limited due to donor shortage. Although the current allocation policy was recently revised in 2018, a major concern is that it does not adequately take into account pretransplant and post-transplant mortality. In this paper, we take an important step toward addressing these deficiencies.\n  To begin with, we use historical data from UNOS to develop a new simulator that enables us to evaluate and compare the performance of different policies. We then leverage our simulator to demonstrate that the status quo policy is considerably inferior to the myopic policy that matches incoming donors to the patient who maximizes the number of years gained by the transplant. Moreover, we develop improved policies that account for the dynamic nature of the allocation process through the use of potentials -- a measure of a patient's utility in future allocations that we introduce. We also show that batching together even a handful of donors -- which is a viable option for a certain type of donors -- further enhances performance. Our simulator also allows us to evaluate the effect of critical, and often unexplored, factors in the allocation, such as geographic proximity and the tendency to reject offers by the transplant centers.",
+  "summary_zh": "心脏移植是终末期心力衰竭患者的有效治疗途径，但由于供体短缺，这一挽救生命的方案受到严重限制。尽管现行分配政策已于2018年完成修订，但其主要缺陷在于未能充分考量移植前与移植后的死亡率。本文针对这一问题迈出了重要研究步伐。",
+  "timestamp": "2025-12-16T22:25:26.916415",
+  "model_name": "deepseek-reasoner"
+}

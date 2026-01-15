@@ -1,0 +1,10 @@
+{
+  "paper_id": "3720c1c7-7bf2-41e4-b29a-669546003a63",
+  "arxiv_id": "2512.12314v1",
+  "title_en": "Evaluating Asynchronous Semantics in Trace-Discovered Resilience Models: A Case Study on the OpenTelemetry Demo",
+  "title_zh": "基于追踪发现的弹性模型中异步语义的评估：以OpenTelemetry演示系统为例",
+  "summary_en": "While distributed tracing and chaos engineering are becoming standard for microservices, resilience models remain largely manual and bespoke. We revisit a trace-discovered connectivity model that derives a service dependency graph from traces and uses Monte Carlo simulation to estimate endpoint availability under fail-stop service failures. Compared to earlier work, we (i) derive the graph directly from raw OpenTelemetry traces, (ii) attach endpoint-specific success predicates, and (iii) add a simple asynchronous semantics that treats Kafka edges as non-blocking for immediate HTTP success. We apply this model to the OpenTelemetry Demo (\"Astronomy Shop\") using a GitHub Actions workflow that discovers the graph, runs simulations, and executes chaos experiments that randomly kill microservices in a Docker Compose deployment. Across the studied failure fractions, the model reproduces the overall availability degradation curve, while asynchronous semantics for Kafka edges change predicted availabilities by at most about 10^(-5) (0.001 percentage points). This null result suggests that for immediate HTTP availability in this case study, explicitly modeling asynchronous dependencies is not warranted, and a simpler connectivity-only model is sufficient.",
+  "summary_zh": "尽管分布式追踪与混沌工程已成为微服务领域的标准实践，弹性模型在很大程度上仍依赖于人工定制。本研究重新审视了一种基于追踪发现的连通性模型，该模型从追踪数据中推导服务依赖图，并利用蒙特卡洛模拟评估在故障停止型服务失效场景下的端点可用性。相较于早期研究，本工作实现了以下改进：（1）直接从原始OpenTelemetry追踪数据推导依赖图；（2）为端点附加特定的成功判定条件；（3）引入简易异步语义，将Kafka边视为非阻塞因素以实现即时HTTP成功响应。我们将该模型应用于OpenTelemetry演示系统（\"Astronomy Shop\"），通过GitHub Actions工作流实现依赖图发现、模拟运行以及在Docker Compose部署环境中随机终止微服务的混沌实验。在所有研究的故障比例范围内，该模型成功复现了整体可用性衰减曲线，而针对Kafka边采用的异步语义对预测可用性的影响最大仅约10^(-5)（0.001个百分点）。这一无效结果表明，在本案例研究中，为评估即时HTTP可用性而显式建模异步依赖并无必要，仅基于连通性的简化模型已足够适用。",
+  "timestamp": "2025-12-16T22:25:41.934527",
+  "model_name": "deepseek-reasoner"
+}

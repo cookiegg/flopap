@@ -1,0 +1,10 @@
+{
+  "paper_id": "6582f9ba-23cc-43ac-94e4-01a944fdec88",
+  "arxiv_id": "2512.12425v1",
+  "title_en": "BokehDepth: Enhancing Monocular Depth Estimation through Bokeh Generation",
+  "title_zh": "BokehDepth：通过散景生成增强单目深度估计",
+  "summary_en": "Bokeh and monocular depth estimation are tightly coupled through the same lens imaging geometry, yet current methods exploit this connection in incomplete ways. High-quality bokeh rendering pipelines typically depend on noisy depth maps, which amplify estimation errors into visible artifacts, while modern monocular metric depth models still struggle on weakly textured, distant and geometrically ambiguous regions where defocus cues are most informative. We introduce BokehDepth, a two-stage framework that decouples bokeh synthesis from depth prediction and treats defocus as an auxiliary supervision-free geometric cue. In Stage-1, a physically guided controllable bokeh generator, built on a powerful pretrained image editing backbone, produces depth-free bokeh stacks with calibrated bokeh strength from a single sharp input. In Stage-2, a lightweight defocus-aware aggregation module plugs into existing monocular depth encoders, fuses features along the defocus dimension, and exposes stable depth-sensitive variations while leaving downstream decoder unchanged. Across challenging benchmarks, BokehDepth improves visual fidelity over depth-map-based bokeh baselines and consistently boosts the metric accuracy and robustness of strong monocular depth foundation models.",
+  "summary_zh": "散景效果与单目深度估计通过相同的镜头成像几何结构紧密耦合，然而现有方法对此关联的利用尚不充分。高质量的散景渲染流程通常依赖于含噪声的深度图，这会将估计误差放大为可见伪影；而现代单目度量深度模型在弱纹理、远距离及几何模糊区域——这些恰恰是离焦线索最具信息量的区域——仍表现不佳。本文提出BokehDepth，一种将散景合成与深度预测解耦、并将离焦作为无监督辅助几何线索的两阶段框架。在第一阶段，我们基于强大的预训练图像编辑主干网络构建了物理引导的可控散景生成器，仅需单张清晰输入即可生成具有标定散景强度的无深度散景堆栈。在第二阶段，一个轻量级的离焦感知聚合模块嵌入现有单目深度编码器，沿离焦维度融合特征，在保持下游解码器不变的同时提取稳定的深度敏感特征变化。在多个挑战性基准测试中，BokehDepth在视觉保真度上超越了基于深度图的散景基线方法，并持续提升了强单目深度基础模型的度量精度与鲁棒性。",
+  "timestamp": "2025-12-16T22:25:37.436909",
+  "model_name": "deepseek-reasoner"
+}

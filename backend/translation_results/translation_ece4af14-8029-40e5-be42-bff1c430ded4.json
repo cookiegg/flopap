@@ -1,0 +1,10 @@
+{
+  "paper_id": "ece4af14-8029-40e5-be42-bff1c430ded4",
+  "arxiv_id": "2512.12267v1",
+  "title_en": "Hellinger loss function for Generative Adversarial Networks",
+  "title_zh": "生成对抗网络的Hellinger损失函数",
+  "summary_en": "We propose Hellinger-type loss functions for training Generative Adversarial Networks (GANs), motivated by the boundedness, symmetry, and robustness properties of the Hellinger distance. We define an adversarial objective based on this divergence and study its statistical properties within a general parametric framework. We establish the existence, uniqueness, consistency, and joint asymptotic normality of the estimators obtained from the adversarial training procedure. In particular, we analyze the joint estimation of both generator and discriminator parameters, offering a comprehensive asymptotic characterization of the resulting estimators. We introduce two implementations of the Hellinger-type loss and we evaluate their empirical behavior in comparison with the classic (Maximum Likelihood-type) GAN loss. Through a controlled simulation study, we demonstrate that both proposed losses yield improved estimation accuracy and robustness under increasing levels of data contamination.",
+  "summary_zh": "基于Hellinger距离的有界性、对称性和鲁棒性特性，我们提出了一类Hellinger型损失函数用于训练生成对抗网络（GANs）。我们基于该散度定义了对抗性目标函数，并在一般参数化框架下研究了其统计性质。我们证明了通过对抗训练获得的估计量具有存在性、唯一性、一致性及联合渐近正态性。特别地，我们分析了生成器与判别器参数的联合估计问题，对所得估计量提供了完整的渐近特征描述。我们提出了两种Hellinger型损失函数的实现方案，并通过与经典（最大似然型）GAN损失的对比实验评估了其实际性能。在受控模拟研究中，我们证明两种提出的损失函数在数据污染程度增加的情况下均能提升估计精度与鲁棒性。",
+  "timestamp": "2025-12-16T22:25:45.360706",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "f82498c6-bd81-497f-8e84-134665c7de36",
+  "arxiv_id": "2512.12365v1",
+  "title_en": "Synthetic Swarm Mosquito Dataset for Acoustic Classification: A Proof of Concept",
+  "title_zh": "用于声学分类的合成蚊群数据集：概念验证",
+  "summary_en": "Mosquito-borne diseases pose a serious global health threat, causing over 700,000 deaths annually. This work introduces a proof-of-concept Synthetic Swarm Mosquito Dataset for Acoustic Classification, created to simulate realistic multi-species and noisy swarm conditions. Unlike conventional datasets that require labor-intensive recording of individual mosquitoes, the synthetic approach enables scalable data generation while reducing human resource demands. Using log-mel spectrograms, we evaluated lightweight deep learning architectures for the classification of mosquito species. Experiments show that these models can effectively identify six major mosquito vectors and are suitable for deployment on embedded low-power devices. The study demonstrates the potential of synthetic swarm audio datasets to accelerate acoustic mosquito research and enable scalable real-time surveillance solutions.",
+  "summary_zh": "蚊媒疾病构成严重的全球健康威胁，每年导致超过70万人死亡。本研究提出一种用于声学分类的概念验证型合成蚊群数据集，旨在模拟真实的多物种及含噪声的蚊群环境。与传统需要耗费大量人力记录单只蚊子声音的数据集不同，这种合成方法能够实现可扩展的数据生成，同时降低人力资源需求。通过使用对数梅尔频谱图，我们评估了轻量级深度学习架构在蚊子物种分类任务中的表现。实验表明，这些模型能有效识别六种主要蚊媒物种，并适用于嵌入式低功耗设备的部署。本研究证明了合成蚊群音频数据集在加速声学蚊虫研究、实现可扩展实时监测解决方案方面的潜力。",
+  "timestamp": "2025-12-16T22:24:03.368936",
+  "model_name": "deepseek-reasoner"
+}

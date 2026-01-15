@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-12-23T21:28:30.384063",
+  "summary": {
+    "total": 1,
+    "success": 1,
+    "failed": 0,
+    "skipped": 0
+  },
+  "details": [
+    {
+      "user_id": "4a440248-f333-4f99-9967-f9b4e4185d15",
+      "success": true,
+      "message": "Generated successfully (optimized)",
+      "paper_count": 5812
+    }
+  ]
+}

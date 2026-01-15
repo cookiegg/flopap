@@ -1,0 +1,10 @@
+{
+  "paper_id": "099f0570-d472-40aa-8550-f7f820f24ed8",
+  "arxiv_id": "2512.12287v1",
+  "title_en": "RealDrag: The First Dragging Benchmark with Real Target Image",
+  "title_zh": "RealDrag：首个包含真实目标图像的拖拽式编辑基准",
+  "summary_en": "The evaluation of drag based image editing models is unreliable due to a lack of standardized benchmarks and metrics. This ambiguity stems from inconsistent evaluation protocols and, critically, the absence of datasets containing ground truth target images, making objective comparisons between competing methods difficult. To address this, we introduce \\textbf{RealDrag}, the first comprehensive benchmark for point based image editing that includes paired ground truth target images. Our dataset contains over 400 human annotated samples from diverse video sources, providing source/target images, handle/target points, editable region masks, and descriptive captions for both the image and the editing action.\n  We also propose four novel, task specific metrics: Semantical Distance (SeD), Outer Mask Preserving Score (OMPS), Inner Patch Preserving Score (IPPS), and Directional Similarity (DiS). These metrics are designed to quantify pixel level matching fidelity, check preservation of non edited (out of mask) regions, and measure semantic alignment with the desired task. Using this benchmark, we conduct the first large scale systematic analysis of the field, evaluating 17 SOTA models. Our results reveal clear trade offs among current approaches and establish a robust, reproducible baseline to guide future research. Our dataset and evaluation toolkit will be made publicly available.",
+  "summary_zh": "由于缺乏标准化的基准和评估指标，基于拖拽的图像编辑模型评估目前并不可靠。这种模糊性源于不一致的评估流程，更关键的是，现有数据集中缺少包含真实目标图像的配对数据，导致不同方法之间难以进行客观比较。为解决这一问题，我们提出了 **RealDrag**，这是首个包含配对真实目标图像的、基于点的图像编辑综合性基准。我们的数据集包含从多样视频源中采集的超过400个人工标注样本，每一样本均提供源图像/目标图像、操作点/目标点、可编辑区域掩码，以及针对图像内容和编辑动作的描述性文本。",
+  "timestamp": "2025-12-16T22:25:47.636778",
+  "model_name": "deepseek-reasoner"
+}

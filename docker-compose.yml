@@ -1,0 +1,75 @@
+version: '3.8'
+
+services:
+  # 1. Database (PostgreSQL)
+  # Required for data persistence and advanced types (ENUMs)
+  db:
+    image: postgres:15-alpine
+    container_name: flopap-db
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-flopap}
+    volumes:
+      - ./data/pg_data:/var/lib/postgresql/data
+    networks:
+      - flopap-network
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U postgres" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 2. Redis
+  # Required for caching and task queue
+  redis:
+    image: redis:alpine
+    container_name: flopap-redis
+    restart: always
+    volumes:
+      - ./data/redis_data:/data
+    networks:
+      - flopap-network
+    healthcheck:
+      test: [ "CMD", "redis-cli", "ping" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # 3. Application (Frontend + Backend)
+  # Uses Dockerfile.standalone to build React and serve it via FastAPI
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.standalone
+    container_name: flopap-app
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    environment:
+      # Database Connection
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@db:5432/${POSTGRES_DB:-flopap}
+      - REDIS_HOST=redis
+
+      # App Settings
+      - FLOPAP_EDITION=community
+      - TTS_DIRECTORY=/app/data/tts_opus
+
+      # Keys (Set these in .env file)
+      - DEEPSEEK_API_KEY_01=${DEEPSEEK_API_KEY}
+      - DASHSCOPE_API_KEY=${DASHSCOPE_API_KEY}
+    volumes:
+      # Persist generated audio
+      - ./data/tts_opus:/app/data/tts_opus
+    networks:
+      - flopap-network
+
+networks:
+  flopap-network:
+    driver: bridge

@@ -1,0 +1,10 @@
+{
+  "paper_id": "7600aeb0-b8d3-425d-a6f1-9b10a3dbc427",
+  "arxiv_id": "2512.12400v1",
+  "title_en": "Agentic AI for 6G: A New Paradigm for Autonomous RAN Security Compliance",
+  "title_zh": "面向6G的智能体人工智能：无线接入网自主安全合规的新范式",
+  "summary_en": "Agentic AI systems are emerging as powerful tools for automating complex, multi-step tasks across various industries. One such industry is telecommunications, where the growing complexity of next-generation radio access networks (RANs) opens up numerous opportunities for applying these systems. Securing the RAN is a key area, particularly through automating the security compliance process, as traditional methods often struggle to keep pace with evolving specifications and real-time changes. In this article, we propose a framework that leverages LLM-based AI agents integrated with a retrieval-augmented generation (RAG) pipeline to enable intelligent and autonomous enforcement of security compliance. An initial case study demonstrates how an agent can assess configuration files for compliance with O-RAN Alliance and 3GPP standards, generate explainable justifications, and propose automated remediation if needed. We also highlight key challenges such as model hallucinations and vendor inconsistencies, along with considerations like agent security, transparency, and system trust. Finally, we outline future directions, emphasizing the need for telecom-specific LLMs and standardized evaluation frameworks.",
+  "summary_zh": "智能体人工智能系统正逐渐成为自动化各行业复杂多步骤任务的强大工具。电信行业便是其中之一，下一代无线接入网日益增长的复杂性为应用此类系统开辟了广阔空间。保障无线接入网安全是一个关键领域，特别是通过自动化安全合规流程来实现，因为传统方法往往难以跟上不断演进的技术规范和实时变化。本文提出一个框架，该框架利用基于大语言模型的智能体，结合检索增强生成技术，以实现智能化、自主化的安全合规执行。一项初步案例研究表明，该智能体能够评估配置文件是否符合O-RAN联盟和3GPP标准，生成可解释的判定依据，并在需要时提出自动化修复方案。我们还指出了关键挑战，例如模型幻觉和厂商间标准不一致问题，并探讨了智能体安全性、透明度和系统可信度等方面的考量。最后，我们展望了未来研究方向，强调开发电信领域专用大语言模型和建立标准化评估框架的必要性。",
+  "timestamp": "2025-12-16T22:25:37.009973",
+  "model_name": "deepseek-reasoner"
+}

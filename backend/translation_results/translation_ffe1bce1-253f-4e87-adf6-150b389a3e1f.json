@@ -1,0 +1,10 @@
+{
+  "paper_id": "ffe1bce1-253f-4e87-adf6-150b389a3e1f",
+  "arxiv_id": "2512.12410v1",
+  "title_en": "A Graph Attention Network-Based Framework for Reconstructing Missing LiDAR Beams",
+  "title_zh": "基于图注意力网络的激光雷达缺失光束重建框架",
+  "summary_en": "Vertical beam dropout in spinning LiDAR sensors triggered by hardware aging, dust, snow, fog, or bright reflections removes entire vertical slices from the point cloud and severely degrades 3D perception in autonomous vehicles. This paper proposes a Graph Attention Network (GAT)-based framework that reconstructs these missing vertical channels using only the current LiDAR frame, with no camera images or temporal information required. Each LiDAR sweep is represented as an unstructured spatial graph: points are nodes and edges connect nearby points while preserving the original beam-index ordering. A multi-layer GAT learns adaptive attention weights over local geometric neighborhoods and directly regresses the missing elevation (z) values at dropout locations. Trained and evaluated on 1,065 raw KITTI sequences with simulated channel dropout, the method achieves an average height RMSE of 11.67 cm, with 87.98% of reconstructed points falling within a 10 cm error threshold. Inference takes 14.65 seconds per frame on a single GPU, and reconstruction quality remains stable for different neighborhood sizes k. These results show that a pure graph attention model operating solely on raw point-cloud geometry can effectively recover dropped vertical beams under realistic sensor degradation.",
+  "summary_zh": "旋转式激光雷达传感器因硬件老化、灰尘、积雪、雾气或强反射等因素引发的垂直光束丢失，会导致点云数据缺失整条垂直切片，严重削弱自动驾驶系统的三维感知能力。本文提出一种基于图注意力网络（GAT）的框架，仅利用当前激光雷达帧数据即可重建缺失的垂直通道，无需相机图像或时序信息。我们将每次激光雷达扫描表示为非结构化空间图：以点为节点，以边连接邻近点，同时保留原始光束索引顺序。多层图注意力网络通过局部几何邻域学习自适应注意力权重，直接回归缺失位置的高程（z）值。在模拟通道丢失的1,065段KITTI原始序列数据上进行训练与评估，该方法实现了平均高度均方根误差11.67厘米的性能，87.98%的重建点误差控制在10厘米阈值内。在单GPU上每帧推理耗时14.65秒，且重建质量在不同邻域规模k下保持稳定。实验结果表明，仅基于原始点云几何结构的纯图注意力模型，能够在实际传感器退化场景中有效恢复丢失的垂直光束。",
+  "timestamp": "2025-12-16T22:25:37.703046",
+  "model_name": "deepseek-reasoner"
+}

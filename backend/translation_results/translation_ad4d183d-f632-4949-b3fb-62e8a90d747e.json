@@ -1,0 +1,10 @@
+{
+  "paper_id": "ad4d183d-f632-4949-b3fb-62e8a90d747e",
+  "arxiv_id": "2512.12146v1",
+  "title_en": "Open Horizons: Evaluating Deep Models in the Wild",
+  "title_zh": "开放视野：在开放环境中评估深度模型",
+  "summary_en": "Open-world deployment requires models to recognize both known categories and remain reliable when novel classes appear. We present a unified experimental study spanning open-set recognition (OSR) and few-shot class-incremental learning (FSCIL) on CIFAR-10. For OSR, we compare three pretrained frozen visual encoders: ResNet-50, ConvNeXt-Tiny and CLIP ViT-B/16,using a linear probe and four post-hoc scoring functions, namely MSP, Energy, Mahalanobis and kNN. Across metrics,such as, AUROC, AUPR, FPR@95, and OSCR, CLIP consistently yields the strongest separability between known and unknown samples, with Energy providing the most stable performance across backbones. For FSCIL, we compare modified SPPR, OrCo, and ConCM using partially frozen ResNet-50 across 1-, 5-, and 10-shot scenarios. ConCM achieves 84.7% accuracy in the 10-shot setting with the cleanest confusion matrix, while all methods show saturation beyond 5 shots. Our controlled evaluation reveals how the backbone architecture and scoring mechanisms affect unknown detection and how prototype-based methods mitigate catastrophic forgetting during incremental adaptation.",
+  "summary_zh": "开放世界的部署要求模型既能识别已知类别，又能在新类别出现时保持可靠性。本文在CIFAR-10数据集上开展了涵盖开放集识别（OSR）与少样本类增量学习（FSCIL）的统一实验研究。针对OSR任务，我们比较了三种预训练冻结视觉编码器：ResNet-50、ConvNeXt-Tiny和CLIP ViT-B/16，采用线性探测及四种后验评分函数（MSP、Energy、马氏距离和k近邻）。在AUROC、AUPR、FPR@95和OSCR等指标上，CLIP模型在已知与未知样本间始终表现出最强的可分离性，其中Energy评分函数在不同骨干网络中性能最稳定。针对FSCIL任务，我们在1-shot、5-shot和10-shot场景下，基于部分冻结的ResNet-50比较了改进的SPPR、OrCo和ConCM方法。ConCM在10-shot设置中达到84.7%的准确率，其混淆矩阵最为清晰，而所有方法在超过5-shot后均呈现性能饱和。本次受控评估揭示了骨干网络架构与评分机制如何影响未知样本检测，以及基于原型的方法如何在增量适应过程中缓解灾难性遗忘问题。",
+  "timestamp": "2025-12-16T22:25:57.439340",
+  "model_name": "deepseek-reasoner"
+}

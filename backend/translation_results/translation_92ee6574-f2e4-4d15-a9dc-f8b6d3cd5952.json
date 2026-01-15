@@ -1,0 +1,10 @@
+{
+  "paper_id": "92ee6574-f2e4-4d15-a9dc-f8b6d3cd5952",
+  "arxiv_id": "2512.12447v1",
+  "title_en": "Large language models have learned to use language",
+  "title_zh": "大型语言模型已习得语言运用能力",
+  "summary_en": "Acknowledging that large language models have learned to use language can open doors to breakthrough language science. Achieving these breakthroughs may require abandoning some long-held ideas about how language knowledge is evaluated and reckoning with the difficult fact that we have entered a post-Turing test era.",
+  "summary_zh": "承认大型语言模型已掌握语言运用能力，可为突破性语言科学研究开启新路径。实现这些突破可能需要摒弃某些长期沿用的语言知识评估观念，并正视我们已进入后图灵测试时代的艰难现实。",
+  "timestamp": "2025-12-16T22:25:20.537915",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "1eabb5df-b877-4781-864e-78346f070f6d",
+  "arxiv_id": "2512.12487v1",
+  "title_en": "More Than the Final Answer: Improving Visual Extraction and Logical Consistency in Vision-Language Models",
+  "title_zh": "超越最终答案：提升视觉语言模型的视觉提取与逻辑一致性",
+  "summary_en": "Reinforcement learning from verifiable rewards (RLVR) has recently been extended from text-only LLMs to vision-language models (VLMs) to elicit long-chain multimodal reasoning. However, RLVR-trained VLMs still exhibit two persistent failure modes: inaccurate visual extraction (missing or hallucinating details) and logically inconsistent chains-of-thought, largely because verifiable signals supervise only the final answer. We propose PeRL-VL (Perception and Reasoning Learning for Vision-Language Models), a decoupled framework that separately improves visual perception and textual reasoning on top of RLVR. For perception, PeRL-VL introduces a VLM-based description reward that scores the model's self-generated image descriptions for faithfulness and sufficiency. For reasoning, PeRL-VL adds a text-only Reasoning SFT stage on logic-rich chain-of-thought data, enhancing coherence and logical consistency independently of vision. Across diverse multimodal benchmarks, PeRL-VL improves average Pass@1 accuracy from 63.3% (base Qwen2.5-VL-7B) to 68.8%, outperforming standard RLVR, text-only reasoning SFT, and naive multimodal distillation from GPT-4o.",
+  "summary_zh": "基于可验证奖励的强化学习（RLVR）近期已从纯文本大语言模型扩展至视觉语言模型（VLMs），以激发长链多模态推理。然而，经RLVR训练的VLMs仍存在两种持续性的缺陷模式：视觉提取不准确（遗漏或幻觉细节）以及思维链逻辑不一致，这很大程度上是因为可验证信号仅监督最终答案。我们提出PeRL-VL（视觉语言模型的感知与推理学习），一种在RLVR基础上解耦的框架，分别提升视觉感知与文本推理能力。在感知方面，PeRL-VL引入了一种基于VLM的描述奖励机制，该机制通过忠实性与充分性对模型自生成的图像描述进行评分。在推理方面，PeRL-VL增加了一个纯文本的推理监督微调阶段，利用富含逻辑的思维链数据，独立于视觉模块增强推理的连贯性与逻辑一致性。在多种多模态基准测试中，PeRL-VL将平均Pass@1准确率从63.3%（基础模型Qwen2.5-VL-7B）提升至68.8%，其表现优于标准RLVR、纯文本推理监督微调以及从GPT-4o进行的简单多模态蒸馏方法。",
+  "timestamp": "2025-12-16T22:25:28.162121",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "dcc83856-4a72-491f-bb68-d1e27c780513",
+  "arxiv_id": "2512.12274v1",
+  "title_en": "Forbidden Induced Subgraph Characterization of Word-Representable Co-bipartite Graphs",
+  "title_zh": "可单词表示的共二部图的禁止诱导子图刻画",
+  "summary_en": "A graph $G$ with vertex set $V(G)$ and edge set $E(G)$ is said to be word-representable if there exists a word $w$ over the alphabet $V(G)$ such that, for any two distinct letters $x,y \\in V(G)$, the letters $x$ and $y$ alternate in $w$ if and only if $(x,y) \\in E(G)$. Equivalently, a graph is word-representable if and only if it admits a semi-transitive orientation, that is, an acyclic orientation in which, for every directed path $v_0 \\rightarrow v_1 \\rightarrow \\cdots \\rightarrow v_m$ with $m \\ge 2$, either there is no arc between $v_0$ and $v_m$, or, for all $1 \\le i < j \\le m$, there exists an arc from $v_i$ to $v_j$. In this work, we provide a comprehensive structural and algorithmic characterization of word-representable co-bipartite graphs, a class of graphs whose vertex set can be partitioned into two cliques.\n  This work unifies graph-theoretic and matrix-theoretic perspectives. We first establish that a co-bipartite graph is a circle graph if and only if it is a permutation graph, thereby deriving a minimal forbidden induced subgraph characterization for co-bipartite circle graphs. The central contribution then connects semi-transitivity with the circularly compatible ones property of binary matrices. In addition to the structural characterization, the paper introduces a linear-time recognition algorithm for semi-transitive co-bipartite graphs, utilizing Safe's matrix recognition framework.",
+  "summary_zh": "设图 $G$ 的顶点集为 $V(G)$，边集为 $E(G)$。若存在字母表为 $V(G)$ 的单词 $w$，使得对任意两个不同的字母 $x,y \\in V(G)$，$x$ 与 $y$ 在 $w$ 中交替出现当且仅当 $(x,y) \\in E(G)$，则称 $G$ 是可单词表示的。等价地，一个图是可单词表示的当且仅当它允许一种半传递定向，即一种无环定向，其中对于每一条长度 $m \\ge 2$ 的有向路径 $v_0 \\rightarrow v_1 \\rightarrow \\cdots \\rightarrow v_m$，要么 $v_0$ 与 $v_m$ 之间没有弧，要么对所有 $1 \\le i < j \\le m$，都存在从 $v_i$ 指向 $v_j$ 的弧。本文对可单词表示的共二部图（即顶点集可划分为两个团的图类）给出了全面的结构与算法刻画。",
+  "timestamp": "2025-12-16T22:25:50.230880",
+  "model_name": "deepseek-reasoner"
+}

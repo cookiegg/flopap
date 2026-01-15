@@ -1,0 +1,10 @@
+{
+  "paper_id": "149ccf2a-bc42-456d-b860-cb6633d7a1a8",
+  "arxiv_id": "2512.12344v1",
+  "title_en": "Differentially Private Online Distributed Aggregative Games With Time-Varying and Non-Identical Communication and Feedback Delays",
+  "title_zh": "具有时变非一致通信与反馈时延的差分隐私在线分布式聚合博弈",
+  "summary_en": "This paper investigates online distributed aggregative games with time-varying cost functions, where agents are interconnected through an unbalanced communication graph. Due to the distributed and noncooperative nature of the game, some curious agents may wish to steal sensitive information from neighboring agents during parameter exchanges. Additionally, communication delays arising from network congestion, particularly in wireless settings, as well as feedback delays, can hinder the convergence of agents to a Nash equilibrium. Although a recent work addressed both communication and feedback delays in aggregative games, it is based on the unrealistic assumption that the delays are fixed over time and identical across agents. Hence, the case of time-varying and non-identical delays across agents has never been considered in aggregative games. In this work, we address the combined challenges of privacy leakage with time-varying and non-identical communication and feedback delays for the first time. We propose an online distributed dual averaging algorithm that simultaneously tackles these challenges while achieving a provably low regret bound. Our simulation result shows that the running average of each client's local action converges over time.",
+  "summary_zh": "本文研究具有时变成本函数的在线分布式聚合博弈问题，其中智能体通过非平衡通信网络相互连接。由于博弈的分布式与非合作特性，部分具有好奇心的智能体可能在参数交换过程中窃取相邻智能体的敏感信息。此外，网络拥塞（尤其在无线环境下）产生的通信时延以及反馈时延，会阻碍智能体收敛至纳什均衡。尽管近期有研究同时处理了聚合博弈中的通信与反馈时延问题，但其基于时延固定不变且所有智能体时延一致的理想化假设。因此，智能体间时变且非一致时延的情形在聚合博弈中尚未被探讨。本研究首次同时应对隐私泄露与智能体间时变非一致的通信及反馈时延带来的复合挑战。我们提出一种在线分布式对偶平均算法，在实现可证明的低遗憾界的同时解决上述问题。仿真结果表明，各客户端局部行动的运行平均值随时间推移收敛。",
+  "timestamp": "2025-12-16T22:25:40.118310",
+  "model_name": "deepseek-reasoner"
+}

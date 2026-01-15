@@ -1,0 +1,10 @@
+{
+  "paper_id": "2900e004-5b6b-4c05-bc70-b40c3341686a",
+  "arxiv_id": "2512.12231v1",
+  "title_en": "On Well-VE-Dominated Graphs",
+  "title_zh": "关于良VE控制图的研究",
+  "summary_en": "Given a graph G=(V, E), a vertex is said to ve-dominate an edge if it is either incident with the edge or adjacent to one of its endpoints. A set of vertices is a ve-dominating set if it ve-dominates every edge of the graph. We introduce the class of well-ve-dominated graphs, defined as graphs in which all minimal ve-dominating sets have the same cardinality. After establishing several general structural properties of well-ve-dominated graphs, we show that recognizing whether a graph belongs to this class is co--NP--complete, highlighting the computational difficulty of the problem. Our main result is a complete structural characterization of well-ve-dominated trees, which yields a simple linear-time recognition algorithm and a constructive description of all trees in this class.",
+  "summary_zh": "给定图 G=(V, E)，若一个顶点与某条边相关联，或与该边某一端点相邻，则称该顶点VE控制这条边。如果一个顶点集合能够VE控制图中的所有边，则该集合称为VE控制集。本文引入良VE控制图类，其定义为所有极小VE控制集都具有相同基数的图。在建立了良VE控制图的若干一般结构性质后，我们证明了判定一个图是否属于此类是co-NP完全的，这揭示了该问题的计算复杂性。我们的主要成果是对良VE控制树给出了完整的结构刻画，由此导出了一个简单的线性时间判定算法，并构造性地描述了此类中的所有树。",
+  "timestamp": "2025-12-16T22:25:24.130033",
+  "model_name": "deepseek-reasoner"
+}

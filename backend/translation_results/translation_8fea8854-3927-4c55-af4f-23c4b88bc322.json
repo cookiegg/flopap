@@ -1,0 +1,10 @@
+{
+  "paper_id": "8fea8854-3927-4c55-af4f-23c4b88bc322",
+  "arxiv_id": "2512.12435v1",
+  "title_en": "Co-Hub Node Based Multiview Graph Learning with Theoretical Guarantees",
+  "title_zh": "基于共枢纽节点的多视图图学习及其理论保证",
+  "summary_en": "Identifying the graphical structure underlying the observed multivariate data is essential in numerous applications. Current methodologies are predominantly confined to deducing a singular graph under the presumption that the observed data are uniform. However, many contexts involve heterogeneous datasets that feature multiple closely related graphs, typically referred to as multiview graphs. Previous research on multiview graph learning promotes edge-based similarity across layers using pairwise or consensus-based regularizers. However, multiview graphs frequently exhibit a shared node-based architecture across different views, such as common hub nodes. Such commonalities can enhance the precision of learning and provide interpretive insight. In this paper, we propose a co-hub node model, positing that different views share a common group of hub nodes. The associated optimization framework is developed by enforcing structured sparsity on the connections of these co-hub nodes. Moreover, we present a theoretical examination of layer identifiability and determine bounds on estimation error. The proposed methodology is validated using both synthetic graph data and fMRI time series data from multiple subjects to discern several closely related graphs.",
+  "summary_zh": "识别观测多元数据背后的图结构在众多应用中至关重要。现有方法主要局限于在假设观测数据同质的前提下推断单一图结构。然而，许多实际场景涉及包含多个紧密相关图结构的异构数据集，通常称为多视图图。以往的多视图图学习方法主要通过成对或基于共识的正则化器促进跨视图的边相似性。然而，多视图图在不同视图间常表现出共享的节点级结构特征，例如共同的枢纽节点。此类共性能够提升学习精度并提供可解释的见解。本文提出一种共枢纽节点模型，假设不同视图共享同一组枢纽节点。通过对此类共枢纽节点的连接施加结构化稀疏约束，构建了相应的优化框架。此外，我们从理论上分析了视图可识别性，并推导了估计误差的界。通过合成图数据及多被试fMRI时间序列数据对多个紧密相关图进行辨识，验证了所提方法的有效性。",
+  "timestamp": "2025-12-16T22:25:26.131221",
+  "model_name": "deepseek-reasoner"
+}

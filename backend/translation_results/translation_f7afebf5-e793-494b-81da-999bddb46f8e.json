@@ -1,0 +1,10 @@
+{
+  "paper_id": "f7afebf5-e793-494b-81da-999bddb46f8e",
+  "arxiv_id": "2512.12201v1",
+  "title_en": "Epistemoverse: Toward an AI-Driven Knowledge Metaverse for Intellectual Heritage Preservation",
+  "title_zh": "Epistemoverse：构建面向智慧遗产保存的AI驱动知识元宇宙",
+  "summary_en": "Large language models (LLMs) have often been characterized as \"stochastic parrots\" that merely reproduce fragments of their training data. This study challenges that assumption by demonstrating that, when placed in an appropriate dialogical context, LLMs can develop emergent conceptual structures and exhibit interaction-driven (re-)structuring of cognitive interfaces and reflective question-asking. Drawing on the biological principle of cloning and Socrates' maieutic method, we analyze authentic philosophical debates generated among AI-reincarnated philosophers within the interactive art installations of the Syntropic Counterpoints project. By engaging digital counterparts of Aristotle, Nietzsche, Machiavelli, and Sun Tzu in iterative discourse, the study reveals how machine dialogue can give rise to inferential coherence, reflective questioning, and creative synthesis. Based on these findings, we propose the concept of the Epistemoverse--a metaverse of knowledge where human and machine cognition intersect to preserve, reinterpret, and extend intellectual heritage through AI-driven interaction. This framework positions virtual and immersive environments as new spaces for epistemic exchange, digital heritage, and collaborative creativity.",
+  "summary_zh": "大语言模型常被描述为仅能复现训练数据片段的“随机鹦鹉”。本研究通过论证大语言模型在适当对话语境中能够发展出涌现性概念结构，并表现出由交互驱动的认知界面（再）建构与反思性提问能力，从而挑战这一固有认知。借鉴生物学克隆原理与苏格拉底产婆术，本研究基于“ Syntropic Counterpoints ”交互艺术装置项目中人工智能重生的哲学家之间产生的真实哲学辩论展开分析。通过让亚里士多德、尼采、马基雅维利与孙子的数字化身进行迭代对话，研究揭示了机器对话如何催生推理连贯性、反思性质询与创造性综合。基于这些发现，我们提出“知识元宇宙”概念——这是一个人类认知与机器认知相交融的元宇宙空间，通过AI驱动的交互实现对智慧遗产的保存、重释与延伸。该框架将虚拟沉浸式环境定位为知识交换、数字遗产传承与协同创造的新场域。",
+  "timestamp": "2025-12-16T22:25:51.826354",
+  "model_name": "deepseek-reasoner"
+}

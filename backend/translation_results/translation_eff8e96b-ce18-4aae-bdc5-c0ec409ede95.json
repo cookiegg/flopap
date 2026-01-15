@@ -1,0 +1,10 @@
+{
+  "paper_id": "eff8e96b-ce18-4aae-bdc5-c0ec409ede95",
+  "arxiv_id": "2512.12436v1",
+  "title_en": "Rough Sets for Explainability of Spectral Graph Clustering",
+  "title_zh": "粗糙集理论在谱图聚类可解释性中的应用",
+  "summary_en": "Graph Spectral Clustering methods (GSC) allow representing clusters of diverse shapes, densities, etc. However, the results of such algorithms, when applied e.g. to text documents, are hard to explain to the user, especially due to embedding in the spectral space which has no obvious relation to document contents. Furthermore, the presence of documents without clear content meaning and the stochastic nature of the clustering algorithms deteriorate explainability. This paper proposes an enhancement to the explanation methodology, proposed in an earlier research of our team. It allows us to overcome the latter problems by taking inspiration from rough set theory.",
+  "summary_zh": "谱图聚类方法能够有效识别不同形状、密度等特征的簇结构。然而，此类算法（例如应用于文本文档时）的结果难以向用户解释，这主要归因于谱嵌入空间与文档内容之间缺乏直观关联。此外，文档内容含义模糊的存在以及聚类算法本身的随机性进一步削弱了结果的可解释性。本文基于团队先前提出的解释方法进行改进，通过借鉴粗糙集理论的思想，以克服上述问题。",
+  "timestamp": "2025-12-16T22:25:22.501440",
+  "model_name": "deepseek-reasoner"
+}

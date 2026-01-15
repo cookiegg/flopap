@@ -1,0 +1,10 @@
+{
+  "paper_id": "1b0be440-7770-426e-9a52-706849b8964e",
+  "arxiv_id": "2512.12476v1",
+  "title_en": "HetRL: Efficient Reinforcement Learning for LLMs in Heterogeneous Environments",
+  "title_zh": "HetRL：异构环境下大语言模型的高效强化学习系统",
+  "summary_en": "As large language models (LLMs) continue to scale and new GPUs are released even more frequently, there is an increasing demand for LLM post-training in heterogeneous environments to fully leverage underutilized mid-range or previous-generation GPUs across regions and alleviate the shortage of homogeneous high-end GPUs within a single region. However, achieving high-performance reinforcement learning (RL) training for LLMs on such computing resources remains challenging because the workflow involves multiple models and tasks with complex computation and data dependencies. In this paper, we present HetRL, a distributed system for efficient RL training in infrastructures with heterogeneous GPUs and networks. HetRL formulates the scheduling of RL training in heterogeneous environments as a constrained joint optimization problem and introduces a novel scheduling algorithm that (1) decomposes the complex search space with a multi-level search framework; and (2) allocates the search budget via successive halving. Our extensive evaluation, consuming 20,000 GPU-hours, shows that HetRL delivers up to 9.17x the throughput of state-of-the-art systems, and 3.17x on average, under various workloads and settings.",
+  "summary_zh": "随着大语言模型（LLM）规模持续扩大以及新型GPU发布日益频繁，利用跨地域未充分利用的中端或前代GPU进行LLM后训练的需求日益增长，以缓解单一区域内同构高端GPU的短缺问题。然而，在此类异构计算资源上实现高性能的LLM强化学习训练仍面临挑战，因为训练流程涉及多个模型与任务，且存在复杂的计算与数据依赖关系。本文提出HetRL——一个面向异构GPU与网络基础设施的高效强化学习训练分布式系统。HetRL将异构环境中的强化学习训练调度问题建模为约束联合优化问题，并提出一种新颖的调度算法，该算法具有以下特点：（1）通过多层次搜索框架分解复杂搜索空间；（2）采用逐次减半法分配搜索预算。我们通过消耗20,000 GPU小时的广泛实验评估表明，在不同工作负载和配置下，HetRL的训练吞吐量最高可达现有先进系统的9.17倍，平均达到3.17倍。",
+  "timestamp": "2025-12-16T22:25:26.638809",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "1580ea07-8754-4114-8d83-3ea6d1009d33",
+  "arxiv_id": "2512.12469v1",
+  "title_en": "Sparse Concept Anchoring for Interpretable and Controllable Neural Representations",
+  "title_zh": "稀疏概念锚定：面向可解释与可控神经表征的方法",
+  "summary_en": "We introduce Sparse Concept Anchoring, a method that biases latent space to position a targeted subset of concepts while allowing others to self-organize, using only minimal supervision (labels for <0.1% of examples per anchored concept). Training combines activation normalization, a separation regularizer, and anchor or subspace regularizers that attract rare labeled examples to predefined directions or axis-aligned subspaces. The anchored geometry enables two practical interventions: reversible behavioral steering that projects out a concept's latent component at inference, and permanent removal via targeted weight ablation of anchored dimensions. Experiments on structured autoencoders show selective attenuation of targeted concepts with negligible impact on orthogonal features, and complete elimination with reconstruction error approaching theoretical bounds. Sparse Concept Anchoring therefore provides a practical pathway to interpretable, steerable behavior in learned representations.",
+  "summary_zh": "本文提出稀疏概念锚定方法，该方法通过极少量监督（每个锚定概念仅需<0.1%样本的标注）对潜在空间进行偏置，使目标概念子集定位至特定区域，同时允许其他概念自组织。训练过程结合了激活归一化、分离正则化器以及锚定/子空间正则化器，后者将稀有的标注样本吸引至预定义方向或轴对齐子空间。这种锚定几何结构支持两种实际干预：在推理阶段通过投影消除概念潜在成分的可逆行为调控，以及通过对锚定维度进行定向权重削除实现永久性概念移除。在结构化自编码器上的实验表明，该方法能选择性衰减目标概念且对正交特征影响可忽略，同时通过逼近理论误差界的重构误差实现概念的完全消除。因此，稀疏概念锚定为学习表征中的可解释、可调控行为提供了实用路径。",
+  "timestamp": "2025-12-16T22:25:25.550941",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "e713511a-edf6-4498-954e-45124c4b2134",
+  "arxiv_id": "2512.12273v1",
+  "title_en": "GRC-Net: Gram Residual Co-attention Net for epilepsy prediction",
+  "title_zh": "GRC-Net：用于癫痫预测的格拉姆残差协同注意力网络",
+  "summary_en": "Prediction of epilepsy based on electroencephalogram (EEG) signals is a rapidly evolving field. Previous studies have traditionally applied 1D processing to the entire EEG signal. However, we have adopted the Gram Matrix method to transform the signals into a 3D representation, enabling modeling of signal relationships across dimensions while preserving the temporal dependencies of the one-dimensional signals. Additionally, we observed an imbalance between local and global signals within the EEG data. Therefore, we introduced multi-level feature extraction, utilizing coattention for capturing global signal characteristics and an inception structure for processing local signals, achieving multi-granular feature extraction. Our experiments on the BONN dataset demonstrate that for the most challenging five-class classification task, GRC-Net achieved an accuracy of 93.66%, outperforming existing methods.",
+  "summary_zh": "基于脑电图（EEG）信号的癫痫预测是一个快速发展的领域。以往的研究通常对整个EEG信号进行一维处理。然而，我们采用格拉姆矩阵方法将信号转换为三维表示，从而能够在保留一维信号时间依赖性的同时，对跨维度的信号关系进行建模。此外，我们观察到EEG数据中局部信号与全局信号之间存在不平衡性。因此，我们引入了多层次特征提取方法，利用协同注意力机制捕捉全局信号特征，并采用Inception结构处理局部信号，实现了多粒度特征提取。我们在BONN数据集上的实验表明，对于最具挑战性的五分类任务，GRC-Net达到了93.66%的准确率，优于现有方法。",
+  "timestamp": "2025-12-16T22:25:44.651768",
+  "model_name": "deepseek-reasoner"
+}

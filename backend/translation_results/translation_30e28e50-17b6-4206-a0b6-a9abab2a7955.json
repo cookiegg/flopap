@@ -1,0 +1,10 @@
+{
+  "paper_id": "30e28e50-17b6-4206-a0b6-a9abab2a7955",
+  "arxiv_id": "2512.12219v1",
+  "title_en": "Fine-Grained Zero-Shot Learning with Attribute-Centric Representations",
+  "title_zh": "基于属性中心表示的细粒度零样本学习",
+  "summary_en": "Recognizing unseen fine-grained categories demands a model that can distinguish subtle visual differences. This is typically achieved by transferring visual-attribute relationships from seen classes to unseen classes. The core challenge is attribute entanglement, where conventional models collapse distinct attributes like color, shape, and texture into a single visual embedding. This causes interference that masks these critical distinctions. The post-hoc solutions of previous work are insufficient, as they operate on representations that are already mixed. We propose a zero-shot learning framework that learns AttributeCentric Representations (ACR) to tackle this problem by imposing attribute disentanglement during representation learning. ACR is achieved with two mixture-of-experts components, including Mixture of Patch Experts (MoPE) and Mixture of Attribute Experts (MoAE). First, MoPE is inserted into the transformer using a dual-level routing mechanism to conditionally dispatch image patches to specialized experts. This ensures coherent attribute families are processed by dedicated experts. Finally, the MoAE head projects these expert-refined features into sparse, partaware attribute maps for robust zero-shot classification. On zero-shot learning benchmark datasets CUB, AwA2, and SUN, our ACR achieves consistent state-of-the-art results.",
+  "summary_zh": "识别未见过的细粒度类别需要一个能够区分细微视觉差异的模型。这通常通过将视觉-属性关系从已见类别迁移到未见类别来实现。核心挑战在于属性纠缠问题，即传统模型将颜色、形状和纹理等不同属性压缩到单一的视觉嵌入表示中，导致关键区分特征被掩盖。已有研究的事后处理方法效果有限，因为它们操作的对象已是混合后的表示。为解决这一问题，我们提出一种零样本学习框架，通过在学习表示过程中强制实现属性解耦，来学习属性中心表示。该框架通过两个混合专家组件实现，包括混合补丁专家和混合属性专家。首先，混合补丁专家通过双层级路由机制嵌入到Transformer架构中，有条件地将图像补丁分配给特定专家处理，确保相关属性族由专用专家处理。最后，混合属性专家头部将这些经专家优化的特征映射为稀疏的、具有部件感知的属性图谱，以实现鲁棒的零样本分类。在零样本学习基准数据集CUB、AwA2和SUN上的实验表明，我们的属性中心表示方法取得了持续领先的性能。",
+  "timestamp": "2025-12-16T22:25:50.938861",
+  "model_name": "deepseek-reasoner"
+}

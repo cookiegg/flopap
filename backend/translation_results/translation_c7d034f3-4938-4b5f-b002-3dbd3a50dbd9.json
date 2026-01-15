@@ -1,0 +1,10 @@
+{
+  "paper_id": "c7d034f3-4938-4b5f-b002-3dbd3a50dbd9",
+  "arxiv_id": "2512.12463v1",
+  "title_en": "Understanding Overparametrization in Survival Models through Double-Descent",
+  "title_zh": "通过双下降现象理解生存模型中的过参数化",
+  "summary_en": "Classical statistical learning theory predicts a U-shaped relationship between test loss and model capacity, driven by the bias-variance trade-off. Recent advances in modern machine learning have revealed a more complex pattern, double-descent, in which test loss, after peaking near the interpolation threshold, decreases again as model capacity continues to grow. While this behavior has been extensively analyzed in regression and classification, its manifestation in survival analysis remains unexplored. This study investigates double-descent in four representative survival models: DeepSurv, PC-Hazard, Nnet-Survival, and N-MTLR. We rigorously define interpolation and finite-norm interpolation, two key characteristics of loss-based models to understand double-descent. We then show the existence (or absence) of (finite-norm) interpolation of all four models. Our findings clarify how likelihood-based losses and model implementation jointly determine the feasibility of interpolation and show that overfitting should not be regarded as benign for survival models. All theoretical results are supported by numerical experiments that highlight the distinct generalization behaviors of survival models.",
+  "summary_zh": "经典统计学习理论基于偏差-方差权衡，预测了测试损失与模型容量之间呈U形关系。现代机器学习的最新进展揭示了更为复杂的双下降模式：测试损失在插值阈值附近达到峰值后，会随着模型容量的持续增长再次下降。尽管该现象在回归与分类任务中已得到广泛分析，但其在生存分析中的表现尚未被探索。本研究在四种代表性生存模型（DeepSurv、PC-Hazard、Nnet-Survival 和 N-MTLR）中探究双下降现象。我们严格定义了插值与有限范数插值这两种基于损失的模型关键特性，以理解双下降现象。随后，我们证明了所有四种模型（有限范数）插值的存在性（或不存在性）。研究结果阐明了基于似然的损失函数与模型实现如何共同决定插值的可行性，并表明过拟合不应被视为生存模型中的良性现象。所有理论结果均得到数值实验的支持，这些实验凸显了生存模型独特的泛化行为。",
+  "timestamp": "2025-12-16T22:25:26.451342",
+  "model_name": "deepseek-reasoner"
+}

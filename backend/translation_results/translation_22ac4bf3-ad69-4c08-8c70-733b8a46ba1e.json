@@ -1,0 +1,10 @@
+{
+  "paper_id": "22ac4bf3-ad69-4c08-8c70-733b8a46ba1e",
+  "arxiv_id": "2512.12109v1",
+  "title_en": "A neuro-symbolic framework for accountability in public-sector AI",
+  "title_zh": "公共部门人工智能问责制的神经符号框架",
+  "summary_en": "Automated eligibility systems increasingly determine access to essential public benefits, but the explanations they generate often fail to reflect the legal rules that authorize those decisions. This thesis develops a legally grounded explainability framework that links system-generated decision justifications to the statutory constraints of CalFresh, California's Supplemental Nutrition Assistance Program. The framework combines a structured ontology of eligibility requirements derived from the state's Manual of Policies and Procedures (MPP), a rule extraction pipeline that expresses statutory logic in a verifiable formal representation, and a solver-based reasoning layer to evaluate whether the explanation aligns with governing law. Case evaluations demonstrate the framework's ability to detect legally inconsistent explanations, highlight violated eligibility rules, and support procedural accountability by making the basis of automated determinations traceable and contestable.",
+  "summary_zh": "自动化资格审核系统日益决定着公众获取基本福利的资格，但其生成的解释往往未能体现授权决策的法律规则。本研究提出一个基于法律的解释性框架，将系统生成的决策理由与加州补充营养援助计划（CalFresh）的法定约束相联结。该框架整合了三个核心组件：源自《政策与程序手册》的资格要求结构化本体、将法定逻辑转化为可验证形式化表征的规则提取流程，以及基于求解器的推理层，用于评估解释是否符合管辖法律。案例评估表明，该框架能够检测法律不一致的解释，突出被违反的资格规则，并通过使自动化决策依据可追溯、可质疑，为程序问责提供支持。",
+  "timestamp": "2025-12-16T22:25:59.221540",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "92632d09-3508-4cba-abfc-3c4f771c6e83",
+  "arxiv_id": "2512.12277v1",
+  "title_en": "Feature Aggregation for Efficient Continual Learning of Complex Facial Expressions",
+  "title_zh": "面向复杂面部表情高效持续学习的特征聚合方法",
+  "summary_en": "As artificial intelligence (AI) systems become increasingly embedded in our daily life, the ability to recognize and adapt to human emotions is essential for effective human-computer interaction. Facial expression recognition (FER) provides a primary channel for inferring affective states, but the dynamic and culturally nuanced nature of emotions requires models that can learn continuously without forgetting prior knowledge. In this work, we propose a hybrid framework for FER in a continual learning setting that mitigates catastrophic forgetting. Our approach integrates two complementary modalities: deep convolutional features and facial Action Units (AUs) derived from the Facial Action Coding System (FACS). The combined representation is modelled through Bayesian Gaussian Mixture Models (BGMMs), which provide a lightweight, probabilistic solution that avoids retraining while offering strong discriminative power. Using the Compound Facial Expression of Emotion (CFEE) dataset, we show that our model can first learn basic expressions and then progressively recognize compound expressions. Experiments demonstrate improved accuracy, stronger knowledge retention, and reduced forgetting. This framework contributes to the development of emotionally intelligent AI systems with applications in education, healthcare, and adaptive user interfaces.",
+  "summary_zh": "随着人工智能系统日益融入日常生活，识别并适应人类情感的能力已成为实现有效人机交互的关键。面部表情识别为推断情感状态提供了主要通道，但情感动态多变且具有文化细微差异的特性，要求模型能够在持续学习过程中不遗忘已有知识。本研究提出一种用于持续学习场景下面部表情识别的混合框架，以缓解灾难性遗忘问题。该方法整合了两种互补模态：深度卷积特征与基于面部动作编码系统提取的面部动作单元。通过贝叶斯高斯混合模型对融合特征进行建模，该模型提供了一种轻量化的概率解决方案，在避免重复训练的同时保持较强的判别能力。基于复合情绪面部表情数据集，本模型能够先学习基本表情，进而逐步识别复合表情。实验表明，该方法在准确率提升、知识保持能力增强以及遗忘减少方面均有显著改进。该框架有助于推动情感智能人工智能系统在教育、医疗和自适应用户界面等领域的应用发展。",
+  "timestamp": "2025-12-16T22:25:45.855019",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "e2859cf7-ddc9-46ef-81be-69b9118646ad",
+  "arxiv_id": "2512.12296v1",
+  "title_en": "GrowTAS: Progressive Expansion from Small to Large Subnets for Efficient ViT Architecture Search",
+  "title_zh": "GrowTAS：从小型子网渐进式扩展至大型子网的高效视觉Transformer架构搜索",
+  "summary_en": "Transformer architecture search (TAS) aims to automatically discover efficient vision transformers (ViTs), reducing the need for manual design. Existing TAS methods typically train an over-parameterized network (i.e., a supernet) that encompasses all candidate architectures (i.e., subnets). However, all subnets share the same set of weights, which leads to interference that degrades the smaller subnets severely. We have found that well-trained small subnets can serve as a good foundation for training larger ones. Motivated by this, we propose a progressive training framework, dubbed GrowTAS, that begins with training small subnets and incorporate larger ones gradually. This enables reducing the interference and stabilizing a training process. We also introduce GrowTAS+ that fine-tunes a subset of weights only to further enhance the performance of large subnets. Extensive experiments on ImageNet and several transfer learning benchmarks, including CIFAR-10/100, Flowers, CARS, and INAT-19, demonstrate the effectiveness of our approach over current TAS methods",
+  "summary_zh": "Transformer架构搜索旨在自动发现高效的视觉Transformer模型，以减少人工设计的依赖。现有的TAS方法通常训练一个包含所有候选架构（即子网）的过参数化网络（即超网）。然而，所有子网共享同一组权重，这会导致权重干扰，严重损害小型子网的性能。我们发现，训练良好的小型子网可以作为训练更大子网的优良基础。受此启发，我们提出了一种渐进式训练框架，称为GrowTAS，该框架从训练小型子网开始，逐步纳入更大的子网。这有助于减少干扰并稳定训练过程。我们还提出了GrowTAS+，该方法仅对部分权重进行微调，以进一步提升大型子网的性能。在ImageNet以及多个迁移学习基准数据集（包括CIFAR-10/100、Flowers、CARS和INAT-19）上进行的大量实验表明，我们的方法相较于当前TAS方法具有显著优势。",
+  "timestamp": "2025-12-16T22:25:44.821884",
+  "model_name": "deepseek-reasoner"
+}

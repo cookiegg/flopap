@@ -1,0 +1,10 @@
+{
+  "paper_id": "69f23dfe-46a1-4fda-82b2-1f86fc9ab6dc",
+  "arxiv_id": "2512.12337v1",
+  "title_en": "SCIR: A Self-Correcting Iterative Refinement Framework for Enhanced Information Extraction Based on Schema",
+  "title_zh": "SCIR：一种基于模式增强信息提取的自校正迭代优化框架",
+  "summary_en": "Although Large language Model (LLM)-powered information extraction (IE) systems have shown impressive capabilities, current fine-tuning paradigms face two major limitations: high training costs and difficulties in aligning with LLM preferences. To address these issues, we propose a novel universal IE paradigm, the Self-Correcting Iterative Refinement (SCIR) framework, along with a Multi-task Bilingual (Chinese-English) Self-Correcting (MBSC) dataset containing over 100,000 entries. The SCIR framework achieves plug-and-play compatibility with existing LLMs and IE systems through its Dual-Path Self-Correcting module and feedback-driven optimization, thereby significantly reducing training costs. Concurrently, the MBSC dataset tackles the challenge of preference alignment by indirectly distilling GPT-4's capabilities into IE result detection models. Experimental results demonstrate that SCIR outperforms state-of-the-art IE methods across three key tasks: named entity recognition, relation extraction, and event extraction, achieving a 5.27 percent average improvement in span-based Micro-F1 while reducing training costs by 87 percent compared to baseline approaches. These advancements not only enhance the flexibility and accuracy of IE systems but also pave the way for lightweight and efficient IE paradigms.",
+  "summary_zh": "尽管基于大语言模型（LLM）的信息提取（IE）系统已展现出卓越能力，但当前的微调范式仍面临两大局限：高昂的训练成本以及与LLM偏好对齐的困难。为解决这些问题，我们提出了一种新颖的通用IE范式——自校正迭代优化（SCIR）框架，并构建了一个包含超过10万条目的多任务双语（中英）自校正（MBSC）数据集。SCIR框架通过其双路径自校正模块和反馈驱动优化机制，实现了与现有LLM及IE系统的即插即用兼容性，从而显著降低了训练成本。同时，MBSC数据集通过将GPT-4的能力间接蒸馏至IE结果检测模型中，有效应对了偏好对齐的挑战。实验结果表明，在命名实体识别、关系抽取和事件抽取三项关键任务中，SCIR均优于当前最先进的IE方法：基于跨度的Micro-F1指标平均提升5.27%，且相较于基线方法训练成本降低87%。这些进展不仅提升了IE系统的灵活性与准确性，也为轻量化高效IE范式的发展开辟了新路径。",
+  "timestamp": "2025-12-16T22:25:41.039044",
+  "model_name": "deepseek-reasoner"
+}

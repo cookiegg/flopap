@@ -1,0 +1,10 @@
+{
+  "paper_id": "8ce16515-00a0-4d2b-8c0a-398b6c24e190",
+  "arxiv_id": "2512.12198v1",
+  "title_en": "MolGuidance: Advanced Guidance Strategies for Conditional Molecular Generation with Flow Matching",
+  "title_zh": "MolGuidance：基于流匹配的条件分子生成高级引导策略",
+  "summary_en": "Key objectives in conditional molecular generation include ensuring chemical validity, aligning generated molecules with target properties, promoting structural diversity, and enabling efficient sampling for discovery. Recent advances in computer vision introduced a range of new guidance strategies for generative models, many of which can be adapted to support these goals. In this work, we integrate state-of-the-art guidance methods -- including classifier-free guidance, autoguidance, and model guidance -- in a leading molecule generation framework built on an SE(3)-equivariant flow matching process. We propose a hybrid guidance strategy that separately guides continuous and discrete molecular modalities -- operating on velocity fields and predicted logits, respectively -- while jointly optimizing their guidance scales via Bayesian optimization. Our implementation, benchmarked on the QM9 and QMe14S datasets, achieves new state-of-the-art performance in property alignment for de novo molecular generation. The generated molecules also exhibit high structural validity. Furthermore, we systematically compare the strengths and limitations of various guidance methods, offering insights into their broader applicability.",
+  "summary_zh": "条件分子生成的关键目标包括确保化学有效性、使生成分子与目标性质对齐、促进结构多样性，以及实现高效采样以支持分子发现。计算机视觉领域的最新进展为生成模型引入了一系列新的引导策略，其中许多方法可经调整以支持上述目标。本研究将最先进的引导方法——包括无分类器引导、自动引导和模型引导——整合到一个基于SE(3)等变流匹配过程的领先分子生成框架中。我们提出一种混合引导策略，分别对连续与离散的分子模态进行引导（分别作用于速度场和预测逻辑值），同时通过贝叶斯优化联合优化其引导尺度。我们在QM9和QMe14S数据集上对实现方法进行基准测试，在从头分子生成的性质对齐任务中取得了新的最优性能。生成分子同时表现出较高的结构有效性。此外，我们系统比较了各类引导方法的优势与局限，为其更广泛的适用性提供了见解。",
+  "timestamp": "2025-12-16T22:25:54.751527",
+  "model_name": "deepseek-reasoner"
+}

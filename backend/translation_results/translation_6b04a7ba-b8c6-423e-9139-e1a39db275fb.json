@@ -1,0 +1,10 @@
+{
+  "paper_id": "6b04a7ba-b8c6-423e-9139-e1a39db275fb",
+  "arxiv_id": "2512.12199v1",
+  "title_en": "Thermal RGB Fusion for Micro-UAV Wildfire Perimeter Tracking with Minimal Comms",
+  "title_zh": "基于热成像与RGB融合的微型无人机野火火场边界追踪方法及其低通信需求",
+  "summary_en": "This study introduces a lightweight perimeter tracking method designed for micro UAV teams operating over wildfire environments under limited bandwidth conditions. Thermal image frames generate coarse hot region masks through adaptive thresholding and morphological refinement, while RGB frames contribute edge cues and suppress texture related false detections using gradient based filtering. A rule level merging strategy selects boundary candidates and simplifies them via the Ramer Douglas Peucker algorithm. The system incorporates periodic beacons and an inertial feedback loop that maintains trajectory stability in the presence of GPS degradation. The guidance loop targets sub 50 ms latency on embedded System on Chip (SoC) platforms by constraining per frame pixel operations and precomputing gradient tables. Small scale simulations demonstrate reductions in average path length and boundary jitter compared to a pure edge tracking baseline, while maintaining environmental coverage measured through intersection merge analysis. Battery consumption and computational utilization confirm the feasibility of achieving 10, 15 m/s forward motion on standard micro platforms. This approach enables rapid deployment in the field, requiring robust sensing and minimal communications for emergency reconnaissance applications.",
+  "summary_zh": "本研究提出一种轻量化的火场边界追踪方法，适用于在带宽受限条件下执行野火监测任务的微型无人机编队。该方法通过自适应阈值分割与形态学优化处理热成像帧，生成粗略的高温区域掩膜；同时利用RGB图像帧提供边缘信息，并借助基于梯度的滤波抑制纹理相关的误检测。采用规则级融合策略筛选边界候选点，并通过Ramer-Douglas-Peucker算法进行轨迹简化。系统集成周期性信标机制与惯性反馈回路，可在GPS信号衰减时保持航迹稳定性。通过限制单帧像素操作量与预计算梯度表，制导回路在嵌入式片上系统平台实现了低于50毫秒的延迟。小规模仿真实验表明：相较于纯边缘追踪基线方法，本方案在通过交集合并分析评估的环境覆盖率相当的前提下，平均路径长度与边界抖动均显著降低。功耗与计算资源占用分析证实，该方法可在标准微型无人机平台上实现10-15米/秒的前向飞行速度。本方案具备快速部署能力，其鲁棒的感知特性与极低的通信需求，特别适用于应急勘测场景。",
+  "timestamp": "2025-12-16T22:25:57.097980",
+  "model_name": "deepseek-reasoner"
+}

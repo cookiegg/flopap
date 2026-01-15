@@ -1,0 +1,60 @@
+feat: Implement Community and Cloud editions
+
+## Summary
+Split Papertik into two editions:
+- Community Edition: Open-source, single-user, on-demand AI generation
+- Cloud Edition: Hosted service, multi-user OAuth, pre-generated AI content
+
+## New Features
+
+### Core
+- Edition configuration system (community/cloud)
+- OAuth authentication (Google, GitHub)
+- JWT token management
+- User model and database migration
+- Full AI content generation job (cloud only)
+
+### API
+- GET /auth/config - OAuth configuration
+- POST /auth/callback - OAuth callback handler
+- Edition-aware authentication in all endpoints
+
+### Scripts
+- switch_edition.sh - Switch between editions
+- setup_oauth.sh - Quick OAuth setup
+- test_edition.py - Test edition configuration
+- test_oauth.py - Test OAuth implementation
+
+## Documentation
+- EDITIONS.md - Edition comparison
+- QUICKSTART.md - Quick start guide
+- OAUTH_SETUP.md - OAuth setup guide
+- CLOUD_DEPLOYMENT.md - Cloud deployment guide
+- EDITION_COMPARISON.md - Detailed cost analysis
+- EDITION_IMPLEMENTATION_SUMMARY.md - Implementation summary
+
+## Cost Analysis
+- Community: Linear cost per user (¥1.5/month per user)
+- Cloud: Fixed cost (¥45/month), shared across all users
+- Break-even point: 30 users
+- Cloud becomes more cost-effective with scale
+
+## Backward Compatibility
+- All existing APIs remain compatible
+- Community edition behaves exactly like before
+- Seamless migration between editions
+- Database schema is backward compatible
+
+## Testing
+- Edition configuration tests
+- OAuth flow tests
+- API authentication tests
+- Version switching tests
+
+## Next Steps
+- Frontend adaptation for both editions
+- Cloud edition deployment
+- User testing and feedback
+- Commercial launch
+
+Closes #XX

@@ -1,0 +1,10 @@
+{
+  "paper_id": "d497a040-55a5-4555-b3c8-3e8c481699e3",
+  "arxiv_id": "2512.12209v1",
+  "title_en": "CineLOG: A Training Free Approach for Cinematic Long Video Generation",
+  "title_zh": "CineLOG：一种无需训练的影视长视频生成方法",
+  "summary_en": "Controllable video synthesis is a central challenge in computer vision, yet current models struggle with fine grained control beyond textual prompts, particularly for cinematic attributes like camera trajectory and genre. Existing datasets often suffer from severe data imbalance, noisy labels, or a significant simulation to real gap. To address this, we introduce CineLOG, a new dataset of 5,000 high quality, balanced, and uncut video clips. Each entry is annotated with a detailed scene description, explicit camera instructions based on a standard cinematic taxonomy, and genre label, ensuring balanced coverage across 17 diverse camera movements and 15 film genres. We also present our novel pipeline designed to create this dataset, which decouples the complex text to video (T2V) generation task into four easier stages with more mature technology. To enable coherent, multi shot sequences, we introduce a novel Trajectory Guided Transition Module that generates smooth spatio-temporal interpolation. Extensive human evaluations show that our pipeline significantly outperforms SOTA end to end T2V models in adhering to specific camera and screenplay instructions, while maintaining professional visual quality. All codes and data are available at https://cine-log.pages.dev.",
+  "summary_zh": "可控视频合成是计算机视觉领域的核心挑战，然而现有模型难以实现超越文本提示的细粒度控制，特别是在摄像机轨迹和影片类型等影视属性方面。现有数据集通常存在严重的数据不平衡、标注噪声或显著的仿真与现实差距。为解决这些问题，我们提出了CineLOG——一个包含5000个高质量、均衡且未剪辑视频片段的新数据集。每个片段均标注有详细的场景描述、基于标准影视分类法的明确摄像机指令以及影片类型标签，确保涵盖17种不同摄像机运动和15种电影类型的均衡分布。我们还介绍了构建该数据集的新颖流程，该流程通过更成熟的技术将复杂的文本到视频（T2V）生成任务解耦为四个更易处理的阶段。为实现连贯的多镜头序列，我们提出了一种新颖的轨迹引导过渡模块，可生成平滑的时空插值。大量人工评估表明，我们的流程在遵循特定摄像机指令和剧本要求方面显著优于当前最先进的端到端T2V模型，同时保持专业的视觉质量。所有代码与数据均公开于 https://cine-log.pages.dev。",
+  "timestamp": "2025-12-16T22:25:52.143513",
+  "model_name": "deepseek-reasoner"
+}

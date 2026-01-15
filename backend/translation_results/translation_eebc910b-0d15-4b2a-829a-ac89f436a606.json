@@ -1,0 +1,10 @@
+{
+  "paper_id": "eebc910b-0d15-4b2a-829a-ac89f436a606",
+  "arxiv_id": "2512.12245v1",
+  "title_en": "Adversarially Probing Cross-Family Sound Symbolism in 27 Languages",
+  "title_zh": "跨语系语音象征的对抗性探测：基于27种语言的研究",
+  "summary_en": "The phenomenon of sound symbolism, the non-arbitrary mapping between word sounds and meanings, has long been demonstrated through anecdotal experiments like Bouba Kiki, but rarely tested at scale. We present the first computational cross-linguistic analysis of sound symbolism in the semantic domain of size. We compile a typologically broad dataset of 810 adjectives (27 languages, 30 words each), each phonemically transcribed and validated with native-speaker audio. Using interpretable classifiers over bag-of-segment features, we find that phonological form predicts size semantics above chance even across unrelated languages, with both vowels and consonants contributing. To probe universality beyond genealogy, we train an adversarial scrubber that suppresses language identity while preserving size signal (also at family granularity). Language prediction averaged across languages and settings falls below chance while size prediction remains significantly above chance, indicating cross-family sound-symbolic bias. We release data, code, and diagnostic tools for future large-scale studies of iconicity.",
+  "summary_zh": "语音象征现象（即语音与词义之间的非任意映射关系）虽长期通过“Bouba-Kiki”等经典实验得以验证，但鲜有大规模系统性研究。本文首次针对尺寸语义域中的语音象征现象开展跨语言计算分析。我们构建了一个类型学上覆盖广泛的形容词数据集（包含27种语言，每种语言30个词汇，共计810词），所有词汇均完成音位转写并经母语者音频验证。通过基于音段袋特征的可解释分类器实验，我们发现：即使在无亲缘关系的语言间，音系形式对尺寸语义的预测能力仍显著高于随机水平，且元音与辅音均对此有所贡献。为探究超越谱系关系的普遍性，我们训练了一种对抗性擦除器，在抑制语言身份信息（包括语系层级特征）的同时保留尺寸语义信号。实验结果显示：跨语言及多场景下的语言身份预测准确率降至随机水平以下，而尺寸语义预测仍显著高于随机水平，这证实了跨语系语音象征偏误的存在。我们公开了数据集、代码及诊断工具，以支持未来大规模的象似性研究。",
+  "timestamp": "2025-12-16T22:25:48.850423",
+  "model_name": "deepseek-reasoner"
+}

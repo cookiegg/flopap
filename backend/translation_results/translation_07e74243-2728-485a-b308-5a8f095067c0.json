@@ -1,0 +1,10 @@
+{
+  "paper_id": "07e74243-2728-485a-b308-5a8f095067c0",
+  "arxiv_id": "2512.12356v1",
+  "title_en": "Tacit Understanding Game (TUG): Predicting Interpersonal Compatibility",
+  "title_zh": "隐性理解游戏（TUG）：预测人际相容性",
+  "summary_en": "Research on relationship quality often relies on lengthy questionnaires or invasive textual corpora, limiting ecological validity and user privacy. We ask whether a sequence of single-word choices made in a playful setting can reveal personality and predict interpersonal compatibility. We introduce the Tacit Understanding Game (TUG), a two-player online word association game. We collect word choice traces, annotate a subset with psychological ground truth scales, and bootstrap a larger synthetic corpus via large language model simulation. TUG demonstrates that minimal, privacy preserving signals can support relationship matching, offering new design space for social platforms.",
+  "summary_zh": "关于关系质量的研究通常依赖于冗长的问卷或侵入性的文本语料，这限制了研究的生态效度并可能侵犯用户隐私。本研究探讨在轻松游戏情境下进行的一系列单词选择，是否能够揭示人格特质并预测人际相容性。我们提出了“隐性理解游戏”（TUG），一种双人在线词语联想游戏。我们收集了玩家的词语选择轨迹，对其中一部分数据使用心理学基础量表进行标注，并通过大语言模型模拟生成了规模更大的合成语料库。TUG研究表明，极简且保护隐私的行为信号能够支持关系匹配，这为社会性平台的设计提供了新的探索空间。",
+  "timestamp": "2025-12-16T22:25:37.866627",
+  "model_name": "deepseek-reasoner"
+}

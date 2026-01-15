@@ -1,0 +1,10 @@
+{
+  "paper_id": "27d589dc-e418-4b42-99ec-57fcc26cc858",
+  "arxiv_id": "2512.12471v1",
+  "title_en": "Privacy-Aware Ambient Audio Sensing for Healthy Indoor Spaces",
+  "title_zh": "面向健康室内空间的隐私感知环境音频传感研究",
+  "summary_en": "Indoor airborne transmission poses a significant health risk, yet current monitoring solutions are invasive, costly, or fail to address it directly. My research explores the untapped potential of ambient audio sensing to estimate key transmission risk factors such as ventilation, aerosol emissions, and occupant distribution non-invasively and in real time. I develop privacy-preserving systems that leverage existing microphones to monitor the whole spectrum of indoor air quality which can have a significant effect on an individual's health. This work lays the foundation for privacy-aware airborne risk monitoring using everyday devices.",
+  "summary_zh": "室内空气传播构成显著的健康风险，然而现有监测方案存在侵入性强、成本高昂或无法直接应对等问题。本研究探索了环境音频传感在非侵入式实时评估关键传播风险因素（如通风状况、气溶胶排放与人员分布）方面尚未开发的潜力。通过开发隐私保护系统，利用现有麦克风设备监测对个人健康具有重要影响的室内空气质量全维度指标。此项工作为基于日常设备的隐私感知空气传播风险监测奠定了理论基础。",
+  "timestamp": "2025-12-16T22:25:22.293703",
+  "model_name": "deepseek-reasoner"
+}

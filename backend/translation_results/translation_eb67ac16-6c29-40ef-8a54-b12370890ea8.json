@@ -1,0 +1,10 @@
+{
+  "paper_id": "eb67ac16-6c29-40ef-8a54-b12370890ea8",
+  "arxiv_id": "2512.12299v1",
+  "title_en": "A Conflict-Aware Resource Management Framework for the Computing Continuum",
+  "title_zh": "面向计算连续体的冲突感知资源管理框架",
+  "summary_en": "The increasing device heterogeneity and decentralization requirements in the computing continuum (i.e., spanning edge, fog, and cloud) introduce new challenges in resource orchestration. In such environments, agents are often responsible for optimizing resource usage across deployed services. However, agent decisions can lead to persistent conflict loops, inefficient resource utilization, and degraded service performance. To overcome such challenges, we propose a novel framework for adaptive conflict resolution in resource-oriented orchestration using a Deep Reinforcement Learning (DRL) approach. The framework enables handling resource conflicts across deployments and integrates a DRL model trained to mediate such conflicts based on real-time performance feedback and historical state information. The framework has been prototyped and validated on a Kubernetes-based testbed, illustrating its methodological feasibility and architectural resilience. Preliminary results show that the framework achieves efficient resource reallocation and adaptive learning in dynamic scenarios, thus providing a scalable and resilient solution for conflict-aware orchestration in the computing continuum.",
+  "summary_zh": "计算连续体（即涵盖边缘、雾和云计算）中日益增长的设备异构性与去中心化需求，为资源编排带来了新的挑战。在此类环境中，智能体通常负责优化已部署服务间的资源使用。然而，智能体的决策可能导致持续的冲突循环、资源利用效率低下以及服务性能下降。为应对这些挑战，本文提出一种基于深度强化学习（DRL）的新型自适应冲突解决框架，用于面向资源的编排场景。该框架能够处理跨部署的资源冲突，并集成了一个经过训练的DRL模型，该模型可根据实时性能反馈与历史状态信息对冲突进行协调。该框架已在基于Kubernetes的测试平台上完成原型实现与验证，证明了其方法可行性与架构韧性。初步结果表明，该框架在动态场景中实现了高效的资源重分配与自适应学习，从而为计算连续体中冲突感知的编排提供了一个可扩展且具备韧性的解决方案。",
+  "timestamp": "2025-12-16T22:25:41.433833",
+  "model_name": "deepseek-reasoner"
+}

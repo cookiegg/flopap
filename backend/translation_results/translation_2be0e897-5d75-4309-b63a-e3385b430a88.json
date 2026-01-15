@@ -1,0 +1,10 @@
+{
+  "paper_id": "2be0e897-5d75-4309-b63a-e3385b430a88",
+  "arxiv_id": "2512.12105v1",
+  "title_en": "Beyond right or wrong : towards redefining adaptive learning indicators in virtual learning environments",
+  "title_zh": "超越对错：重新定义虚拟学习环境中的适应性学习指标",
+  "summary_en": "Student learning development must involve more than just correcting or incorrect questions. However, most adaptive learning methods in Virtual Learning Environments are based on whether the student's response is incorrect or correct. This perspective is limited in assessing the student's learning level, as it does not consider other elements that can be crucial in this process. The objective of this work is to conduct a Systematic Literature Review (SLR) to elucidate which learning indicators influence student learning and which can be implemented in a VLE to assist in adaptive learning. The works selected and filtered by qualitative assessment reveal a comprehensive approach to assessing different aspects of the learning in virtual environments, such as motivation, emotions, physiological responses, brain imaging, and the students' prior knowledge. The discussion of these new indicators allows adaptive technology developers to implement more appropriate solutions to students' realities, resulting in more complete training.",
+  "summary_zh": "学生学习发展必须超越单纯纠错或判断问题正误的范畴。然而，当前虚拟学习环境中的大多数适应性学习方法仍基于学生回答正确与否的二元判断。这种视角在评估学生学习水平时存在局限，因为它未能充分考虑学习过程中其他关键要素。本研究旨在通过系统性文献综述，阐明哪些学习指标会影响学生学习，以及哪些指标可在虚拟学习环境中实施以辅助适应性学习。经过定性评估筛选的研究文献揭示了一种综合性评估方法，涵盖虚拟环境中学习动机、情感状态、生理反应、脑成像数据及学生先验知识等多维度学习特征。对这些新指标的探讨将有助于适应性技术开发者实施更贴合学生实际需求的解决方案，从而实现更全面的培养目标。",
+  "timestamp": "2025-12-16T22:25:59.284576",
+  "model_name": "deepseek-reasoner"
+}

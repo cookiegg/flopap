@@ -1,0 +1,10 @@
+{
+  "paper_id": "9c82b0e5-0629-408d-957b-49a183dd0514",
+  "arxiv_id": "2512.12276v1",
+  "title_en": "Balancing Accuracy and Speed: A Multi-Fidelity Ensemble Kalman Filter with a Machine Learning Surrogate Model",
+  "title_zh": "平衡精度与速度：一种融合机器学习代理模型的多保真度集合卡尔曼滤波方法",
+  "summary_en": "Currently, more and more machine learning (ML) surrogates are being developed for computationally expensive physical models. In this work we investigate the use of a Multi-Fidelity Ensemble Kalman Filter (MF-EnKF) in which the low-fidelity model is such a machine learning surrogate model, instead of a traditional low-resolution or reduced-order model. The idea behind this is to use an ensemble of a few expensive full model runs, together with an ensemble of many cheap but less accurate ML model runs. In this way we hope to reach increased accuracy within the same computational budget. We investigate the performance by testing the approach on two common test problems, namely the Lorenz-2005 model and the Quasi-Geostrophic model. By keeping the original physical model in place, we obtain a higher accuracy than when we completely replace it by the ML model. Furthermore, the MF-EnKF reaches improved accuracy within the same computational budget. The ML surrogate has similar or improved accuracy compared to the low-resolution one, but it can provide a larger speed-up. Our method contributes to increasing the effective ensemble size in the EnKF, which improves the estimation of the initial condition and hence accuracy of the predictions in fields such as meteorology and oceanography.",
+  "summary_zh": "当前，针对计算成本高昂的物理模型，越来越多的机器学习代理模型被开发出来。本研究探讨了一种多保真度集合卡尔曼滤波方法的应用，其中低保真度模型采用此类机器学习代理模型，而非传统的低分辨率或降阶模型。该方法的核心思想是：在有限的计算资源内，将少量昂贵的高精度全模型运行与大量廉价但精度较低的机器学习模型运行进行集合融合，以期在同等计算成本下获得更高的精度。我们通过在两个经典测试问题（洛伦兹-2005模型和准地转模型）上验证该方法的性能。研究表明，在保留原始物理模型的基础上，其精度优于完全用机器学习模型替代的方案。此外，在相同计算预算下，多保真度集合卡尔曼滤波能够实现更高的精度。与低分辨率模型相比，机器学习代理模型具有相当或更优的精度，同时能提供更大的加速比。本方法有助于增大集合卡尔曼滤波中的有效集合规模，从而改进初始条件的估计，提升气象学和海洋学等领域预测结果的准确性。",
+  "timestamp": "2025-12-16T22:25:46.992209",
+  "model_name": "deepseek-reasoner"
+}

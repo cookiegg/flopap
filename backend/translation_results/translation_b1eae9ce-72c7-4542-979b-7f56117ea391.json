@@ -1,0 +1,10 @@
+{
+  "paper_id": "b1eae9ce-72c7-4542-979b-7f56117ea391",
+  "arxiv_id": "2512.12230v1",
+  "title_en": "Learning to Get Up Across Morphologies: Zero-Shot Recovery with a Unified Humanoid Policy",
+  "title_zh": "跨形态学习起身：基于统一仿人机器人策略的零样本恢复",
+  "summary_en": "Fall recovery is a critical skill for humanoid robots in dynamic environments such as RoboCup, where prolonged downtime often decides the match. Recent techniques using deep reinforcement learning (DRL) have produced robust get-up behaviors, yet existing methods require training of separate policies for each robot morphology. This paper presents a single DRL policy capable of recovering from falls across seven humanoid robots with diverse heights (0.48 - 0.81 m), weights (2.8 - 7.9 kg), and dynamics. Trained with CrossQ, the unified policy transfers zero-shot up to 86 +/- 7% (95% CI [81, 89]) on unseen morphologies, eliminating the need for robot-specific training. Comprehensive leave-one-out experiments, morph scaling analysis, and diversity ablations show that targeted morphological coverage improves zero-shot generalization. In some cases, the shared policy even surpasses the specialist baselines. These findings illustrate the practicality of morphology-agnostic control for fall recovery, laying the foundation for generalist humanoid control. The software is open-source and available at: https://github.com/utra-robosoccer/unified-humanoid-getup",
+  "summary_zh": "在动态环境（如RoboCup机器人世界杯）中，跌倒恢复是仿人机器人至关重要的能力，长时间的倒地状态往往直接决定比赛胜负。近期基于深度强化学习的技术已能生成鲁棒的起身行为，但现有方法需针对每种机器人形态分别训练策略。本文提出一种单一的深度强化学习策略，能够使七种具有不同高度（0.48-0.81米）、重量（2.8-7.9千克）和动力特性的仿人机器人实现跌倒恢复。该统一策略采用CrossQ方法训练，在未见过的机器人形态上实现了高达86±7%（95%置信区间[81,89]）的零样本迁移成功率，无需针对特定机器人进行训练。通过全面的留一法实验、形态缩放分析和多样性消融实验表明，有针对性的形态覆盖能有效提升零样本泛化能力。在某些情况下，该通用策略甚至超越了专用基线策略的性能。这些发现证明了形态无关控制在跌倒恢复任务中的实用性，为通用仿人机器人控制奠定了基础。本研究成果已开源，代码仓库地址：https://github.com/utra-robosoccer/unified-humanoid-getup",
+  "timestamp": "2025-12-16T22:25:51.147940",
+  "model_name": "deepseek-reasoner"
+}

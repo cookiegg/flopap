@@ -1,0 +1,10 @@
+{
+  "paper_id": "c4569820-90b6-4a87-bd65-f81dd3f19a7e",
+  "arxiv_id": "2512.12250v1",
+  "title_en": "Stochastic Volatility Modelling with LSTM Networks: A Hybrid Approach for S&P 500 Index Volatility Forecasting",
+  "title_zh": "基于LSTM网络的随机波动率建模：一种用于标普500指数波动率预测的混合方法",
+  "summary_en": "Accurate volatility forecasting is essential in banking, investment, and risk management, because expectations about future market movements directly influence current decisions. This study proposes a hybrid modelling framework that integrates a Stochastic Volatility model with a Long Short Term Memory neural network. The SV model improves statistical precision and captures latent volatility dynamics, especially in response to unforeseen events, while the LSTM network enhances the model's ability to detect complex nonlinear patterns in financial time series. The forecasting is conducted using daily data from the S and P 500 index, covering the period from January 1 1998 to December 31 2024. A rolling window approach is employed to train the model and generate one step ahead volatility forecasts. The performance of the hybrid SV-LSTM model is evaluated through both statistical testing and investment simulations. The results show that the hybrid approach outperforms both the standalone SV and LSTM models and contributes to the development of volatility modelling techniques, providing a foundation for improving risk assessment and strategic investment planning in the context of the S and P 500.",
+  "summary_zh": "准确的波动率预测在银行业、投资和风险管理中至关重要，因为对未来市场走势的预期直接影响当前决策。本研究提出了一种混合建模框架，将随机波动率模型与长短期记忆神经网络相结合。随机波动率模型提升了统计精度并捕捉潜在的波动动态，特别是在应对突发事件时；而LSTM网络则增强了模型识别金融时间序列中复杂非线性模式的能力。预测采用标普500指数自1998年1月1日至2024年12月31日的日度数据，通过滚动窗口方法训练模型并生成一步向前波动率预测。混合SV-LSTM模型的性能通过统计检验和投资模拟进行评估。结果表明，该混合方法优于单独的SV模型和LSTM模型，有助于推动波动率建模技术的发展，为改进标普500指数背景下的风险评估和战略投资规划提供了基础。",
+  "timestamp": "2025-12-16T22:25:46.091895",
+  "model_name": "deepseek-reasoner"
+}

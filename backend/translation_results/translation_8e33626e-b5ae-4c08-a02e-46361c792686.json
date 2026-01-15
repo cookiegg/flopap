@@ -1,0 +1,10 @@
+{
+  "paper_id": "8e33626e-b5ae-4c08-a02e-46361c792686",
+  "arxiv_id": "2512.12177v1",
+  "title_en": "Floorplan2Guide: LLM-Guided Floorplan Parsing for BLV Indoor Navigation",
+  "title_zh": "Floorplan2Guide：基于大语言模型引导的平面图解析用于视障人士室内导航",
+  "summary_en": "Indoor navigation remains a critical challenge for people with visual impairments. The current solutions mainly rely on infrastructure-based systems, which limit their ability to navigate safely in dynamic environments. We propose a novel navigation approach that utilizes a foundation model to transform floor plans into navigable knowledge graphs and generate human-readable navigation instructions. Floorplan2Guide integrates a large language model (LLM) to extract spatial information from architectural layouts, reducing the manual preprocessing required by earlier floorplan parsing methods. Experimental results indicate that few-shot learning improves navigation accuracy in comparison to zero-shot learning on simulated and real-world evaluations. Claude 3.7 Sonnet achieves the highest accuracy among the evaluated models, with 92.31%, 76.92%, and 61.54% on the short, medium, and long routes, respectively, under 5-shot prompting of the MP-1 floor plan. The success rate of graph-based spatial structure is 15.4% higher than that of direct visual reasoning among all models, which confirms that graphical representation and in-context learning enhance navigation performance and make our solution more precise for indoor navigation of Blind and Low Vision (BLV) users.",
+  "summary_zh": "室内导航对视障人士而言仍是一项关键挑战。现有解决方案主要依赖基于基础设施的系统，这限制了其在动态环境中安全导航的能力。我们提出一种新颖的导航方法，利用基础模型将平面图转化为可导航的知识图谱，并生成人类可读的导航指令。Floorplan2Guide 集成大语言模型（LLM）从建筑布局中提取空间信息，减少了早期平面图解析方法所需的人工预处理工作。实验结果表明，在模拟和真实场景评估中，相较于零样本学习，少样本学习能有效提升导航准确率。在 MP-1 平面图的 5 样本提示下，Claude 3.7 Sonnet 在所有评估模型中取得了最高准确率，在短、中、长路径上分别达到 92.31%、76.92% 和 61.54%。基于图谱的空间结构成功率在所有模型中比直接视觉推理高出 15.4%，这证实了图形化表征与上下文学习能够提升导航性能，使我们的解决方案对视障及低视力用户的室内导航更为精准。",
+  "timestamp": "2025-12-16T22:25:55.974617",
+  "model_name": "deepseek-reasoner"
+}

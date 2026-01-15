@@ -1,0 +1,10 @@
+{
+  "paper_id": "4990aa32-364c-4d69-9db1-85e2809b77db",
+  "arxiv_id": "2512.12430v1",
+  "title_en": "Endless World: Real-Time 3D-Aware Long Video Generation",
+  "title_zh": "无尽世界：实时3D感知长视频生成",
+  "summary_en": "Producing long, coherent video sequences with stable 3D structure remains a major challenge, particularly in streaming scenarios. Motivated by this, we introduce Endless World, a real-time framework for infinite, 3D-consistent video generation.To support infinite video generation, we introduce a conditional autoregressive training strategy that aligns newly generated content with existing video frames. This design preserves long-range dependencies while remaining computationally efficient, enabling real-time inference on a single GPU without additional training overhead.Moreover, our Endless World integrates global 3D-aware attention to provide continuous geometric guidance across time. Our 3D injection mechanism enforces physical plausibility and geometric consistency throughout extended sequences, addressing key challenges in long-horizon and dynamic scene synthesis.Extensive experiments demonstrate that Endless World produces long, stable, and visually coherent videos, achieving competitive or superior performance to existing methods in both visual fidelity and spatial consistency. Our project has been available on https://bwgzk-keke.github.io/EndlessWorld/.",
+  "summary_zh": "生成具有稳定三维结构的长时序连贯视频序列仍是一项重大挑战，尤其在流式生成场景中。为此，我们提出“无尽世界”——一个能够实时生成无限长度且保持三维一致性的视频框架。为实现无限视频生成，我们引入条件自回归训练策略，使新生成内容与已有视频帧保持对齐。该设计在保持长程依赖关系的同时维持计算效率，可在单张GPU上实现实时推理且无需额外训练开销。此外，本框架集成全局三维感知注意力机制，为跨时间维度的生成提供连续几何引导。我们提出的三维注入机制在长时序动态场景合成中强化物理合理性与几何一致性，有效解决了该领域的关键难题。大量实验表明，“无尽世界”能够生成稳定、视觉连贯的长视频，在视觉保真度与空间一致性方面均达到或超越现有方法的性能。项目已发布于 https://bwgzk-keke.github.io/EndlessWorld/。",
+  "timestamp": "2025-12-16T22:25:35.064910",
+  "model_name": "deepseek-reasoner"
+}

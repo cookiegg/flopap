@@ -1,0 +1,10 @@
+{
+  "paper_id": "49cbc6fa-40bc-4763-b70b-a93cf38fbce7",
+  "arxiv_id": "2512.12381v1",
+  "title_en": "Entropy Collapse: A Universal Failure Mode of Intelligent Systems",
+  "title_zh": "熵坍缩：智能系统的普适性失效模式",
+  "summary_en": "Intelligent systems are widely assumed to improve through learning, coordination, and optimization. However, across domains -- from artificial intelligence to economic institutions and biological evolution -- increasing intelligence often precipitates paradoxical degradation: systems become rigid, lose adaptability, and fail unexpectedly.\n  We identify \\emph{entropy collapse} as a universal dynamical failure mode arising when feedback amplification outpaces bounded novelty regeneration. Under minimal domain-agnostic assumptions, we show that intelligent systems undergo a sharp transition from high-entropy adaptive regimes to low-entropy collapsed regimes. Collapse is formalized as convergence toward a stable low-entropy manifold, not a zero-entropy state, implying a contraction of effective adaptive dimensionality rather than loss of activity or scale.\n  We analytically establish critical thresholds, dynamical irreversibility, and attractor structure and demonstrate universality across update mechanisms through minimal simulations. This framework unifies diverse phenomena -- model collapse in AI, institutional sclerosis in economics, and genetic bottlenecks in evolution -- as manifestations of the same underlying process.\n  By reframing collapse as a structural cost of intelligence, our results clarify why late-stage interventions systematically fail and motivate entropy-aware design principles for sustaining long-term adaptability in intelligent systems.\n  \\noindent\\textbf{Keywords:} entropy collapse; intelligent systems; feedback amplification; phase transitions; effective dimensionality; complex systems; model collapse; institutional sclerosis",
+  "summary_zh": "人们普遍认为智能系统会通过学习、协调和优化不断改进。然而，跨领域（从人工智能到经济制度乃至生物进化）的研究表明，智能的提升常常引发悖论性的退化：系统变得僵化、丧失适应性并意外失效。",
+  "timestamp": "2025-12-16T22:25:41.202619",
+  "model_name": "deepseek-reasoner"
+}

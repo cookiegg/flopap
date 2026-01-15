@@ -1,0 +1,10 @@
+{
+  "paper_id": "7ccc94e0-d3bb-4175-9717-78529602a65a",
+  "arxiv_id": "2512.12297v1",
+  "title_en": "F5-TTS-RO: Extending F5-TTS to Romanian TTS via Lightweight Input Adaptation",
+  "title_zh": "F5-TTS-RO：通过轻量级输入适配将F5-TTS扩展至罗马尼亚语语音合成",
+  "summary_en": "This work introduces a lightweight input-level adapter for the F5-TTS model that enables Romanian Language support. To preserve the existing capabilities of the model (voice cloning, English and Chinese support), we keep the original weights frozen, append a sub-network to the model and train it as an extension for the textual embedding matrix of the text encoder. For simplicity, we rely on ConvNeXt module implemented in F5-TTS to also model the co-dependencies between the new character-level embeddings. The module serves as a ``soft`` letter-to-sound layer, converting Romanian text into a continuous representation that the F5-TTS model uses to produce naturally sounding Romanian utterances. We evaluate the model with a pool of 20 human listeners across three tasks: (a) audio similarity between reference and generated speech, (b) pronunciation and naturalness and (c) Romanian-English code-switching. The results indicate that our approach maintains voice cloning capabilities and enables, to a certain extent, code-switching within the same utterance; however, residual English accent characteristics remain. We open-source our code and provide example audio samples at https://github.com/racai-ro/Ro-F5TTS.",
+  "summary_zh": "本研究为F5-TTS模型引入了一种轻量级的输入级适配器，以实现对罗马尼亚语的支持。为保留模型现有能力（语音克隆、英语与中文支持），我们冻结原始权重，在模型中添加子网络，并将其作为文本编码器文本嵌入矩阵的扩展进行训练。为简化实现，我们利用F5-TTS中已实现的ConvNeXt模块来建模新字符级嵌入间的相互依赖关系。该模块充当一种“软性”字素-音素转换层，将罗马尼亚文本转换为连续表示，供F5-TTS模型生成发音自然的罗马尼亚语语音。我们通过20名人类听评员在三个任务上评估模型性能：（a）参考语音与生成语音的音频相似度；（b）发音准确性与自然度；（c）罗马尼亚语-英语语码转换。结果表明，该方法在保持语音克隆能力的同时，能在一定程度上实现同一话语内的语码转换，但仍存在残留的英语口音特征。我们在https://github.com/racai-ro/Ro-F5TTS开源代码并提供音频示例。",
+  "timestamp": "2025-12-16T22:25:44.091998",
+  "model_name": "deepseek-reasoner"
+}

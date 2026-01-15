@@ -1,0 +1,10 @@
+{
+  "paper_id": "96f33baa-8933-4228-9061-9b5d2978e5ec",
+  "arxiv_id": "2512.12329v1",
+  "title_en": "Dominated balanced separators in wheel-induced-minor-free graphs",
+  "title_zh": "排除轮图诱导子式的图中受控平衡分离器的存在性",
+  "summary_en": "Gartland and Lokshtanov conjectured that every graph that excludes some planar graph as an induced minor has a balanced separator, that is, a separator whose deletion leaves every component with no more than half of the vertices of the graph, which is dominated by a bounded number of vertices. We confirm this conjecture for excluding any fixed wheel, that is, a cycle together with a universal vertex, as an induced minor.",
+  "summary_zh": "Gartland与Lokshtanov曾提出猜想：任何排除某一平面图作为诱导子式的图，均存在一个平衡分离器——即删除该分离器后，每个连通分量包含的顶点数不超过原图顶点数的一半，且该分离器受有限个顶点支配。我们证实了该猜想对于排除任意固定轮图（即一个环与一个全局顶点构成的图）作为诱导子式的情形成立。",
+  "timestamp": "2025-12-16T22:24:39.094348",
+  "model_name": "deepseek-reasoner"
+}

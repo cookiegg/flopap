@@ -1,0 +1,10 @@
+{
+  "paper_id": "5f507537-8c97-46ea-bef4-0b100d172b77",
+  "arxiv_id": "2512.12394v1",
+  "title_en": "The Morphemic Origin of Zipf's Law: A Factorized Combinatorial Framework",
+  "title_zh": "齐夫定律的语素起源：一种因子化的组合框架",
+  "summary_en": "We present a simple structure based model of how words are formed from morphemes. The model explains two major empirical facts: the typical distribution of word lengths and the appearance of Zipf like rank frequency curves. In contrast to classical explanations based on random text or communication efficiency, our approach uses only the combinatorial organization of prefixes, roots, suffixes and inflections. In this Morphemic Combinatorial Word Model, a word is created by activating several positional slots. Each slot turns on with a certain probability and selects one morpheme from its inventory. Morphemes are treated as stable building blocks that regularly appear in word formation and have characteristic positions. This mechanism produces realistic word length patterns with a concentrated middle zone and a thin long tail, closely matching real languages. Simulations with synthetic morpheme inventories also generate rank frequency curves with Zipf like exponents around 1.1-1.4, similar to English, Russian and Romance languages. The key result is that Zipf like behavior can emerge without meaning, communication pressure or optimization principles. The internal structure of morphology alone, combined with probabilistic activation of slots, is sufficient to create the robust statistical patterns observed across languages.",
+  "summary_zh": "我们提出一个基于简单结构的模型，用以解释词语如何由语素构成。该模型阐释了两个主要的经验事实：词长的典型分布特征以及齐夫型秩频曲线的出现。与基于随机文本或交际效率的经典解释不同，我们的方法仅利用前缀、词根、后缀和屈折成分的组合结构。在这一语素组合词语模型中，词语通过激活多个位置槽位生成。每个槽位以特定概率激活，并从其词库中选择一个语素。语素被视为稳定的构词单元，它们规律性地出现在构词过程中并具有特征性位置。这一机制产生了符合实际语言特征的词长分布模式：集中于中间区域并带有细长尾部。使用合成语素库进行的模拟也生成了秩频曲线，其齐夫指数约为1.1-1.4，与英语、俄语及罗曼语族语言相似。关键结论在于：齐夫型规律的出现无需依赖语义、交际压力或最优化原则。仅靠形态学的内部结构，结合槽位的概率激活机制，就足以产生跨语言中观察到的稳健统计规律。",
+  "timestamp": "2025-12-16T22:25:38.474075",
+  "model_name": "deepseek-reasoner"
+}

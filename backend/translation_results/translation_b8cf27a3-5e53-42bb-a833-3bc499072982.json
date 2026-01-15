@@ -1,0 +1,10 @@
+{
+  "paper_id": "b8cf27a3-5e53-42bb-a833-3bc499072982",
+  "arxiv_id": "2512.12168v1",
+  "title_en": "Diffusion Language Model Inference with Monte Carlo Tree Search",
+  "title_zh": "基于蒙特卡洛树搜索的扩散语言模型推理方法",
+  "summary_en": "Diffusion language models (DLMs) have recently emerged as a compelling alternative to autoregressive generation, offering parallel generation and improved global coherence. During inference, DLMs generate text by iteratively denoising masked sequences in parallel; however, determining which positions to unmask and which tokens to commit forms a large combinatorial search problem. Existing inference methods approximate this search using heuristics, which often yield suboptimal decoding paths; other approaches instead rely on additional training to guide token selection. To introduce a principled search mechanism for DLMs inference, we introduce MEDAL, a framework that integrates Monte Carlo Tree SEarch initialization for Diffusion LAnguage Model inference. We employ Monte Carlo Tree Search at the initialization stage to explore promising unmasking trajectories, providing a robust starting point for subsequent refinement. This integration is enabled by restricting the search space to high-confidence actions and prioritizing token choices that improve model confidence over remaining masked positions. Across multiple benchmarks, MEDAL achieves up to 22.0% improvement over existing inference strategies, establishing a new paradigm for search-based inference in diffusion language models.",
+  "summary_zh": "扩散语言模型近期已成为自回归生成模型的重要替代方案，其具备并行生成能力与更强的全局连贯性。在推理过程中，扩散语言模型通过对掩码序列进行并行迭代去噪以生成文本；然而，确定哪些位置应解除掩码以及应选择何种词元构成一个庞大的组合搜索问题。现有推理方法多采用启发式策略近似该搜索过程，常导致解码路径次优；另一些方法则依赖额外训练来指导词元选择。为建立扩散语言模型推理的规范化搜索机制，本文提出MEDAL框架，该框架将蒙特卡洛树搜索初始化策略整合至扩散语言模型推理中。我们在初始化阶段运用蒙特卡洛树搜索探索具有潜力的解掩码轨迹，为后续优化提供稳健的起点。该集成通过将搜索空间限制于高置信度操作，并优先选择能提升模型对剩余掩码位置置信度的词元来实现。在多项基准测试中，MEDAL相比现有推理策略最高可提升22.0%的性能，为扩散语言模型的搜索式推理建立了新范式。",
+  "timestamp": "2025-12-16T22:25:55.977634",
+  "model_name": "deepseek-reasoner"
+}

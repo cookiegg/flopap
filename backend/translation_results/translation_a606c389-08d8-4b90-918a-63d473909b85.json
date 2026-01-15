@@ -1,0 +1,10 @@
+{
+  "paper_id": "a606c389-08d8-4b90-918a-63d473909b85",
+  "arxiv_id": "2512.12289v1",
+  "title_en": "Robust Outlier Detection and Low-Latency Concept Drift Adaptation for Data Stream Regression: A Dual-Channel Architecture",
+  "title_zh": "面向数据流回归的鲁棒离群点检测与低延迟概念漂移适应：一种双通道架构",
+  "summary_en": "Outlier detection and concept drift detection represent two challenges in data analysis. Most studies address these issues separately. However, joint detection mechanisms in regression remain underexplored, where the continuous nature of output spaces makes distinguishing drifts from outliers inherently challenging. To address this, we propose a novel robust regression framework for joint outlier and concept drift detection. Specifically, we introduce a dual-channel decision process that orchestrates prediction residuals into two coupled logic flows: a rapid response channel for filtering point outliers and a deep analysis channel for diagnosing drifts. We further develop the Exponentially Weighted Moving Absolute Deviation with Distinguishable Types (EWMAD-DT) detector to autonomously differentiate between abrupt and incremental drifts via dynamic thresholding. Comprehensive experiments on both synthetic and real-world datasets demonstrate that our unified framework, enhanced by EWMAD-DT, exhibits superior detection performance even when point outliers and concept drifts coexist.",
+  "summary_zh": "离群点检测与概念漂移检测是数据分析中的两大挑战。现有研究大多将这两个问题分开处理。然而，在回归任务中，由于输出空间的连续性，区分漂移与离群点本身具有内在困难，因此联合检测机制的研究仍显不足。为此，我们提出了一种新颖的鲁棒回归框架，用于联合检测离群点与概念漂移。具体而言，我们设计了一种双通道决策流程，将预测残差组织成两个耦合的逻辑流：一个用于过滤点离群点的快速响应通道，以及一个用于诊断漂移的深度分析通道。我们进一步开发了具有可区分类型的指数加权移动绝对偏差检测器，通过动态阈值机制自主区分突变漂移与渐进漂移。在合成数据集和真实数据集上的综合实验表明，经该检测器增强的统一框架即使在点离群点与概念漂移共存的情况下，仍能表现出卓越的检测性能。",
+  "timestamp": "2025-12-16T22:25:44.738273",
+  "model_name": "deepseek-reasoner"
+}

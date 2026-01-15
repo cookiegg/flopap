@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-12-23T21:27:10.137761",
+  "summary": {
+    "total": 1,
+    "success": 1,
+    "failed": 0,
+    "skipped": 0
+  },
+  "details": [
+    {
+      "user_id": "default",
+      "success": true,
+      "message": "Generated successfully (optimized)",
+      "paper_count": 5812
+    }
+  ]
+}

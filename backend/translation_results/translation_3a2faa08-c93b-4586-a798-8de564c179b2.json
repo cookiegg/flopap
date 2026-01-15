@@ -1,0 +1,10 @@
+{
+  "paper_id": "3a2faa08-c93b-4586-a798-8de564c179b2",
+  "arxiv_id": "2512.12132v1",
+  "title_en": "On the Approximation Power of SiLU Networks: Exponential Rates and Depth Efficiency",
+  "title_zh": "论SiLU网络的逼近能力：指数收敛率与深度效率",
+  "summary_en": "This article establishes a comprehensive theoretical framework demonstrating that SiLU (Sigmoid Linear Unit) activation networks achieve exponential approximation rates for smooth functions with explicit and improved complexity control compared to classical ReLU-based constructions. We develop a novel hierarchical construction beginning with an efficient approximation of the square function $x^2$ more compact in depth and size than comparable ReLU realizations, such as those given by Yarotsky. This construction yields an approximation error decaying as $\\mathcal{O}(ω^{-2k})$ using networks of depth $\\mathcal{O}(1)$. We then extend this approach through functional composition to establish sharp approximation bounds for deep SiLU networks in approximating Sobolev-class functions, with total depth $\\mathcal{O}(1)$ and size $\\mathcal{O}(\\varepsilon^{-d/n})$.",
+  "summary_zh": "本文建立了一个完整的理论框架，证明SiLU（Sigmoid线性单元）激活网络在逼近光滑函数时能够达到指数级逼近速率，且相较于经典的基于ReLU的构造具有更显式且更优的复杂度控制。我们提出了一种新颖的分层构造方法：首先以比同类ReLU实现（如Yarotsky给出的构造）更紧凑的深度和规模高效逼近平方函数 \\(x^2\\)。该构造使用深度为 \\(\\mathcal{O}(1)\\) 的网络，可实现逼近误差以 \\(\\mathcal{O}(\\omega^{-2k})\\) 的速度衰减。随后，我们通过函数复合将这一方法推广，为深度SiLU网络逼近Sobolev类函数建立了尖锐的逼近界，其总深度为 \\(\\mathcal{O}(1)\\)，规模为 \\(\\mathcal{O}(\\varepsilon^{-d/n})\\)。",
+  "timestamp": "2025-12-16T22:25:54.911557",
+  "model_name": "deepseek-reasoner"
+}

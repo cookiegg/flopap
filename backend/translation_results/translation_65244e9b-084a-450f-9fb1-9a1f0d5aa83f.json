@@ -1,0 +1,10 @@
+{
+  "paper_id": "65244e9b-084a-450f-9fb1-9a1f0d5aa83f",
+  "arxiv_id": "2512.12332v1",
+  "title_en": "Dynamic Homophily with Imperfect Recall: Modeling Resilience in Adversarial Networks",
+  "title_zh": "动态同质性与不完全记忆：对抗性网络中的韧性建模",
+  "summary_en": "The purpose of this study is to investigate how homophily, memory constraints, and adversarial disruptions collectively shape the resilience and adaptability of complex networks. To achieve this, we develop a new framework that integrates explicit memory decay mechanisms into homophily-based models and systematically evaluate their performance across diverse graph structures and adversarial settings. Our methods involve extensive experimentation on synthetic datasets, where we vary decay functions, reconnection probabilities, and similarity measures, primarily comparing cosine similarity with traditional metrics such as Jaccard similarity and baseline edge weights. The results show that cosine similarity achieves up to a 30\\% improvement in stability metrics in sparse, convex, and modular networks. Moreover, the refined value-of-recall metric demonstrates that strategic forgetting can bolster resilience by balancing network robustness and adaptability. The findings underscore the critical importance of aligning memory and similarity parameters with the structural and adversarial dynamics of the network. By quantifying the tangible benefits of incorporating memory constraints into homophily-based analyses, this study offers actionable insights for optimizing real-world applications, including social systems, collaborative platforms, and cybersecurity contexts.",
+  "summary_zh": "本研究旨在探讨同质性、记忆约束与对抗性干扰如何共同影响复杂网络的韧性与适应性。为此，我们构建了一个新框架，将显式记忆衰减机制整合至基于同质性的模型中，并系统评估其在不同图结构与对抗性环境下的表现。研究方法包括在合成数据集上进行大量实验，通过调整衰减函数、重连概率及相似性度量（主要比较余弦相似性与传统指标如杰卡德相似性及基线边权重）来验证模型效果。结果表明，在稀疏、凸型及模块化网络中，余弦相似性可使稳定性指标提升高达30%。此外，精炼的“记忆召回价值”度量显示，策略性遗忘可通过平衡网络鲁棒性与适应性来增强韧性。这些发现强调了使记忆参数和相似性参数与网络结构及对抗性动态相匹配的至关重要性。通过量化将记忆约束纳入同质性分析的具体效益，本研究为优化现实应用（包括社会系统、协作平台及网络安全领域）提供了可操作的见解。",
+  "timestamp": "2025-12-16T22:25:40.580291",
+  "model_name": "deepseek-reasoner"
+}

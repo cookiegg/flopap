@@ -1,0 +1,10 @@
+{
+  "paper_id": "e01ba2ec-d8b6-487a-b172-054d513df287",
+  "arxiv_id": "2512.12116v1",
+  "title_en": "Neural CDEs as Correctors for Learned Time Series Models",
+  "title_zh": "神经控制微分方程作为学习型时间序列模型的校正器",
+  "summary_en": "Learned time-series models, whether continuous- or discrete-time, are widely used to forecast the states of a dynamical system. Such models generate multi-step forecasts either directly, by predicting the full horizon at once, or iteratively, by feeding back their own predictions at each step. In both cases, the multi-step forecasts are prone to errors. To address this, we propose a Predictor-Corrector mechanism where the Predictor is any learned time-series model and the Corrector is a neural controlled differential equation. The Predictor forecasts, and the Corrector predicts the errors of the forecasts. Adding these errors to the forecasts improves forecast performance. The proposed Corrector works with irregularly sampled time series and continuous- and discrete-time Predictors. Additionally, we introduce two regularization strategies to improve the extrapolation performance of the Corrector with accelerated training. We evaluate our Corrector with diverse Predictors, e.g., neural ordinary differential equations, Contiformer, and DLinear, on synthetic, physics simulation, and real-world forecasting datasets. The experiments demonstrate that the Predictor-Corrector mechanism consistently improves the performance compared to Predictor alone.",
+  "summary_zh": "学习型时间序列模型（无论是连续时间还是离散时间模型）被广泛用于预测动态系统的状态。此类模型通过两种方式生成多步预测：一是直接一次性预测整个时间范围，二是通过每一步反馈自身预测结果进行迭代预测。然而，在这两种情况下，多步预测都容易产生误差。为解决这一问题，我们提出一种预测器-校正器机制：其中预测器可以是任何学习型时间序列模型，而校正器则采用神经控制微分方程。预测器负责生成预测值，校正器则预测这些预测值的误差。将预测误差与原始预测值相加可有效提升预测性能。所提出的校正器适用于非均匀采样时间序列，并能与连续时间及离散时间预测器协同工作。此外，我们引入两种正则化策略，通过加速训练提升校正器的外推性能。我们在合成数据、物理仿真数据和真实世界预测数据集上，结合多种预测器（如神经常微分方程、Contiformer和DLinear模型）对所提校正器进行评估。实验结果表明，与单独使用预测器相比，预测器-校正器机制能持续提升预测性能。",
+  "timestamp": "2025-12-16T22:26:02.057733",
+  "model_name": "deepseek-reasoner"
+}

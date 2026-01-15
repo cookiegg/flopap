@@ -1,0 +1,10 @@
+{
+  "paper_id": "51d90e54-72cb-4192-a0c8-64350a344de9",
+  "arxiv_id": "2512.12121v1",
+  "title_en": "MixtureKit: A General Framework for Composing, Training, and Visualizing Mixture-of-Experts Models",
+  "title_zh": "MixtureKit：一个用于组合、训练与可视化专家混合模型的通用框架",
+  "summary_en": "We introduce MixtureKit, a modular open-source framework for constructing, training, and analyzing Mixture-of-Experts (MoE) models from arbitrary pre-trained or fine-tuned models. MixtureKit currently supports three complementary methods: (i) \\emph{Traditional MoE}, which uses a single router per transformer block to select experts, (ii) \\emph{BTX} (Branch-Train-Mix), which introduces separate routers for each specified sub-layer enabling fine-grained token routing, and (iii) \\emph{BTS} (Branch-Train-Stitch), which keeps experts fully intact and introduces trainable stitch layers for controlled information exchange between hub and experts. MixtureKit automatically modifies the model configuration, patches decoder and causal LM classes, and saves a unified checkpoint ready for inference or fine-tuning. We further provide a visualization interface to inspect per-token routing decisions, expert weight distributions, and layer-wise contributions. Experiments with multilingual code-switched data (e.g. Arabic-Latin) show that a BTX-based model trained using MixtureKit can outperform baseline dense models on multiple benchmarks. We release MixtureKit as a practical foundation for research and development of MoE-based systems across diverse domains.",
+  "summary_zh": "本文介绍MixtureKit，这是一个模块化的开源框架，用于从任意预训练或微调模型中构建、训练和分析专家混合（MoE）模型。MixtureKit目前支持三种互补的方法：（i）**传统MoE**，即在每个Transformer模块中使用单一路由器选择专家；（ii）**BTX**（分支-训练-混合），为每个指定的子层引入独立的路由器，实现细粒度的令牌路由；（iii）**BTS**（分支-训练-缝合），保持专家完全独立，并引入可训练的缝合层以控制中心节点与专家之间的受控信息交换。MixtureKit能够自动修改模型配置、适配解码器与因果语言模型类，并保存可用于推理或微调的统一检查点。我们还提供了一个可视化界面，用于检查每个令牌的路由决策、专家权重分布以及逐层的贡献度。在多语言语码转换数据（如阿拉伯语-拉丁语）上的实验表明，使用MixtureKit训练的基于BTX的模型在多个基准测试中能够超越传统的密集模型基线。我们发布MixtureKit，旨在为跨领域基于MoE系统的研究与开发提供一个实用的基础平台。",
+  "timestamp": "2025-12-16T22:25:59.760484",
+  "model_name": "deepseek-reasoner"
+}

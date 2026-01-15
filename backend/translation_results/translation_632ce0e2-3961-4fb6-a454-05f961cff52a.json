@@ -1,0 +1,10 @@
+{
+  "paper_id": "632ce0e2-3961-4fb6-a454-05f961cff52a",
+  "arxiv_id": "2512.12358v1",
+  "title_en": "Towards a pretrained deep learning estimator of the Linfoot informational correlation",
+  "title_zh": "面向Linfoot信息相关性的预训练深度学习估计器研究",
+  "summary_en": "We develop a supervised deep-learning approach to estimate mutual information between two continuous random variables. As labels, we use the Linfoot informational correlation, a transformation of mutual information that has many important properties. Our method is based on ground truth labels for Gaussian and Clayton copulas. We compare our method with estimators based on kernel density, k-nearest neighbours and neural estimators. We show generally lower bias and lower variance. As a proof of principle, future research could look into training the model with a more diverse set of examples from other copulas for which ground truth labels are available.",
+  "summary_zh": "本研究提出一种基于监督式深度学习的连续随机变量间互信息估计方法。该方法以Linfoot信息相关性作为标注数据——该指标是互信息的一种变换形式，具有诸多重要特性。我们基于高斯Copula和Clayton Copula生成的真实标注数据构建模型，并将其与基于核密度估计、k近邻算法及神经估计器的传统方法进行对比。实验结果表明，本方法在多数情况下具有更低的估计偏差和更小的方差。作为原理验证，未来研究可考虑采用更多类型Copula（需具备真实标注数据）生成的多样化样本对模型进行训练。",
+  "timestamp": "2025-12-16T22:25:35.755804",
+  "model_name": "deepseek-reasoner"
+}

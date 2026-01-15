@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment variables (敏感信息)
+.env
+.env.local
+.env.bak
+
+# Cloud-only folders (Excluded from Standalone)
+nginx/
+scripts/
+steep-bush-d1a9/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+dist-ssr/
+*.local
+
+# IDEs (个人配置)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Build outputs
+*.egg-info/
+*.egg
+build/
+*.whl
+
+# Cache and logs
+.cache/
+backend/.cache/
+*.log
+logs/
+
+# PWA
+frontend/dist/
+frontend/.vite/
+
+# Database (if using local files)
+*.db
+*.sqlite
+*.sqlite3
+
+# Virtual environments
+backend/venv_local/
+backend/.venv/
+
+# Backup files
+frontend_backup_*/
+*.bak
+
+# Certificates and keys (敏感信息)
+*.key
+*.pem
+*.crt
+*.csr
+ssl_certs/
+
+# Large data files (通常不版本控制)
+data/
+backend/data/
+
+# Database backups and snapshots (too large for git)
+archive/backups/*.sql
+archive/backups/*.sql.gz
+db_snapshots/*.sql
+
+# Personal development files (个人偏好)
+temp/
+test/
+backend/test/
+backend/tests/
+ai_interpretations/
+archive/
+secret/

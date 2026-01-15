@@ -1,0 +1,10 @@
+{
+  "paper_id": "9ad0035d-8d9e-4894-abb3-fcc3c139fd63",
+  "arxiv_id": "2512.12386v1",
+  "title_en": "Speedrunning ImageNet Diffusion",
+  "title_zh": "ImageNet扩散模型的快速训练",
+  "summary_en": "Recent advances have significantly improved the training efficiency of diffusion transformers. However, these techniques have largely been studied in isolation, leaving unexplored the potential synergies from combining multiple approaches. We present SR-DiT (Speedrun Diffusion Transformer), a framework that systematically integrates token routing, architectural improvements, and training modifications on top of representation alignment. Our approach achieves FID 3.49 and KDD 0.319 on ImageNet-256 using only a 140M parameter model at 400K iterations without classifier-free guidance - comparable to results from 685M parameter models trained significantly longer. To our knowledge, this is a state-of the-art result at this model size. Through extensive ablation studies, we identify which technique combinations are most effective and document both synergies and incompatibilities. We release our framework as a computationally accessible baseline for future research.",
+  "summary_zh": "近期研究在扩散变换器的训练效率方面取得了显著进展。然而，这些技术大多被孤立研究，尚未充分探索多种方法结合的潜在协同效应。本文提出SR-DiT（快速扩散变换器）框架，该系统性地在表征对齐基础上整合了令牌路由、架构改进和训练优化。我们的方法仅使用1.4亿参数模型，在40万次迭代且无需无分类器引导的条件下，于ImageNet-256数据集上实现了FID 3.49和KDD 0.319的性能——这与经过更长时间训练的6.85亿参数模型结果相当。据我们所知，这是该模型规模下的最优性能。通过大量消融实验，我们明确了最有效的技术组合方案，并记录了协同效应与互斥关系。我们将本框架开源，为后续研究提供计算友好的基准模型。",
+  "timestamp": "2025-12-16T22:25:36.500190",
+  "model_name": "deepseek-reasoner"
+}

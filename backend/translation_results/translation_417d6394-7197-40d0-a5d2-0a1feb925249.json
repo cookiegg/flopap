@@ -1,0 +1,10 @@
+{
+  "paper_id": "417d6394-7197-40d0-a5d2-0a1feb925249",
+  "arxiv_id": "2512.12115v1",
+  "title_en": "Teaching Spell Checkers to Teach: Pedagogical Program Synthesis for Interactive Learning",
+  "title_zh": "教会拼写检查器教学：面向交互式学习的教学性程序合成",
+  "summary_en": "Spelling taught through memorization often fails many learners, particularly children with language-based learning disorders who struggle with the phonological skills necessary to spell words accurately. Educators such as speech-language pathologists (SLPs) address this instructional gap by using an inquiry-based approach to teach spelling that targets the phonology, morphology, meaning, and etymology of words. Yet, these strategies rarely appear in everyday writing tools, which simply detect and autocorrect errors. We introduce SPIRE (Spelling Inquiry Engine), a spell check system that brings this inquiry-based pedagogy into the act of composition. SPIRE implements Pedagogical Program Synthesis, a novel approach for operationalizing the inherently dynamic pedagogy of spelling instruction. SPIRE represents SLP instructional moves in a domain-specific language, synthesizes tailored programs in real-time from learner errors, and renders them as interactive interfaces for inquiry-based interventions. With SPIRE, spelling errors become opportunities to explore word meanings, word structures, morphological families, word origins, and grapheme-phoneme correspondences, supporting metalinguistic reasoning alongside correction. Evaluation with SLPs and learners shows alignment with professional practice and potential for integration into writing workflows.",
+  "summary_zh": "通过机械记忆教授拼写往往难以使许多学习者（尤其是患有语言性学习障碍的儿童）有效掌握拼写技能，这些学习者在准确拼写所需的语音能力方面存在困难。言语语言病理学家等教育工作者采用探究式教学方法来弥补这一教学缺口，该方法聚焦于词语的音系、形态、语义及词源特征。然而，日常书写工具中鲜少融入此类教学策略，它们通常仅能检测并自动修正错误。本文提出SPIRE（拼写探究引擎）拼写检查系统，将探究式教学法融入写作过程。该系统采用“教学性程序合成”这一创新方法，将拼写教学中固有的动态教学理念转化为可操作的计算模型。SPIRE通过领域特定语言表征言语语言病理学家的教学指令，根据学习者的拼写错误实时合成定制化教学程序，并将其呈现为支持探究式干预的交互界面。借助SPIRE，拼写错误转化为探索词语意义、结构、形态家族、词源及字素-音素对应关系的契机，在实现纠错的同时促进元语言推理能力的发展。经言语语言病理学家与学习者的实践评估表明，该系统符合专业教学规范，并具备融入日常写作流程的应用潜力。",
+  "timestamp": "2025-12-16T22:26:03.464127",
+  "model_name": "deepseek-reasoner"
+}

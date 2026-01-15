@@ -1,0 +1,63 @@
+# 初创团队 CI/CD 配置
+name: Startup Fast CI/CD
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  # 快速检查（2-3分钟内完成）
+  quick-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    # 并行执行多个检查
+    - name: Lint & Type Check
+      run: |
+        # 只检查变更的文件，不是全量检查
+        git diff --name-only HEAD~1 | grep -E '\.(py|ts|tsx)$' | xargs pylint
+        
+    - name: Unit Tests (Changed Files Only)
+      run: |
+        # 只测试相关的测试文件
+        pytest --testmon --testmon-off
+        
+    - name: Security Scan (Fast)
+      run: |
+        # 快速安全扫描，不阻塞部署
+        bandit -r . -f json -o security-report.json || true
+
+  # 自动部署到开发环境
+  auto-deploy-dev:
+    needs: quick-check
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to Dev
+      run: |
+        # 蓝绿部署，零停机
+        ./scripts/deploy-dev.sh
+        
+    - name: Smoke Test
+      run: |
+        # 基本功能测试
+        curl -f https://dev.flopap.com/health || exit 1
+        
+    - name: Notify Team
+      run: |
+        # Slack 通知
+        curl -X POST -H 'Content-type: application/json' \
+          --data '{"text":"🚀 Dev deployed: '"$GITHUB_SHA"'"}' \
+          $SLACK_WEBHOOK
+
+  # 生产部署（需要手动触发）
+  deploy-prod:
+    needs: auto-deploy-dev
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to Production
+      run: ./scripts/deploy-prod.sh

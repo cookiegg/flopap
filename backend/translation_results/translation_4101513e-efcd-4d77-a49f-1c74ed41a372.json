@@ -1,0 +1,10 @@
+{
+  "paper_id": "4101513e-efcd-4d77-a49f-1c74ed41a372",
+  "arxiv_id": "2512.12129v1",
+  "title_en": "A comparative study of generative models for child voice conversion",
+  "title_zh": "儿童语音转换生成模型的比较研究",
+  "summary_en": "Generative models are a popular choice for adult-to-adult voice conversion (VC) because of their efficient way of modelling unlabelled data. To this point their usefulness in producing children speech and in particular adult to child VC has not been investigated. For adult to child VC, four generative models are compared: diffusion model, flow based model, variational autoencoders, and generative adversarial network. Results show that although converted speech outputs produce by those models appear plausible, they exhibit insufficient similarity with the target speaker characteristics. We introduce an efficient frequency warping technique that can be applied to the output of models, and which shows significant reduction of the mismatch between adult and child. The output of all the models are evaluated using both objective and subjective measures. In particular we compare specific speaker pairing using a unique corpus collected for dubbing of children speech.",
+  "summary_zh": "生成模型因其对无标注数据的高效建模能力，已成为成人间语音转换的主流方法。然而，其在生成儿童语音特别是成人到儿童语音转换领域的适用性尚未得到充分探索。本研究针对成人到儿童语音转换任务，比较了四种生成模型：扩散模型、基于流的模型、变分自编码器以及生成对抗网络。实验结果表明，尽管这些模型生成的转换语音在听觉上具有合理性，但其与目标说话人特征的相似度仍显不足。为此，我们提出一种高效的频率弯折处理技术，可应用于模型输出端，该技术能显著降低成人语音与儿童语音之间的声学失配。我们采用主客观相结合的方法对所有模型的输出进行了系统评估，并基于一个专为儿童语音配音收集的独特语料库，对特定说话人配对案例进行了深入比较分析。",
+  "timestamp": "2025-12-16T22:25:55.307173",
+  "model_name": "deepseek-reasoner"
+}

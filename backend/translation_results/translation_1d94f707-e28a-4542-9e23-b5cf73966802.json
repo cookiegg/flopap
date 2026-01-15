@@ -1,0 +1,10 @@
+{
+  "paper_id": "1d94f707-e28a-4542-9e23-b5cf73966802",
+  "arxiv_id": "2512.12488v1",
+  "title_en": "The American Ghost in the Machine: How language models align culturally and the effects of cultural prompting",
+  "title_zh": "美国幽灵在机器中：语言模型的文化对齐与文化提示效应",
+  "summary_en": "Culture is the bedrock of human interaction; it dictates how we perceive and respond to everyday interactions. As the field of human-computer interaction grows via the rise of generative Large Language Models (LLMs), the cultural alignment of these models become an important field of study. This work, using the VSM13 International Survey and Hofstede's cultural dimensions, identifies the cultural alignment of popular LLMs (DeepSeek-V3, V3.1, GPT-5, GPT-4.1, GPT-4, Claude Opus 4, Llama 3.1, and Mistral Large). We then use cultural prompting, or using system prompts to shift the cultural alignment of a model to a desired country, to test the adaptability of these models to other cultures, namely China, France, India, Iran, Japan, and the United States. We find that the majority of the eight LLMs tested favor the United States when the culture is not specified, with varying results when prompted for other cultures. When using cultural prompting, seven of the eight models shifted closer to the expected culture. We find that models had trouble aligning with Japan and China, despite two of the models tested originating with the Chinese company DeepSeek.",
+  "summary_zh": "文化是人类互动的基石，它决定了我们如何感知和回应日常互动。随着生成式大语言模型（LLMs）的兴起推动人机交互领域的发展，这些模型的文化对齐性已成为一个重要研究领域。本研究利用VSM13国际调查和霍夫斯泰德文化维度理论，对主流大语言模型（DeepSeek-V3、V3.1、GPT-5、GPT-4.1、GPT-4、Claude Opus 4、Llama 3.1和Mistral Large）的文化对齐特性进行了识别。我们随后采用文化提示技术——即通过系统提示将模型的文化对齐倾向调整至目标国家（中国、法国、印度、伊朗、日本和美国），以测试这些模型对不同文化的适应能力。研究发现：在未指定文化背景时，八个被测模型中的多数表现出对美国文化的偏向；当针对其他文化进行提示时，结果呈现差异化。在使用文化提示后，八个模型中有七个能向预期文化方向显著靠拢。值得注意的是，尽管被测模型中包含两家中国公司开发的DeepSeek模型，所有模型在与中国和日本文化对齐时均存在困难。",
+  "timestamp": "2025-12-16T22:25:27.370019",
+  "model_name": "deepseek-reasoner"
+}

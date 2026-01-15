@@ -1,0 +1,10 @@
+{
+  "paper_id": "8d99ad51-a0f0-41c4-ac51-9fbb3f821c0f",
+  "arxiv_id": "2512.12325v1",
+  "title_en": "Eventually LIL Regret: Almost Sure $\\ln\\ln T$ Regret for a sub-Gaussian Mixture on Unbounded Data",
+  "title_zh": "最终LIL遗憾：无界数据上亚高斯混合的几乎必然$\\ln\\ln T$遗憾界",
+  "summary_en": "We prove that a classic sub-Gaussian mixture proposed by Robbins in a stochastic setting actually satisfies a path-wise (deterministic) regret bound. For every path in a natural ``Ville event'' $E_α$, this regret till time $T$ is bounded by $\\ln^2(1/α)/V_T + \\ln (1/α) + \\ln \\ln V_T$ up to universal constants, where $V_T$ is a nonnegative, nondecreasing, cumulative variance process. (The bound reduces to $\\ln(1/α) + \\ln \\ln V_T$ if $V_T \\geq \\ln(1/α)$.) If the data were stochastic, then one can show that $E_α$ has probability at least $1-α$ under a wide class of distributions (eg: sub-Gaussian, symmetric, variance-bounded, etc.). In fact, we show that on the Ville event $E_0$ of probability one, the regret on every path in $E_0$ is eventually bounded by $\\ln \\ln V_T$ (up to constants). We explain how this work helps bridge the world of adversarial online learning (which usually deals with regret bounds for bounded data), with game-theoretic statistics (which can handle unbounded data, albeit using stochastic assumptions). In short, conditional regret bounds serve as a bridge between stochastic and adversarial betting.",
+  "summary_zh": "我们证明，Robbins在随机设置中提出的经典亚高斯混合模型实际上满足路径（确定性）遗憾界。在自然“Ville事件”$E_α$中的每条路径上，截至时间$T$的遗憾被普遍常数控制为$\\ln^2(1/α)/V_T + \\ln (1/α) + \\ln \\ln V_T$，其中$V_T$为非负非降的累积方差过程。（若$V_T \\geq \\ln(1/α)$，该界可简化为$\\ln(1/α) + \\ln \\ln V_T$。）若数据具有随机性，则可证明在广泛分布类型（如亚高斯分布、对称分布、方差有界分布等）下$E_α$的概率至少为$1-α$。事实上，我们证明在概率为1的Ville事件$E_0$上，$E_0$中每条路径的遗憾最终被$\\ln \\ln V_T$（乘以常数）控制。本文阐释了该成果如何连接对抗性在线学习（通常处理有界数据的遗憾界）与博弈论统计学（能处理无界数据，但需依赖随机性假设）两个领域。简言之，条件遗憾界可作为随机性与对抗性博弈之间的桥梁。",
+  "timestamp": "2025-12-16T22:25:43.302104",
+  "model_name": "deepseek-reasoner"
+}

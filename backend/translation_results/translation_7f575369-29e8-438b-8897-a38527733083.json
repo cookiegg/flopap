@@ -1,0 +1,10 @@
+{
+  "paper_id": "7f575369-29e8-438b-8897-a38527733083",
+  "arxiv_id": "2512.12493v1",
+  "title_en": "AI-Driven Early Warning Systems for Student Success: Discovering Static Feature Dominance in Temporal Prediction Models",
+  "title_zh": "AI驱动的学生学业早期预警系统：发现时序预测模型中的静态特征主导性",
+  "summary_en": "Early identification of at-risk students is critical for effective intervention in online learning environments. This study extends temporal prediction analysis to Week 20 (50% of course duration), comparing Decision Tree and Long Short- Term Memory (LSTM) models across six temporal snapshots. Our analysis reveals that different performance metrics matter at different intervention stages: high recall is critical for early intervention (Weeks 2-4), while balanced precision-recall is important for mid-course resource allocation (Weeks 8-16), and high precision becomes paramount in later stages (Week 20). We demonstrate that static demographic features dominate predictions (68% importance), enabling assessment-free early prediction. The LSTM model achieves 97% recall at Week 2, making it ideal for early intervention, while Decision Tree provides stable balanced performance (78% accuracy) during mid-course. By Week 20, both models converge to similar recall (68%), but LSTM achieves higher precision (90% vs 86%). Our findings also suggest that model selection should depend on intervention timing, and that early signals (Weeks 2-4) are sufficient for reliable initial prediction using primarily demographic and pre-enrollment information.",
+  "summary_zh": "在在线学习环境中，及早识别学业风险学生对于实施有效干预至关重要。本研究将时序预测分析延伸至第20周（课程时长的50%），在六个时序节点上比较了决策树与长短期记忆（LSTM）模型。我们的分析表明，不同的性能指标在不同干预阶段具有不同重要性：高召回率对早期干预（第2-4周）至关重要，平衡的精确率与召回率对课程中期资源分配（第8-16周）十分重要，而高精确率在后期阶段（第20周）则变得至关重要。研究发现，静态人口统计学特征在预测中占据主导地位（重要性占比68%），这使得无需学业评估的早期预测成为可能。LSTM模型在第2周实现了97%的召回率，是早期干预的理想选择；而决策树在课程中期提供了稳定的平衡性能（78%准确率）。至第20周，两种模型的召回率趋近相同（68%），但LSTM获得了更高的精确率（90%对比86%）。我们的研究结果还表明，模型选择应取决于干预时机，且早期信号（第2-4周）结合主要的人口统计学信息和入学前信息，已足以进行可靠的初始预测。",
+  "timestamp": "2025-12-16T22:25:28.306999",
+  "model_name": "deepseek-reasoner"
+}

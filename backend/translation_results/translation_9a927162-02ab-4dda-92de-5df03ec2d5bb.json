@@ -1,0 +1,10 @@
+{
+  "paper_id": "9a927162-02ab-4dda-92de-5df03ec2d5bb",
+  "arxiv_id": "2512.12339v1",
+  "title_en": "Unified Control for Inference-Time Guidance of Denoising Diffusion Models",
+  "title_zh": "去噪扩散模型推理时引导的统一控制方法",
+  "summary_en": "Aligning diffusion model outputs with downstream objectives is essential for improving task-specific performance. Broadly, inference-time training-free approaches for aligning diffusion models can be categorized into two main strategies: sampling-based methods, which explore multiple candidate outputs and select those with higher reward signals, and gradient-guided methods, which use differentiable reward approximations to directly steer the generation process. In this work, we propose a universal algorithm, UniCoDe, which brings together the strengths of sampling and gradient-based guidance into a unified framework. UniCoDe integrates local gradient signals during sampling, thereby addressing the sampling inefficiency inherent in complex reward-based sampling approaches. By cohesively combining these two paradigms, UniCoDe enables more efficient sampling while offering better trade-offs between reward alignment and divergence from the diffusion unconditional prior. Empirical results demonstrate that UniCoDe remains competitive with state-of-the-art baselines across a range of tasks. The code is available at https://github.com/maurya-goyal10/UniCoDe",
+  "summary_zh": "将扩散模型输出与下游目标对齐对于提升任务特定性能至关重要。总体而言，扩散模型推理时无需训练的对齐方法可分为两大策略：基于采样的方法通过探索多个候选输出并选择具有更高奖励信号的样本；以及梯度引导方法，其利用可微分的奖励近似函数直接引导生成过程。本研究提出一种通用算法UniCoDe，将基于采样和基于梯度引导的优势整合到统一框架中。UniCoDe在采样过程中融合局部梯度信号，从而解决了基于复杂奖励的采样方法固有的采样效率低下问题。通过有机结合这两种范式，UniCoDe在实现更高效采样的同时，在奖励对齐程度与扩散模型无条件先验的偏离度之间取得了更优的平衡。实验结果表明，UniCoDe在多项任务中均与当前最先进的基线方法保持竞争力。代码已开源：https://github.com/maurya-goyal10/UniCoDe",
+  "timestamp": "2025-12-16T22:25:39.723519",
+  "model_name": "deepseek-reasoner"
+}

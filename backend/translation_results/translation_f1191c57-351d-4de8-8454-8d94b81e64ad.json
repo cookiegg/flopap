@@ -1,0 +1,10 @@
+{
+  "paper_id": "f1191c57-351d-4de8-8454-8d94b81e64ad",
+  "arxiv_id": "2512.12189v1",
+  "title_en": "How Visa-Free Policies Fuel International Research Collaboration: Evidence from China",
+  "title_zh": "免签政策如何促进国际科研合作：来自中国的证据",
+  "summary_en": "Visa regimes constitute significant institutional barriers to the cross-border mobility of researchers. Utilizing China's phased implementation of a unilateral visa-free policy since 2023 as a quasi-natural experiment, this study employs a staggered difference-in-differences design to assess the policy's effect on international scientific collaboration. Results indicate that the policy significantly increased the volume of Sino-foreign co-authored publications. The mechanism analysis indicates that this effect is primarily achieved by enhancing transportation accessibility and human mobility, which in turn facilitates cross-border research collaboration among scholars. Further evidence suggests that academic conferences partially attenuated the policy's impact, indicating a substitutive relationship across collaboration channels. Moreover, the effect was more pronounced for countries with greater geographical distance or lower research capacity. This study elucidates the mechanisms through which visa facilitation promotes international scientific collaboration and offers new insights into how institutional barriers shape research cooperation and knowledge production.",
+  "summary_zh": "签证制度是阻碍研究人员跨境流动的重要制度性壁垒。本研究以中国自2023年起分阶段实施单方面免签政策作为准自然实验，采用交错双重差分设计评估该政策对国际科研合作的影响。结果表明，该政策显著增加了中外合著论文的数量。机制分析显示，这一效应主要通过提升交通可达性与人员流动性实现，进而促进学者间的跨境科研合作。进一步证据表明，学术会议在一定程度上削弱了政策效果，揭示了不同合作渠道间的替代关系。此外，该政策对地理距离更远或科研能力较弱国家的影响更为显著。本研究阐明了签证便利化促进国际科研合作的作用机制，为理解制度性壁垒如何影响科研合作与知识生产提供了新的见解。",
+  "timestamp": "2025-12-16T22:25:53.322570",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "0d55892c-ed89-4726-8d29-f020b03a29f3",
+  "arxiv_id": "2512.12302v1",
+  "title_en": "From Human Intention to Action Prediction: A Comprehensive Benchmark for Intention-driven End-to-End Autonomous Driving",
+  "title_zh": "从人类意图到行为预测：意图驱动端到端自动驾驶的综合基准",
+  "summary_en": "Current end-to-end autonomous driving systems operate at a level of intelligence akin to following simple steering commands. However, achieving genuinely intelligent autonomy requires a paradigm shift: moving from merely executing low-level instructions to understanding and fulfilling high-level, abstract human intentions. This leap from a command-follower to an intention-fulfiller, as illustrated in our conceptual framework, is hindered by a fundamental challenge: the absence of a standardized benchmark to measure and drive progress on this complex task. To address this critical gap, we introduce Intention-Drive, the first comprehensive benchmark designed to evaluate the ability to translate high-level human intent into safe and precise driving actions. Intention-Drive features two core contributions: (1) a new dataset of complex scenarios paired with corresponding natural language intentions, and (2) a novel evaluation protocol centered on the Intent Success Rate (ISR), which assesses the semantic fulfillment of the human's goal beyond simple geometric accuracy. Through an extensive evaluation of a spectrum of baseline models on Intention-Drive, we reveal a significant performance deficit, showing that the baseline model struggle to achieve the comprehensive scene and intention understanding required for this advanced task.",
+  "summary_zh": "当前的端到端自动驾驶系统仅具备执行简单转向指令的智能水平。然而，要实现真正智能的自主驾驶，需要进行范式转变：从仅仅执行低层指令，转向理解并实现高层、抽象的人类意图。如我们的概念框架所示，从“指令跟随者”到“意图实现者”的这一跨越，面临着一个根本性挑战：缺乏能够衡量并推动这一复杂任务进展的标准化基准。为填补这一关键空白，我们提出了Intention-Drive，这是首个旨在评估将高层人类意图转化为安全、精确驾驶行为能力的综合基准。Intention-Drive包含两大核心贡献：（1）一个包含复杂场景及其对应自然语言意图的新数据集；（2）一个以意图成功率（ISR）为核心的新型评估协议，该协议超越了简单的几何精度，评估了对人类目标语义层面的实现程度。通过在Intention-Drive上对一系列基线模型进行广泛评估，我们揭示了显著的性能缺陷，表明基线模型难以达到此项高级任务所需的全面场景与意图理解能力。",
+  "timestamp": "2025-12-16T22:25:42.108488",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "0c4e7bda-183a-45f2-a382-376185fc5d0c",
+  "arxiv_id": "2512.12203v1",
+  "title_en": "Navigation Around Unknown Space Objects Using Visible-Thermal Image Fusion",
+  "title_zh": "基于可见光-热红外图像融合的未知空间目标环绕导航",
+  "summary_en": "As the popularity of on-orbit operations grows, so does the need for precise navigation around unknown resident space objects (RSOs) such as other spacecraft, orbital debris, and asteroids. The use of Simultaneous Localization and Mapping (SLAM) algorithms is often studied as a method to map out the surface of an RSO and find the inspector's relative pose using a lidar or conventional camera. However, conventional cameras struggle during eclipse or shadowed periods, and lidar, though robust to lighting conditions, tends to be heavier, bulkier, and more power-intensive. Thermal-infrared cameras can track the target RSO throughout difficult illumination conditions without these limitations. While useful, thermal-infrared imagery lacks the resolution and feature-richness of visible cameras. In this work, images of a target satellite in low Earth orbit are photo-realistically simulated in both visible and thermal-infrared bands. Pixel-level fusion methods are used to create visible/thermal-infrared composites that leverage the best aspects of each camera. Navigation errors from a monocular SLAM algorithm are compared between visible, thermal-infrared, and fused imagery in various lighting and trajectories. Fused imagery yields substantially improved navigation performance over visible-only and thermal-only methods.",
+  "summary_zh": "随着在轨操作日益普及，针对未知空间目标（如其他航天器、轨道碎片和小行星）的精确环绕导航需求日益增长。同步定位与建图算法常被研究用于通过激光雷达或传统相机绘制空间目标表面特征并确定探测器的相对位姿。然而，传统相机在阴影或光照不足时段性能受限，而激光雷达虽对光照条件不敏感，却往往存在重量大、体积大、功耗高等问题。热红外相机能够在复杂光照条件下持续跟踪目标空间物体，且不受上述限制。尽管热红外图像具有独特优势，但其分辨率和特征丰富度通常低于可见光图像。本研究通过高真实度仿真模拟了低地球轨道目标卫星的可见光与热红外波段图像，采用像素级融合方法生成可见光/热红外融合图像，以充分发挥两类相机的优势。通过对比单目SLAM算法在可见光、热红外及融合图像下的导航误差（涵盖不同光照条件与运动轨迹），结果表明融合图像导航性能显著优于单一可见光或热红外方法。",
+  "timestamp": "2025-12-16T22:25:51.754592",
+  "model_name": "deepseek-reasoner"
+}

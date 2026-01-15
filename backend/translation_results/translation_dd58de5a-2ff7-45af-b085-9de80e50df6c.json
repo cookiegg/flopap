@@ -1,0 +1,10 @@
+{
+  "paper_id": "dd58de5a-2ff7-45af-b085-9de80e50df6c",
+  "arxiv_id": "2512.12167v1",
+  "title_en": "Extending the Context of Pretrained LLMs by Dropping Their Positional Embeddings",
+  "title_zh": "通过丢弃位置嵌入来扩展预训练大语言模型的上下文长度",
+  "summary_en": "So far, expensive finetuning beyond the pretraining sequence length has been a requirement for effectively extending the context of language models (LM). In this work, we break this key bottleneck by Dropping the Positional Embeddings of LMs after training (DroPE). Our simple method is motivated by three key theoretical and empirical observations. First, positional embeddings (PEs) serve a crucial role during pretraining, providing an important inductive bias that significantly facilitates convergence. Second, over-reliance on this explicit positional information is also precisely what prevents test-time generalization to sequences of unseen length, even when using popular PE-scaling methods. Third, positional embeddings are not an inherent requirement of effective language modeling and can be safely removed after pretraining, following a short recalibration phase. Empirically, DroPE yields seamless zero-shot context extension without any long-context finetuning, quickly adapting pretrained LMs without compromising their capabilities in the original training context. Our findings hold across different models and dataset sizes, far outperforming previous specialized architectures and established rotary positional embedding scaling methods.",
+  "summary_zh": "迄今为止，要有效扩展语言模型的上下文长度，通常需要在超出预训练序列长度后进行昂贵的微调。本研究通过提出在训练后丢弃语言模型的位置嵌入方法，打破了这一关键瓶颈。我们的方法基于以下三个关键的理论与实证观察：首先，位置嵌入在预训练阶段发挥着至关重要的作用，它提供了重要的归纳偏置，显著促进了模型收敛。其次，对这类显式位置信息的过度依赖，恰恰阻碍了模型在测试时对未见长度序列的泛化能力，即使采用流行的位置嵌入缩放方法亦然。第三，位置嵌入并非有效语言建模的内在必需组件，在预训练后经过短暂的重新校准阶段即可安全移除。实证表明，该方法无需任何长上下文微调即可实现无缝的零样本上下文扩展，能够在不损害模型原有训练上下文能力的前提下，快速适配预训练语言模型。我们的发现在不同模型与数据集规模上均成立，其性能远超以往专门设计的架构及成熟的旋转位置嵌入缩放方法。",
+  "timestamp": "2025-12-16T22:25:55.390974",
+  "model_name": "deepseek-reasoner"
+}

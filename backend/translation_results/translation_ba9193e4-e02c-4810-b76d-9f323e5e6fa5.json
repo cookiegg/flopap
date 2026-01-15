@@ -1,0 +1,10 @@
+{
+  "paper_id": "ba9193e4-e02c-4810-b76d-9f323e5e6fa5",
+  "arxiv_id": "2512.12335v1",
+  "title_en": "Hulls of Free Linear Codes over a Non-Unital Ring",
+  "title_zh": "非幺环上自由线性码的核",
+  "summary_en": "This paper investigates the hull codes of free linear codes over a non-unital ring $ E= \\langle κ,τ\\mid 2 κ=2 τ=0,~ κ^2=κ,~ τ^2=τ,~ κτ=κ,~ τκ=τ\\rangle$. Initially, we examine the residue and torsion codes of various hulls of $E$-linear codes and obtain an explicit form of the generator matrix of the hull of a free $E$-linear code. Then, we propose four build-up construction methods to construct codes with a larger length and hull-rank from codes with a smaller length and hull-rank. Some illustrative examples are also given to support our build-up construction methods. Subsequently, we study the permutation equivalence of two free $E$-linear codes and discuss the hull-variation problem. As an application, we classify optimal free $E$-linear codes for lengths up to $8$.",
+  "summary_zh": "本文研究了非幺环 $E= \\langle κ,τ\\mid 2 κ=2 τ=0,~ κ^2=κ,~ τ^2=τ,~ κτ=κ,~ τκ=τ\\rangle$ 上自由线性码的核码。首先，我们考察了 $E$-线性码各类核的剩余码与挠码，并得到了自由 $E$-线性码之核的生成矩阵的显式形式。随后，我们提出了四种递升构造方法，能够从长度与核秩较小的码构造出长度与核秩更大的码。文中也给出了一些示例以佐证我们的递升构造方法。接着，我们研究了两个自由 $E$-线性码的置换等价性问题，并探讨了核的变异问题。作为应用，我们对长度不超过 $8$ 的最优自由 $E$-线性码进行了分类。",
+  "timestamp": "2025-12-16T22:25:39.430737",
+  "model_name": "deepseek-reasoner"
+}

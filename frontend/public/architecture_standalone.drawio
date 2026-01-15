@@ -1,0 +1,62 @@
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    
+    <!-- Background Frame -->
+    <mxCell id="2" value="FloPap - Data & Content Flow" style="rounded=1;fillColor=#f8f9fa;strokeColor=#dee2e6;fontStyle=1;fontSize=16;verticalAlign=top;align=left;spacingLeft=15;spacingTop=10;arcSize=4;" vertex="1" parent="1">
+      <mxGeometry x="20" y="20" width="800" height="420" as="geometry"/>
+    </mxCell>
+
+    <!-- Source Layer (Left) -->
+    <mxCell id="3" value="Global Research Sources" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#581c87;startSize=30;rounded=1;" vertex="1" parent="1">
+      <mxGeometry x="60" y="80" width="200" height="320" as="geometry"/>
+    </mxCell>
+    <mxCell id="4" value="ArXiv (Daily)" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="3">
+      <mxGeometry x="30" y="60" width="140" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="5" value="Top Conferences&#xa;(NeurIPS, CVPR...)" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="3">
+      <mxGeometry x="30" y="140" width="140" height="50" as="geometry"/>
+    </mxCell>
+     <mxCell id="6" value="Static Archives" style="rounded=1;fillColor=#ffffff;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="3">
+      <mxGeometry x="30" y="220" width="140" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- Processing/Content Layer (Middle) -->
+    <mxCell id="7" value="AI Content Engine" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#875f00;startSize=30;rounded=1;" vertex="1" parent="1">
+      <mxGeometry x="320" y="80" width="200" height="320" as="geometry"/>
+    </mxCell>
+    <mxCell id="8" value="TL;DR Summary" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;" vertex="1" parent="7">
+      <mxGeometry x="30" y="60" width="140" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="9" value="Multi-Lang Translation" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;" vertex="1" parent="7">
+      <mxGeometry x="30" y="130" width="140" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="10" value="TTS Audio Generation" style="rounded=1;fillColor=#ffffff;strokeColor=#d6b656;" vertex="1" parent="7">
+      <mxGeometry x="30" y="200" width="140" height="40" as="geometry"/>
+    </mxCell>
+    
+    <!-- Display Layer (Right) -->
+    <mxCell id="11" value="Visual & Audio Experience" style="swimlane;fillColor=#d1e7dd;strokeColor=#0f5132;fontColor=#0f5132;startSize=30;rounded=1;" vertex="1" parent="1">
+      <mxGeometry x="580" y="80" width="200" height="320" as="geometry"/>
+    </mxCell>
+    <mxCell id="12" value="Vertical Feed" style="rounded=1;fillColor=#ffffff;strokeColor=#198754;fontStyle=1;" vertex="1" parent="11">
+      <mxGeometry x="30" y="60" width="140" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="13" value="Smart Infographic" style="rounded=1;fillColor=#ffffff;strokeColor=#198754;fontStyle=1;" vertex="1" parent="11">
+      <mxGeometry x="30" y="150" width="140" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="14" value="Audio Player" style="rounded=1;fillColor=#ffffff;strokeColor=#198754;fontStyle=1;" vertex="1" parent="11">
+      <mxGeometry x="30" y="240" width="140" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- Connectors -->
+    <mxCell id="15" value="" style="endArrow=classic;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="3" target="7">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="16" value="" style="endArrow=classic;html=1;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="11">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+  </root>
+</mxGraphModel>

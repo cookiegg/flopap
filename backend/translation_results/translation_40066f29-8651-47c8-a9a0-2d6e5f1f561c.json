@@ -1,0 +1,10 @@
+{
+  "paper_id": "40066f29-8651-47c8-a9a0-2d6e5f1f561c",
+  "arxiv_id": "2512.12384v1",
+  "title_en": "The Data Efficiency Frontier of Financial Foundation Models: Scaling Laws from Continued Pretraining",
+  "title_zh": "金融基础模型的数据效率边界：持续预训练的缩放定律分析",
+  "summary_en": "Domain-adaptive pretraining (DAPT) offers a practical path to specializing large language models for high-value domains without full retraining. We conduct an early-stage scaling-law analysis of continued pretraining on U.S. SEC filings, training 1B and 3B-parameter Llama-3.2 models on a 400M-token financial corpus with validation checkpoints at 50M, 100M, 200M, and 400M tokens. Results show consistent improvements in SEC-domain validation loss for both models, with the largest gains occurring within the first 200M tokens and diminishing returns thereafter. Power-law fits reveal shallow exponents, indicating that financial language is highly regular and efficiently learnable under continued pretraining. General-domain validation loss remains effectively unchanged across all token budgets, suggesting minimal drift and no signs of catastrophic forgetting. A data-efficiency frontier further shows that both models move toward improved specialization with negligible mixed-domain degradation. Together, these findings provide early empirical guidance for scaling financial foundation models, suggesting that meaningful domain adaptation can be achieved with comparatively modest token budgets and that larger model scales (7B-70B) remain tractable under projected data requirements.",
+  "summary_zh": "领域自适应预训练（DAPT）为大型语言模型在高价值领域的专业化提供了一条无需完全重新训练的有效路径。本文基于美国证券交易委员会（SEC）备案文件，对持续预训练进行了早期阶段的缩放定律分析：我们使用包含4亿标记的金融语料库，训练了参数规模分别为10亿和30亿的Llama-3.2模型，并在训练过程中设置了5000万、1亿、2亿和4亿标记的验证检查点。结果显示，两个模型在SEC领域验证损失上均取得持续改善，其中最主要的提升发生在前2亿标记内，此后收益递减。幂律拟合显示出较浅的指数，表明金融语言具有高度规律性，在持续预训练下可被高效学习。所有标记预算下，通用领域的验证损失基本保持不变，表明模型漂移极小，且未出现灾难性遗忘迹象。数据效率边界进一步显示，两个模型均在向更强的专业化方向演进，而混合领域性能退化可忽略不计。综上，这些发现为金融基础模型的规模化提供了早期实证指导，表明：通过相对适中的标记预算即可实现有意义的领域适应，且在预计的数据需求下，更大规模的模型（70亿至700亿参数）的持续预训练仍是可行的。",
+  "timestamp": "2025-12-16T22:25:39.998113",
+  "model_name": "deepseek-reasoner"
+}

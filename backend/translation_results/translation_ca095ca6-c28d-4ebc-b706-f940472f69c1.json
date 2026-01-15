@@ -1,0 +1,10 @@
+{
+  "paper_id": "ca095ca6-c28d-4ebc-b706-f940472f69c1",
+  "arxiv_id": "2512.12122v1",
+  "title_en": "High-Dimensional Tensor Discriminant Analysis: Low-Rank Discriminant Structure, Representation Synergy, and Theoretical Guarantees",
+  "title_zh": "高维张量判别分析：低秩判别结构、表示协同与理论保证",
+  "summary_en": "High-dimensional tensor-valued predictors arise in modern applications, increasingly as learned representations from neural networks. Existing tensor classification methods rely on sparsity or Tucker structures and often lack theoretical guarantees. Motivated by empirical evidence that discriminative signals concentrate along a few multilinear components, we introduce CP low-rank structure for the discriminant tensor, a modeling perspective not previously explored. Under a Tensor Gaussian Mixture Model, we propose high-dimensional CP low-rank Tensor Discriminant Analysis (CP-TDA) with Randomized Composite PCA (\\textsc{rc-PCA}) initialization, that is essential for handling dependent and anisotropic noise under weaker signal strength and incoherence conditions, followed by iterative refinement algorithm. We establish global convergence and minimax-optimal misclassification rates.\n  To handle tensor data deviating from tensor normality, we develop the first semiparametric tensor discriminant model, in which learned tensor representations are mapped via deep generative models into a latent space tailored for CP-TDA. Misclassification risk decomposes into representation, approximation, and estimation errors. Numerical studies and real data analysis on graph classification demonstrate substantial gains over existing tensor classifiers and state-of-the-art graph neural networks, particularly in high-dimensional, small-sample regimes.",
+  "summary_zh": "高维张量型预测变量在现代应用中日益常见，尤其作为神经网络学习得到的表示形式。现有张量分类方法依赖于稀疏性或塔克结构，且常缺乏理论保证。基于判别信号集中于少数多重线性分量的经验证据，我们首次引入判别张量的CP低秩结构这一建模视角。在张量高斯混合模型框架下，我们提出高维CP低秩张量判别分析（CP-TDA）方法，采用随机复合主成分分析（rc-PCA）初始化——该步骤对于在较弱信号强度与非相干条件下处理相关且各向异性噪声至关重要，并辅以迭代优化算法。我们建立了该方法的全局收敛性与极小化极大最优误分类率。",
+  "timestamp": "2025-12-16T22:25:59.900964",
+  "model_name": "deepseek-reasoner"
+}

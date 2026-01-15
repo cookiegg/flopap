@@ -1,0 +1,10 @@
+{
+  "paper_id": "284fbdc6-40b2-4668-ae69-9355a1615127",
+  "arxiv_id": "2512.12202v1",
+  "title_en": "Load Balancing with Duration Predictions",
+  "title_zh": "基于时长预测的负载均衡研究",
+  "summary_en": "We study the classic fully dynamic load balancing problem on unrelated machines where jobs arrive and depart over time and the goal is minimizing the maximum load, or more generally the l_p-norm of the load vector. Previous work either studied the clairvoyant setting in which exact durations are known to the algorithm, or the unknown duration setting in which no information on the duration is given to the algorithm. For the clairvoyant setting algorithms with polylogarithmic competitive ratios were designed, while for the unknown duration setting strong lower bounds exist and only polynomial competitive factors are possible.\n  We bridge this gap by studying a more realistic model in which some estimate/prediction of the duration is available to the algorithm. We observe that directly incorporating predictions into classical load balancing algorithms designed for the clairvoyant setting can lead to a notable decline in performance. We design better algorithms whose performance depends smoothly on the accuracy of the available prediction. We also prove lower bounds on the competitiveness of algorithms that use such inaccurate predictions.",
+  "summary_zh": "本文研究经典的全动态异构机器负载均衡问题，其中作业随时间到达和离开，目标是最小化最大负载（或更一般地，最小化负载向量的l_p范数）。已有研究主要关注两种场景：一是算法已知作业精确时长的\"先知\"场景，二是算法完全未知作业时长的\"无信息\"场景。针对先知场景，现有算法可实现多对数级竞争比；而在无信息场景下，存在较强的下界约束，仅能实现多项式级竞争比。",
+  "timestamp": "2025-12-16T22:25:53.620180",
+  "model_name": "deepseek-reasoner"
+}

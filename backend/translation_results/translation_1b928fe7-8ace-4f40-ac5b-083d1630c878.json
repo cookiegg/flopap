@@ -1,0 +1,10 @@
+{
+  "paper_id": "1b928fe7-8ace-4f40-ac5b-083d1630c878",
+  "arxiv_id": "2512.12137v1",
+  "title_en": "Joint Power and Mobility Control",
+  "title_zh": "联合功率与移动性控制",
+  "summary_en": "This study addressed the challenge of improving network connectivity in autonomous V2X networks by jointly optimizing transmission power and vehicle mobility. We proposed a link reception model based on a sigmoid approximation of SINR and transformed it into a power-based formulation for simplicity in optimization. Building on this, we formulated a multi-node Network Utility Maximization (NUM) problem and demonstrated its concavity, enabling distributed trajectory and power adjustments. Both simulation and real-world experiments validated the theoretical findings, showing that symmetric positioning and balanced power allocation significantly enhance packet reception rates under interference-limited conditions. These results confirm that coordinated mobility and power control can effectively mitigate interference and improve connectivity in highly dynamic vehicular networks, paving the way for robust communication in future autonomous and UAV systems.",
+  "summary_zh": "本研究针对自主车联网（V2X）中提升网络连通性的挑战，通过联合优化传输功率与车辆移动性提出解决方案。我们基于信干噪比（SINR）的S型函数近似建立了链路接收模型，并将其转化为基于功率的表达式以简化优化过程。在此基础上，我们构建了多节点网络效用最大化（NUM）问题，证明了该问题的凹性，从而实现了分布式轨迹与功率调整。仿真与实测实验均验证了理论结论，表明在干扰受限场景下，对称式定位与均衡功率分配能显著提升数据包接收率。这些结果证实，协调移动性与功率控制能有效抑制干扰并增强高动态车联网的连通性，为未来自主驾驶系统与无人机系统的鲁棒通信奠定了基础。",
+  "timestamp": "2025-12-16T22:25:24.545856",
+  "model_name": "deepseek-reasoner"
+}

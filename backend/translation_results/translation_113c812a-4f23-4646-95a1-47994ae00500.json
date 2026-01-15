@@ -1,0 +1,10 @@
+{
+  "paper_id": "113c812a-4f23-4646-95a1-47994ae00500",
+  "arxiv_id": "2512.12252v1",
+  "title_en": "Optimized Learned Count-Min Sketch",
+  "title_zh": "优化的学习型Count-Min草图",
+  "summary_en": "Count-Min Sketch (CMS) is a memory-efficient data structure for estimating the frequency of elements in a multiset. Learned Count-Min Sketch (LCMS) enhances CMS with a machine learning model to reduce estimation error under the same memory usage, but suffers from slow construction due to empirical parameter tuning and lacks theoretical guarantees on intolerable error probability. We propose Optimized Learned Count-Min Sketch (OptLCMS), which partitions the input domain and assigns each partition to its own CMS instance, with CMS parameters analytically derived for fixed thresholds, and thresholds optimized via dynamic programming with approximate feasibility checks. This reduces the need for empirical validation, enabling faster construction while providing theoretical guarantees under these assumptions. OptLCMS also allows explicit control of the allowable error threshold, improving flexibility in practice. Experiments show that OptLCMS builds faster, achieves lower intolerable error probability, and matches the estimation accuracy of LCMS.",
+  "summary_zh": "Count-Min草图（CMS）是一种内存高效的数据结构，用于估计多重集中元素的频率。学习型Count-Min草图（LCMS）通过引入机器学习模型改进了CMS，在相同内存使用下降低了估计误差，但由于依赖经验性参数调优，其构建速度较慢，且缺乏对不可容忍误差概率的理论保证。本文提出优化的学习型Count-Min草图（OptLCMS），该方法将输入域进行分区，并为每个分区分配独立的CMS实例，其中CMS参数通过解析方法针对固定阈值推导得出，而阈值则通过带有近似可行性检查的动态规划进行优化。这一设计减少了对经验验证的依赖，从而在提供理论保证的前提下实现了更快的构建速度。OptLCMS还允许显式控制可允许的误差阈值，提高了实际应用的灵活性。实验表明，OptLCMS构建速度更快，实现了更低的不可容忍误差概率，并在估计精度上与LCMS相当。",
+  "timestamp": "2025-12-16T22:25:46.234667",
+  "model_name": "deepseek-reasoner"
+}

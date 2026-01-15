@@ -1,0 +1,10 @@
+{
+  "paper_id": "1dd63548-785a-44c4-a05b-b00a46fdecb0",
+  "arxiv_id": "2512.12391v1",
+  "title_en": "Efficiently Approximating the Minimum-Volume Bounding Box of a Point Set in Three Dimensions",
+  "title_zh": "三维点集最小体积包围盒的高效近似算法",
+  "summary_en": "$\\renewcommand{\\Re}{\\mathbb{R}}$We present an efficient $O (n + 1/\\varepsilon^{4.5})$-time algorithm for computing a $(1+\\varepsilon$)-approximation of the minimum-volume bounding box of $n$ points in $\\Re^3$. We also present a simpler algorithm (for the same purpose) whose running time is $O (n \\log{n} + n / \\varepsilon^3)$. We give some experimental results with implementations of various variants of the second algorithm. The implementation of the algorithm described in this paper is available online https://github.com/sarielhp/MVBB.",
+  "summary_zh": "$\\renewcommand{\\Re}{\\mathbb{R}}$本文提出一种高效的时间复杂度为 $O (n + 1/\\varepsilon^{4.5})$ 的算法，用于计算 $\\Re^3$ 空间中 $n$ 个点的最小体积包围盒的 $(1+\\varepsilon)$ 近似解。同时，我们提出了一种更简洁的算法（用于相同目的），其时间复杂度为 $O (n \\log{n} + n / \\varepsilon^3)$。我们通过实现第二种算法的多种变体并进行了实验验证。本文所述算法的实现已公开于 https://github.com/sarielhp/MVBB。",
+  "timestamp": "2025-12-16T22:25:34.610715",
+  "model_name": "deepseek-reasoner"
+}

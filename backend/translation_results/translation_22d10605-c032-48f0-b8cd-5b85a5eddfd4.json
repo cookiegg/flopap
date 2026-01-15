@@ -1,0 +1,10 @@
+{
+  "paper_id": "22d10605-c032-48f0-b8cd-5b85a5eddfd4",
+  "arxiv_id": "2512.12360v1",
+  "title_en": "VideoARM: Agentic Reasoning over Hierarchical Memory for Long-Form Video Understanding",
+  "title_zh": "VideoARM：基于分层记忆的智能体推理用于长视频理解",
+  "summary_en": "Long-form video understanding remains challenging due to the extended temporal structure and dense multimodal cues. Despite recent progress, many existing approaches still rely on hand-crafted reasoning pipelines or employ token-consuming video preprocessing to guide MLLMs in autonomous reasoning. To overcome these limitations, we introduce VideoARM, an Agentic Reasoning-over-hierarchical-Memory paradigm for long-form video understanding. Instead of static, exhaustive preprocessing, VideoARM performs adaptive, on-the-fly agentic reasoning and memory construction. Specifically, VideoARM performs an adaptive and continuous loop of observing, thinking, acting, and memorizing, where a controller autonomously invokes tools to interpret the video in a coarse-to-fine manner, thereby substantially reducing token consumption. In parallel, a hierarchical multimodal memory continuously captures and updates multi-level clues throughout the operation of the agent, providing precise contextual information to support the controller in decision-making. Experiments on prevalent benchmarks demonstrate that VideoARM outperforms the state-of-the-art method, DVD, while significantly reducing token consumption for long-form videos.",
+  "summary_zh": "长视频理解因冗长的时间结构和密集的多模态线索而持续面临挑战。尽管近期取得进展，现有方法仍多依赖于手工设计的推理流程，或采用消耗大量标记的视频预处理来引导多模态大模型进行自主推理。为克服这些局限，本文提出VideoARM——一种用于长视频理解的“分层记忆智能体推理”范式。该方法摒弃静态、穷举式的预处理，转而执行自适应、实时驱动的智能体推理与记忆构建。具体而言，VideoARM通过“观察-思考-行动-记忆”的自适应持续循环运作，其中控制器自主调用工具以由粗到细的方式解析视频，从而显著降低标记消耗。与此同时，分层多模态记忆在智能体运行过程中持续捕获并更新多层次线索，为控制器的决策提供精准的上下文信息。在主流基准测试上的实验表明，VideoARM在长视频理解任务中性能优于当前最优方法DVD，同时大幅减少了长视频处理的标记消耗。",
+  "timestamp": "2025-12-16T22:25:39.571471",
+  "model_name": "deepseek-reasoner"
+}

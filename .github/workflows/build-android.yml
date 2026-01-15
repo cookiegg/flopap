@@ -1,0 +1,64 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:  # 手动触发
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/build-android.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+      
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      
+      - name: Install frontend dependencies
+        working-directory: ./frontend
+        run: npm ci
+      
+      - name: Build frontend
+        working-directory: ./frontend
+        run: npm run build
+      
+      - name: Setup Capacitor
+        working-directory: ./frontend
+        run: npx cap sync android
+      
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+      
+      - name: Create local.properties
+        working-directory: ./frontend/android
+        run: |
+          echo "sdk.dir=$ANDROID_HOME" > local.properties
+      
+      - name: Build APK
+        working-directory: ./frontend/android
+        run: ./gradlew assembleRelease
+      
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release
+          path: frontend/android/app/build/outputs/apk/release/app-release.apk
+          retention-days: 30
+

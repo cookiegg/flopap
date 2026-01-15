@@ -1,0 +1,10 @@
+{
+  "paper_id": "8493c8ce-087f-4399-89f8-efa52d9d5285",
+  "arxiv_id": "2512.12402v1",
+  "title_en": "DeepVekua: Geometric-Spectral Representation Learning for Physics-Informed Fields",
+  "title_zh": "DeepVekua：面向物理信息场的几何-谱表示学习方法",
+  "summary_en": "We present DeepVekua, a hybrid architecture that unifies geometric deep learning with spectral analysis to solve partial differential equations (PDEs) in sparse data regimes. By learning a diffeomorphic coordinate transformation that maps complex geometries to a latent harmonic space, our method outperforms state-of-the-art implicit representations on advection-diffusion systems. Unlike standard coordinate-based networks which struggle with spectral bias, DeepVekua separates the learning of geometry from the learning of physics, solving for optimal spectral weights in closed form. We demonstrate a 100x improvement over spectral baselines. The code is available at https://github.com/VladimerKhasia/vekuanet.",
+  "summary_zh": "本文提出DeepVekua——一种融合几何深度学习与谱分析的混合架构，用于在稀疏数据条件下求解偏微分方程。该方法通过学习一个将复杂几何映射到隐式调和空间的微分同胚坐标变换，在对流-扩散系统上的表现超越了当前最先进的隐式表示方法。与受谱偏差困扰的传统基于坐标的神经网络不同，DeepVekua将几何学习与物理学习分离，并以闭式解形式求解最优谱权重。实验表明，该方法较谱基线方法实现了100倍的性能提升。代码已开源：https://github.com/VladimerKhasia/vekuanet。",
+  "timestamp": "2025-12-16T22:25:34.602634",
+  "model_name": "deepseek-reasoner"
+}

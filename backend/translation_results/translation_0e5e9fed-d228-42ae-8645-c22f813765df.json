@@ -1,0 +1,10 @@
+{
+  "paper_id": "0e5e9fed-d228-42ae-8645-c22f813765df",
+  "arxiv_id": "2512.12216v1",
+  "title_en": "Training Versatile Coding Agents in Synthetic Environments",
+  "title_zh": "在合成环境中训练多功能编码智能体",
+  "summary_en": "Prior works on training software engineering agents have explored utilizing existing resources such as issues on GitHub repositories to construct software engineering tasks and corresponding test suites. These approaches face two key limitations: (1) their reliance on pre-existing GitHub repositories offers limited flexibility, and (2) their primary focus on issue resolution tasks restricts their applicability to the much wider variety of tasks a software engineer must handle. To overcome these challenges, we introduce SWE-Playground, a novel pipeline for generating environments and trajectories which supports the training of versatile coding agents. Unlike prior efforts, SWE-Playground synthetically generates projects and tasks from scratch with strong language models and agents, eliminating reliance on external data sources. This allows us to tackle a much wider variety of coding tasks, such as reproducing issues by generating unit tests and implementing libraries from scratch. We demonstrate the effectiveness of this approach on three distinct benchmarks, and results indicate that SWE-Playground produces trajectories with dense training signal, enabling agents to reach comparable performance with significantly fewer trajectories than previous works.",
+  "summary_zh": "先前关于训练软件工程智能体的研究主要利用现有资源（如GitHub代码库中的问题报告）来构建软件工程任务及相应的测试套件。这些方法存在两个关键局限：（1）对既有GitHub代码库的依赖导致灵活性受限；（2）其任务设计主要聚焦于问题修复场景，难以覆盖软件工程师实际需处理的多样化任务范畴。为突破这些限制，我们提出了SWE-Playground——一种支持训练多功能编码智能体的新型环境与轨迹生成框架。与先前工作不同，SWE-Playground通过强语言模型与智能体从零开始合成生成项目与任务，完全摆脱对外部数据源的依赖。该方法使我们能够处理更广泛的编码任务类型，例如通过生成单元测试复现问题、从零开始实现代码库等。我们在三个独立基准测试中验证了该框架的有效性，实验结果表明：SWE-Playground生成的轨迹包含密集的训练信号，使得智能体仅需远少于先前研究的训练轨迹量即可达到相当的性能水平。",
+  "timestamp": "2025-12-16T22:25:50.559104",
+  "model_name": "deepseek-reasoner"
+}

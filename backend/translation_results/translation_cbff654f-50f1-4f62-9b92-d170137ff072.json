@@ -1,0 +1,10 @@
+{
+  "paper_id": "cbff654f-50f1-4f62-9b92-d170137ff072",
+  "arxiv_id": "2512.12395v1",
+  "title_en": "ArtGen: Conditional Generative Modeling of Articulated Objects in Arbitrary Part-Level States",
+  "title_zh": "ArtGen：任意部件级状态下的铰接物体条件生成建模",
+  "summary_en": "Generating articulated assets is crucial for robotics, digital twins, and embodied intelligence. Existing generative models often rely on single-view inputs representing closed states, resulting in ambiguous or unrealistic kinematic structures due to the entanglement between geometric shape and joint dynamics. To address these challenges, we introduce ArtGen, a conditional diffusion-based framework capable of generating articulated 3D objects with accurate geometry and coherent kinematics from single-view images or text descriptions at arbitrary part-level states. Specifically, ArtGen employs cross-state Monte Carlo sampling to explicitly enforce global kinematic consistency, reducing structural-motion entanglement. Additionally, we integrate a Chain-of-Thought reasoning module to infer robust structural priors, such as part semantics, joint types, and connectivity, guiding a sparse-expert Diffusion Transformer to specialize in diverse kinematic interactions. Furthermore, a compositional 3D-VAE latent prior enhanced with local-global attention effectively captures fine-grained geometry and global part-level relationships. Extensive experiments on the PartNet-Mobility benchmark demonstrate that ArtGen significantly outperforms state-of-the-art methods.",
+  "summary_zh": "生成铰接式资产对于机器人学、数字孪生和具身智能至关重要。现有的生成模型通常依赖于表示闭合状态的单视图输入，由于几何形状与关节动力学之间的纠缠，往往导致运动学结构模糊或不真实。为应对这些挑战，我们提出了ArtGen——一个基于条件扩散的框架，能够根据任意部件级状态下的单视图图像或文本描述，生成具有精确几何结构和连贯运动学的铰接式三维物体。具体而言，ArtGen采用跨状态蒙特卡洛采样来显式强化全局运动学一致性，从而减少结构-运动纠缠。此外，我们整合了思维链推理模块，以推断鲁棒的结构先验（如部件语义、关节类型和连接关系），引导稀疏专家扩散变换器专注于多样化的运动学交互。同时，通过局部-全局注意力增强的组合式三维变分自编码器潜在先验，有效捕捉细粒度几何特征与全局部件级关系。在PartNet-Mobility基准上进行的大量实验表明，ArtGen显著优于现有最先进方法。",
+  "timestamp": "2025-12-16T22:25:37.320483",
+  "model_name": "deepseek-reasoner"
+}

@@ -1,0 +1,10 @@
+{
+  "paper_id": "7d962515-e6d1-415b-b07d-b390858d92a7",
+  "arxiv_id": "2512.12175v1",
+  "title_en": "Rethinking Label Consistency of In-Context Learning: An Implicit Transductive Label Propagation Perspective",
+  "title_zh": "重新思考上下文学习中的标签一致性：一种隐式转导标签传播视角",
+  "summary_en": "Large language models (LLMs) perform in-context learning (ICL) with minimal supervised examples, which benefits various natural language processing (NLP) tasks. One of the critical research focus is the selection of prompt demonstrations. Current approaches typically employ retrieval models to select the top-K most semantically similar examples as demonstrations. However, we argue that existing methods are limited since the label consistency is not guaranteed during demonstration selection. Our cognition derives from the Bayesian view of ICL and our rethinking of ICL from the transductive label propagation perspective. We treat ICL as a transductive learning method and incorporate latent concepts from Bayesian view and deduce that similar demonstrations guide the concepts of query, with consistent labels serving as estimates. Based on this understanding, we establish a label propagation framework to link label consistency with propagation error bounds. To model label consistency, we propose a data synthesis method, leveraging both semantic and label information, and use TopK sampling with Synthetic Data (TopK-SD) to acquire demonstrations with consistent labels. TopK-SD outperforms original TopK sampling on multiple benchmarks. Our work provides a new perspective for understanding the working mechanisms within ICL.",
+  "summary_zh": "大型语言模型（LLM）能够通过少量监督示例进行上下文学习（ICL），这为各类自然语言处理（NLP）任务带来了显著优势。当前研究的重点之一在于提示示例的选择。现有方法通常采用检索模型选取语义最相似的前K个示例作为演示样本。然而，我们认为现有方法存在局限，因其在示例选择过程中未能保证标签一致性。这一认知源于ICL的贝叶斯视角，以及我们从转导标签传播角度对ICL的重新思考。我们将ICL视为一种转导学习方法，结合贝叶斯视角中的潜在概念进行推导，得出相似示例能够引导查询样本的概念形成，而一致的标签则作为估计依据。基于此理解，我们建立了标签传播框架，将标签一致性与传播误差边界联系起来。为建模标签一致性，我们提出一种融合语义与标签信息的数据合成方法，并采用基于合成数据的前K采样策略（TopK-SD）来获取具有一致标签的演示样本。TopK-SD在多个基准测试中均优于原始的前K采样方法。本研究为理解ICL的内在工作机制提供了新的视角。",
+  "timestamp": "2025-12-16T22:25:56.443300",
+  "model_name": "deepseek-reasoner"
+}

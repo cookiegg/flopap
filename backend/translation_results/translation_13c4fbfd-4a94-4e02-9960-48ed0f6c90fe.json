@@ -1,0 +1,10 @@
+{
+  "paper_id": "13c4fbfd-4a94-4e02-9960-48ed0f6c90fe",
+  "arxiv_id": "2512.12355v1",
+  "title_en": "Understanding Main Path Analysis",
+  "title_zh": "理解主路径分析",
+  "summary_en": "Main path analysis has long been used to trace knowledge trajectories in citation networks, yet it lacks solid theoretical foundations. To understand when and why this approach succeeds, we analyse directed acyclic graphs created from two types of artificial models and by looking at over twenty networks derived from real data.\n  We show that entropy-based variants of main path analysis optimise geometric distance measures, providing its first information-theoretic and geometric basis. Numerical results demonstrate that existing algorithms converge on near-geodesic solutions. We also show that an approach based on longest paths produces similar results, is equally well motivated yet is much simpler to implement.\n  However, the traditional single-path focus is unnecessarily restrictive, as many near-optimal paths highlight different key nodes. We introduce an approach using ``baskets'' of nodes where we select a fraction of nodes with the smallest values of a measure we call ``generalised criticality''. Analysis of large vaccine citation networks shows that these baskets achieve comprehensive algorithmic coverage, offering a robust, simple, and computationally efficient way to identify core knowledge structures. In practice, we find that those nodes with zero unit criticality capture the information in main paths in almost all cases and capture a wider range of key nodes without unnecessarily increasing the number of nodes considered. We find no advantage in using the traditional main path methods.",
+  "summary_zh": "主路径分析长期被用于追踪引文网络中的知识轨迹，但其缺乏坚实的理论基础。为理解该方法何时及为何有效，我们分析了基于两类人工模型构建的有向无环图，并考察了二十余个源自真实数据的网络。研究表明，基于熵的主路径分析变体能优化几何距离度量，这为其首次提供了信息论与几何学基础。数值结果表明，现有算法可收敛于近似测地线解。我们还证明，基于最长路径的方法能产生相似结果，其理论依据同样充分，且实现更为简便。",
+  "timestamp": "2025-12-16T22:25:42.226822",
+  "model_name": "deepseek-reasoner"
+}

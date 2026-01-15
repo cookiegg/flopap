@@ -1,0 +1,10 @@
+{
+  "paper_id": "b3cf1de0-4fa1-4e92-b523-5d88c4a1a170",
+  "arxiv_id": "2512.12182v1",
+  "title_en": "TA-KAND: Two-stage Attention Triple Enhancement and U-KAN based Diffusion For Few-shot Knowledge Graph Completion",
+  "title_zh": "TA-KAND：基于两阶段注意力三元组增强与U-KAN扩散的少样本知识图谱补全",
+  "summary_en": "Knowledge Graphs (KGs), thanks to their concise and efficient triple-based structure, have been widely applied in intelligent question answering, recommender systems and other domains. However, the heterogeneous and multifaceted nature of real-world data inevitably renders the distribution of relations long-tailed, making it crucial to complete missing facts with limited samples. Previous studies mainly based on metric matching or meta learning, yet they either fail to fully exploit neighborhood information in graph or overlook the distributional characteristics of contrastive signals. In this paper, we re-examine the problem from a perspective of generative representation and propose a few-shot knowledge graph completion framework that integrates two-stage attention triple enhancer with U-KAN based diffusion model. Extensive experiments on two public datasets show that our method achieve new state-of-the-art results.",
+  "summary_zh": "知识图谱凭借其以三元组为基础的简洁高效结构，已在智能问答、推荐系统等领域得到广泛应用。然而，现实世界数据的异构性与多面性不可避免地导致关系分布呈现长尾特性，使得在有限样本下补全缺失事实变得至关重要。以往研究主要基于度量匹配或元学习方法，但它们未能充分挖掘图中的邻域信息，或忽视了对比信号的分布特性。本文从生成式表示的角度重新审视该问题，提出一种融合两阶段注意力三元组增强器与基于U-KAN的扩散模型的少样本知识图谱补全框架。在两个公开数据集上的大量实验表明，本方法取得了最新的最优性能。",
+  "timestamp": "2025-12-16T22:25:24.063346",
+  "model_name": "deepseek-reasoner"
+}

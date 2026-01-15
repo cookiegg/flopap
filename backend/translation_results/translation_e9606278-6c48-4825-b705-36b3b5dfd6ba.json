@@ -1,0 +1,10 @@
+{
+  "paper_id": "e9606278-6c48-4825-b705-36b3b5dfd6ba",
+  "arxiv_id": "2512.12437v1",
+  "title_en": "Sim2Real Reinforcement Learning for Soccer skills",
+  "title_zh": "面向足球技能的仿真到现实强化学习研究",
+  "summary_en": "This thesis work presents a more efficient and effective approach to training control-related tasks for humanoid robots using Reinforcement Learning (RL). The traditional RL methods are limited in adapting to real-world environments, complexity, and natural motions, but the proposed approach overcomes these limitations by using curriculum training and Adversarial Motion Priors (AMP) technique. The results show that the developed RL policies for kicking, walking, and jumping are more dynamic, and adaptive, and outperformed previous methods. However, the transfer of the learned policy from simulation to the real world was unsuccessful, highlighting the limitations of current RL methods in fully adapting to real-world scenarios.",
+  "summary_zh": "本研究提出了一种更高效、更有效的方法，利用强化学习（RL）训练仿人机器人的控制相关任务。传统强化学习方法在适应现实环境、处理复杂任务及生成自然动作方面存在局限，而本研究通过课程训练与对抗性运动先验（AMP）技术克服了这些限制。实验结果表明，针对踢球、行走和跳跃任务所开发的强化学习策略更具动态性与适应性，其性能优于现有方法。然而，学习策略从仿真环境到现实世界的迁移未能成功，这凸显出现有强化学习方法在完全适应现实场景方面仍存在局限性。",
+  "timestamp": "2025-12-16T22:25:30.475405",
+  "model_name": "deepseek-reasoner"
+}
